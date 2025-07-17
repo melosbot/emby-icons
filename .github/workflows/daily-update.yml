@@ -24,19 +24,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup environment and script permissions
-      run: |
-        # 只需要给一个脚本授权
-        chmod +x main.sh
-
-    # 新的、统一的图标处理步骤
+    # 统一的图标处理步骤，并传递仓库名称作为参数
     - name: Process Icons and Generate All JSON Files
       id: process_icons
       run: |
         echo "### 🚀 Starting Unified Icon Processing..."
-        ./main.sh
+        # 将 github.repository 作为参数传递给脚本
+        chmod +x main.sh
+        ./main.sh "${{ github.repository }}"
 
-    # README 生成步骤保持不变，它依赖于上一步生成的文件
+    # README 生成步骤保持不变
     - name: Generate README.md
       shell: bash
       run: |
@@ -79,7 +76,7 @@ jobs:
 
         | 配置名称 | CDN 链接 | 说明 |
         |:---|:---|:---|
-        | 全部图标合集 (本地版) | [\`icons/allinone.json\`](https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/icons/allinone.json) | 🎯 整合所有图标源，图片已全部下载至本仓库并进行MD5去重，按名称排序。 |
+        | 全部图标合集 | [\`icons/allinone.json\`](https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/icons/allinone.json) | 🎯 整合所有图标源，图片已全部下载至本仓库并进行MD5去重，通过 jsDelivr CDN 加速。 |
 
         ## 📁 分类图标配置文件
 
@@ -87,7 +84,7 @@ jobs:
 
         ## 🚀 使用方法
 
-        直接复制上表中您需要的 CDN 链接，在支持该格式的客户端（如 Forward、Hills 等）中进行配置即可。
+        直接复制上表中您需要的 CDN 链接，在支持该格式的客户端中进行配置即可。
 
         ### 示例
 
@@ -125,7 +122,6 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
 
-        # 添加所有变更, 包括新增的图片资源
         git add -A
         if git diff --staged --quiet; then
           echo "No changes to commit."
@@ -133,9 +129,9 @@ jobs:
         fi
 
         case "${{ github.event_name }}" in
-          schedule) COMMIT_MSG="Scheduled Update: Sync icon sets and localize assets" ;;
-          workflow_dispatch) COMMIT_MSG="Manual Update: Sync icon sets and localize assets" ;;
-          *) COMMIT_MSG="Auto Update: Sync icon sets and localize assets" ;;
+          schedule) COMMIT_MSG="Scheduled Update: Sync icon sets and link to CDN" ;;
+          workflow_dispatch) COMMIT_MSG="Manual Update: Sync icon sets and link to CDN" ;;
+          *) COMMIT_MSG="Auto Update: Sync icon sets and link to CDN" ;;
         esac
 
         git commit -m "$COMMIT_MSG @ $(date +'%Y-%m-%d %H:%M:%S %Z')"
