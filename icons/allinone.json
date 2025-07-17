@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "此配置文件中的所有图标资源均已缓存到本仓库，并通过 jsDelivr CDN 提供服务。通过MD5去重并整合了包含来自 Softlyx, baiitang, ginibond 大佬的 Emby 图标。原始图标 1150 个，去重后保留 781 个，移除了 369 个重复项。图标按名称排序，重复的来源已在描述中注明。",
+  "description": "此配置文件是镜像集合，所有图标通过jsDelivr CDN提供。包含来自 Baitang, 圆形, Ginibond, 配置, Softlyx, 圆形 的作品。当前共收录 781 个独立图标。",
   "icons": [
     {
       "name": "0_gikerwan-ginibond",
