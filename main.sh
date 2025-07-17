@@ -37,8 +37,8 @@ all_icons_jsonl="$temp_dir/all_icons.jsonl"
 parallel_results_tsv="$temp_dir/parallel_results.tsv"
 md5_map_tmp="$temp_dir/md5_map.json"
 url_map_tmp="$temp_dir/url_map.json"
-new_icons_for_merge_tmp="$temp_dir/new_icons_for_merge.tmp.json"
-old_icons_for_merge_tmp="$temp_dir/old_icons_for_merge.tmp.json"
+new_icons_normalized_tmp="$temp_dir/new_icons_normalized.tmp.json"
+old_icons_archive_tmp="$temp_dir/old_icons_archive.tmp.json"
 final_icons_tmp="$temp_dir/final_icons_array.tmp.json"
 
 # --- 初始化 ---
@@ -77,13 +77,14 @@ echo "🔄 (1/4) 解析配置文件, 收集上游最新图标..."
 while IFS=, read -r comment src_url path; do
     comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
     [[ "$comment" =~ ^# ]] && continue; [ -z "$src_url" ] && continue
-    echo "    - 处理源: $comment"
+    echo "  - 处理源: $comment"
     author=$(basename "$path" | cut -d'_' -f1 | sed 's|icons/||')
     if downloaded_json=$(curl -fsSL --retry 2 "$src_url"); then
         if jq -e . >/dev/null 2>&1 <<<"$downloaded_json"; then
+             # original_name 已废弃，但为保持兼容性暂时保留
              echo "$downloaded_json" | jq -c --arg author "$author" --arg source "$comment" '.icons[]?|select(.name!=null and .url!=null)|{name:.name,url:.url,author:$author,source:$source,original_name:(.name+"-"+$author)}' >> "$all_icons_jsonl"
-        else echo "⚠️ 警告: 无法解析 '$comment' 的JSON。" >&2; fi
-    else echo "⚠️ 警告: 无法下载 '$comment' 的源。" >&2; fi
+        else echo "  ⚠️ 警告: 无法解析 '$comment' 的JSON。" >&2; fi
+    else echo "  ⚠️ 警告: 无法下载 '$comment' 的源。" >&2; fi
 done < "config.csv"
 
 total_icons=$(wc -l < "$all_icons_jsonl")
@@ -94,7 +95,7 @@ else
     echo -e "\n📊 (2/4) 收集完成, 共 $total_icons 条目. 将使用 ${cores} 核心并发处理..."
     cat "$all_icons_jsonl" | xargs -d '\n' -P "${cores}" -I {} bash -c 'process_icon_entry "$@"' _ {} >> "$parallel_results_tsv" || true
     processed_count=$(wc -l < "$parallel_results_tsv")
-    echo -e "    > 本地化处理完成. 成功处理 $processed_count / $total_icons 个图标。\n"
+    echo -e "  > 本地化处理完成. 成功处理 $processed_count / $total_icons 个图标。\n"
 fi
 
 # [阶段 3/4] 归档式聚合图标库 (allinone.json) - 只增不减
@@ -105,32 +106,38 @@ while IFS=$'\t' read -r md5_hash new_filepath original_url icon_json; do
     jq --arg orig_url "$original_url" --arg new_url "$final_url" '.[$orig_url] = $new_url' "$url_map_tmp" > "$url_map_tmp.tmp" && mv "$url_map_tmp.tmp" "$url_map_tmp"
 done < "$parallel_results_tsv"
 
-# 【核心修改点】调整jq命令，分离name和description
+# 1. 【核心修正】生成本次运行的、格式绝对正确的图标列表
+#    这个列表将作为合并的基准 (master list)
 jq '[ to_entries[] | .value | {
     name: .primary.name,
     url: .url,
     description: (
         "来源: \(.primary.source) " +
-        (if .aliases | length > 0 then "| 别名: " + ([.aliases[].original_name] | join(", ")) else "" end)
+        (if .aliases | length > 0 then "| 别名(来自其他源的相同图标): \((.aliases | map(.original_name)) | join(", "))" else "" end)
     )
-} ]' "$md5_map_tmp" > "$new_icons_for_merge_tmp"
+} ]' "$md5_map_tmp" > "$new_icons_normalized_tmp"
 
-if [ -f "$ALL_IN_ONE_JSON" ]; then
-    jq '.icons' "$ALL_IN_ONE_JSON" > "$old_icons_for_merge_tmp"
+# 2. 如果旧的allinone.json存在, 提取它的图标列表用于比对和补充
+if [ -f "$ALL_IN_ONE_JSON" ] && [ -s "$ALL_IN_ONE_JSON" ] && jq -e . >/dev/null 2>&1 < "$ALL_IN_ONE_JSON"; then
+    jq '.icons' "$ALL_IN_ONE_JSON" > "$old_icons_archive_tmp"
 else
-    echo "[]" > "$old_icons_for_merge_tmp"
+    echo "[]" > "$old_icons_archive_tmp"
 fi
 
-jq -s '.[0] + .[1] | unique_by(.url) | sort_by(.name)' "$old_icons_for_merge_tmp" "$new_icons_for_merge_tmp" > "$final_icons_tmp"
+# 3. 【最终合并逻辑】
+#    - 先把新列表和旧列表中的所有图标都放到一个大数组里
+#    - 然后，按 URL 去重。这里使用 `group_by(.url)` 并取每组的第一个，确保了新列表中的条目优先被保留（因为新列表在前）。
+#    - 最后按纯名称排序
+jq -s '(.[0] + .[1]) | group_by(.url) | map(.[0]) | sort_by(.name)' "$new_icons_normalized_tmp" "$old_icons_archive_tmp" > "$final_icons_tmp"
 
+# 4. 生成最终的 allinone.json
 final_count=$(jq 'length' "$final_icons_tmp")
-# 提取所有作者信息用于最终描述
-all_authors=$(jq -r '.[].description' "$new_icons_for_merge_tmp" | sed -n 's/^来源: \([^|]*\).*/\1/p' | sort -u | tr -s ' ' | xargs | tr ' ' ',' | sed 's/,/, /g; s/,$//')
+all_authors=$(jq -r '[.[] | .description | split(" | ")[0] | sub("来源: "; "")] | unique | join(", ")' "$final_icons_tmp")
 
 mkdir -p "$(dirname "$ALL_IN_ONE_JSON")"
 jq -n \
   --arg name "Emby Icons" \
-  --arg desc "此配置文件是镜像集合，所有图标通过jsDelivr CDN提供。包含来自 ${all_authors:-'多个作者'} 的作品。当前共收录 ${final_count} 个独立图标。" \
+  --arg desc "所有图标均已本地化存储于本仓库，并通过 jsDelivr CDN 提供服务。包含来自 ${all_authors:-'多个作者'} 的作品。当前共收录 ${final_count} 个独立图标。" \
   --slurpfile icons "$final_icons_tmp" \
   '{ "name": $name, "description": $desc, "icons": $icons[0] }' > "$ALL_IN_ONE_JSON"
 
@@ -141,10 +148,10 @@ echo -e "\n✍️ (4/4) 开始镜像式重写各独立的JSON配置文件..."
 while IFS=, read -r comment src_url path; do
     comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
     [[ "$comment" =~ ^# ]] && continue; [ -z "$src_url" ] && continue
-    echo "    - 重写: $path"
+    echo "  - 重写: $path"
     if downloaded_json=$(curl -fsSL --retry 2 "$src_url"); then
         if jq -e . >/dev/null 2>&1 <<<"$downloaded_json"; then
-            jq --slurpfile url_map "$url_map_tmp" --arg name "$comment (CDN镜像版)" --arg desc "此配置文件是源的镜像，所有图标通过jsDelivr CDN提供。源自: $src_url" '.name = $name | .description = $desc | .icons |= map(.url |= (if $url_map[0][.] then $url_map[0][.] else . end))' <<< "$downloaded_json" > "$path"
+            jq --slurpfile url_map "$url_map_tmp" --arg name "$comment (CDN镜像版)" --arg desc "此配置文件是源的镜像，所有图标通过 jsDelivr CDN 提供。源自: $src_url" '.name = $name | .description = $desc | .icons |= map(.url |= (if $url_map[0][.] then $url_map[0][.] else . end))' <<< "$downloaded_json" > "$path"
         fi
     fi
 done < "config.csv"
