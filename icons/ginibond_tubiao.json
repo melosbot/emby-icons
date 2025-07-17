@@ -1,6 +1,6 @@
 {
-  "name": "Ginibond 配置 (CDN镜像版)",
-  "description": "此配置文件是源的镜像，所有图标通过jsDelivr CDN提供。源自: https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/emby/tubiao.json",
+  "name": "Ginibond (CDN镜像版)",
+  "description": "此配置文件是源的镜像，所有图标通过 jsDelivr CDN 提供。源自: https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/emby/tubiao.json",
   "icons": [
     {
       "name": "Emby",
