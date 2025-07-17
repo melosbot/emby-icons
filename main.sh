@@ -78,10 +78,10 @@ while IFS=, read -r comment src_url path; do
     comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
     [[ "$comment" =~ ^# ]] && continue; [ -z "$src_url" ] && continue
     echo "  - 处理源: $comment"
+    # 使用 comment 作为 source name, author 来自文件名
     author=$(basename "$path" | cut -d'_' -f1 | sed 's|icons/||')
     if downloaded_json=$(curl -fsSL --retry 2 "$src_url"); then
         if jq -e . >/dev/null 2>&1 <<<"$downloaded_json"; then
-             # original_name 已废弃，但为保持兼容性暂时保留
              echo "$downloaded_json" | jq -c --arg author "$author" --arg source "$comment" '.icons[]?|select(.name!=null and .url!=null)|{name:.name,url:.url,author:$author,source:$source,original_name:(.name+"-"+$author)}' >> "$all_icons_jsonl"
         else echo "  ⚠️ 警告: 无法解析 '$comment' 的JSON。" >&2; fi
     else echo "  ⚠️ 警告: 无法下载 '$comment' 的源。" >&2; fi
@@ -106,8 +106,6 @@ while IFS=$'\t' read -r md5_hash new_filepath original_url icon_json; do
     jq --arg orig_url "$original_url" --arg new_url "$final_url" '.[$orig_url] = $new_url' "$url_map_tmp" > "$url_map_tmp.tmp" && mv "$url_map_tmp.tmp" "$url_map_tmp"
 done < "$parallel_results_tsv"
 
-# 1. 【核心修正】生成本次运行的、格式绝对正确的图标列表
-#    这个列表将作为合并的基准 (master list)
 jq '[ to_entries[] | .value | {
     name: .primary.name,
     url: .url,
@@ -117,22 +115,16 @@ jq '[ to_entries[] | .value | {
     )
 } ]' "$md5_map_tmp" > "$new_icons_normalized_tmp"
 
-# 2. 如果旧的allinone.json存在, 提取它的图标列表用于比对和补充
 if [ -f "$ALL_IN_ONE_JSON" ] && [ -s "$ALL_IN_ONE_JSON" ] && jq -e . >/dev/null 2>&1 < "$ALL_IN_ONE_JSON"; then
     jq '.icons' "$ALL_IN_ONE_JSON" > "$old_icons_archive_tmp"
 else
     echo "[]" > "$old_icons_archive_tmp"
 fi
 
-# 3. 【最终合并逻辑】
-#    - 先把新列表和旧列表中的所有图标都放到一个大数组里
-#    - 然后，按 URL 去重。这里使用 `group_by(.url)` 并取每组的第一个，确保了新列表中的条目优先被保留（因为新列表在前）。
-#    - 最后按纯名称排序
 jq -s '(.[0] + .[1]) | group_by(.url) | map(.[0]) | sort_by(.name)' "$new_icons_normalized_tmp" "$old_icons_archive_tmp" > "$final_icons_tmp"
 
-# 4. 生成最终的 allinone.json
 final_count=$(jq 'length' "$final_icons_tmp")
-all_authors=$(jq -r '[.[] | .description | split(" | ")[0] | sub("来源: "; "")] | unique | join(", ")' "$final_icons_tmp")
+all_authors=$(cut -d, -f1 config.csv | grep -v '^\s*#' | grep -v '^\s*$' | xargs | tr ' ' ',' | sed 's/,$//; s/,/, /g')
 
 mkdir -p "$(dirname "$ALL_IN_ONE_JSON")"
 jq -n \
