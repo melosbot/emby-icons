@@ -24,7 +24,7 @@ log() {
     local color_error="\033[0;31m"
     local color_warn="\033[0;33m"
     local color_info="\033[0;32m"
-    local color_debug="\033[0;34m"
+    local color_step="\033[0;34m"
     local color_reset="\033[0m"
     local prefix
 
@@ -41,8 +41,6 @@ log() {
 }
 
 # --- 核心函数 ---
-
-# 从MIME类型获取文件扩展名
 get_ext_from_mime() {
     case "$1" in
         "image/png")     echo "png" ;; "image/jpeg")    echo "jpg" ;;
@@ -51,7 +49,6 @@ get_ext_from_mime() {
     esac
 }
 
-# 并发工作单元：下载、校验、存储图片，并输出TSV结果
 process_icon_entry() {
     local url icon_json
     url="$1"
@@ -74,30 +71,24 @@ process_icon_entry() {
     
     printf "%s\t%s\t%s\t%s\n" "$md5_hash" "$new_filepath" "$url" "$icon_json"
 }
+export -f get_ext_from_mime process_icon_entry
+export TEMP_DIR ICON_ASSETS_DIR
 
 # --- 程序入口 ---
 main() {
-    # 步骤1: 环境检查
     log "STEP" "环境检查与初始化..."
-    for cmd in jq curl file nproc awk sha256sum md5sum; do
+    for cmd in jq curl file nproc awk md5sum; do
         ! command -v "$cmd" &> /dev/null && log "ERROR" "核心依赖 '$cmd' 未安装。" && exit 1
     done
     [ ! -f "config.csv" ] && log "ERROR" "配置文件 'config.csv' 未找到！" && exit 1
     mkdir -p "$ICON_ASSETS_DIR"
     log "INFO" "环境就绪。"
     
-    # 步骤2: 解析并下载所有上游图标
     log "STEP" "解析 config.csv 并收录所有上游图标..."
     local all_icons_jsonl="$TEMP_DIR/all_icons.jsonl"
-    local parallel_results_tsv="$TEMP_DIR/parallel_results.tsv"
     
-    # 使用awk解析csv并生成一个可以直接处理的列表
-    awk -F'[[:space:]]*,[[:space:]]*' '
-        !/^#/ && NF > 2 {
-            gsub(/"/, "", $1); gsub(/"/, "", $2); gsub(/"/, "", $3);
-            print $1 ";" $2 ";" $3
-        }
-    ' config.csv | while IFS=';' read -r comment src_url path; do
+    grep -v '^\s*#' config.csv | grep -v '^\s*$' | while IFS=, read -r comment src_url path; do
+        comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
         log " " "  - 处理源: $comment"
         author=$(basename "$path" | cut -d'_' -f1 | sed 's|icons/||')
         if downloaded_json=$(curl -fsSL --retry 2 "$src_url"); then
@@ -108,51 +99,36 @@ main() {
         fi
     done
 
-    # 步骤3: 并发处理图片本地化
     local total_to_process; total_to_process=$(wc -l < "$all_icons_jsonl")
     if [ "$total_to_process" -eq 0 ]; then
         log "WARN" "config.csv 中未找到有效的上游源，将仅使用历史数据生成文件。"
     else
         log "STEP" "共发现 ${total_to_process} 个图标条目，开始并行本地化..."
-        export -f get_ext_from_mime process_icon_entry
-        export TEMP_DIR ICON_ASSETS_DIR
+        local parallel_results_tsv="$TEMP_DIR/parallel_results.tsv"
         
-        jq -r '[.url, .] | @tsv' "$all_icons_jsonl" | xargs -n 2 -P"$(nproc)" -d'\n' bash -c 'process_icon_entry "$@"' _ >> "$parallel_results_tsv" || true
+        # 【修正点】将jq的输出正确格式化，让xargs能够安全地处理。每行一个URL，一个JSON对象。
+        jq -r '[.url, .] | @sh' "$all_icons_jsonl" | xargs -n 2 -P"$(nproc)" bash -c 'process_icon_entry "$@"' _ >> "$parallel_results_tsv" || true
         
         local processed_count; processed_count=$(wc -l < "$parallel_results_tsv")
         log "INFO" "成功处理 ${processed_count} / ${total_to_process} 个图标资源。"
     fi
 
-    # 步骤4: 生成数据映射并归档 allinone.json
     log "STEP" "聚合数据并生成永久归档的 allinone.json..."
     local md5_map_tmp="$TEMP_DIR/md5_map.json"
     local url_map_tmp="$TEMP_DIR/url_map.json"
+    echo "{}" > "$md5_map_tmp"
+    echo "{}" > "$url_map_tmp"
     
-    awk -F'\t' -v cdn_base="$BASE_CDN_URL" '{
-        md5 = $1;
-        new_path = $2;
-        orig_url = $3;
-        icon_json = $4;
-        
-        # Build md5 map entry
-        print "md5\t" md5 "\t" cdn_base new_path "\t" icon_json;
-        
-        # Build url map entry
-        print "url\t" orig_url "\t" cdn_base new_path;
-        
-    }' "$parallel_results_tsv" | {
-        md5_map_jq_script=""
-        url_map_jq_script=""
-        while IFS=$'\t' read -r type key value payload; do
-            if [ "$type" == "md5" ]; then
-                md5_map_jq_script+=$(printf '| .["%s"] |= (if . then .aliases += [%s] else {primary: %s, aliases: [], url: "%s"} end)' "$key" "$payload" "$payload" "$value")
-            else
-                url_map_jq_script+=$(printf '| .["%s"] = "%s"' "$key" "$value")
-            fi
-        done
-        echo "{}" | jq "$md5_map_jq_script" > "$md5_map_tmp"
-        echo "{}" | jq "$url_map_jq_script" > "$url_map_tmp"
-    }
+    # 【修正点】恢复使用稳定可靠的 while read 循环来构建映射
+    if [ -f "$parallel_results_tsv" ]; then
+        while IFS=$'\t' read -r md5_hash new_filepath original_url icon_json; do
+            final_url="${BASE_CDN_URL}${new_filepath}"
+            jq --arg md5 "$md5_hash" --argjson icon "$icon_json" --arg url "$final_url" \
+               '.[$md5] |= (if . then .aliases += [$icon] else {primary: $icon, aliases: [], url: $url} end)' "$md5_map_tmp" > "$md5_map_tmp.tmp" && mv "$md5_map_tmp.tmp" "$md5_map_tmp"
+            jq --arg orig_url "$original_url" --arg new_url "$final_url" \
+               '.[$orig_url] = $new_url' "$url_map_tmp" > "$url_map_tmp.tmp" && mv "$url_map_tmp.tmp" "$url_map_tmp"
+        done < "$parallel_results_tsv"
+    fi
 
     local new_icons_normalized_tmp="$TEMP_DIR/new_icons.json"
     local old_icons_archive_tmp="$TEMP_DIR/old_icons.json"
@@ -161,11 +137,11 @@ main() {
     jq '[.[] | {
         name: .primary.name,
         url: .url,
-        description: ("来源: " + .primary.source + (if .aliases | length > 0 then " | 别名: " + ([.aliases[].author] | unique | map(. + "的" + .primary.name) | join(", ")) else "" end))
+        description: ("来源: " + .primary.source + (if .aliases | length > 0 then " | 别名(来自其他源的相同图标): " + ([.aliases[].author] | unique | map(. + "的" + .primary.name) | join(", ")) else "" end))
     }]' "$md5_map_tmp" > "$new_icons_normalized_tmp"
 
     if [ -f "$ALL_IN_ONE_JSON" ] && [ -s "$ALL_IN_ONE_JSON" ]; then
-        jq '.icons' "$ALL_IN_ONE_JSON" > "$old_icons_archive_tmp"
+         jq '.icons' "$ALL_IN_ONE_JSON" > "$old_icons_archive_tmp"
     else
         echo "[]" > "$old_icons_archive_tmp"
     fi
@@ -181,12 +157,9 @@ main() {
       '{name: $name, description: $desc, icons: $icons[0]}' > "$ALL_IN_ONE_JSON"
     log "INFO" "成功生成 ${ALL_IN_ONE_JSON}，共 ${final_count} 个图标。"
 
-    # 步骤5: 重写独立的镜像配置文件
     log "STEP" "重写独立的镜像 JSON 文件..."
-    while IFS= read -r line; do
-        comment=$(echo "$line" | cut -d, -f1 | xargs)
-        src_url=$(echo "$line" | cut -d, -f2 | xargs)
-        path=$(echo "$line" | cut -d, -f3 | xargs)
+    grep -v '^\s*#' config.csv | grep -v '^\s*$' | while IFS=, read -r comment src_url path; do
+        comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
         log " " "  - 更新: $path"
         if downloaded_json=$(curl -fsSL --retry 2 "$src_url"); then
             jq --slurpfile url_map "$url_map_tmp" --arg name "$comment (CDN镜像版)" \
@@ -194,13 +167,12 @@ main() {
                '.name = $name | .description = $desc | .icons |= map(.url |= (if $url_map[0][.] then $url_map[0][.] else . end))' \
                <<< "$downloaded_json" > "$path"
         fi
-    done < <(grep -v '^\s*#' config.csv | grep -v '^\s*$')
+    done
     log "INFO" "所有独立的配置文件更新完成。"
 
     log "STEP" "所有任务执行完毕！"
 }
 
-# 检查依赖并执行主函数
 if [ $# -eq 0 ] && [ -n "$GITHUB_ACTION" ]; then
     log "ERROR" "在 GitHub Actions 环境中运行时，必须提供仓库名称作为第一个参数。"
     exit 1
