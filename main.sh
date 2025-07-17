@@ -92,21 +92,21 @@ echo "🔄 (1/4) 解析配置文件并收集所有图标条目..."
 while IFS=, read -r comment src_url path; do
     comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
     [[ "$comment" =~ ^# ]] && continue; [ -z "$src_url" ] && continue
-    echo "  - 处理源: $comment"
+    echo "    - 处理源: $comment"
     author=$(basename "$path" | cut -d'_' -f1 | sed 's|icons/||')
     if downloaded_json=$(curl -fsSL "$src_url"); then
         if jq -e . >/dev/null 2>&1 <<<"$downloaded_json"; then
              echo "$downloaded_json" | jq -c --arg author "$author" --arg source "$comment" \
                '.icons[]? | select(.name != null and .url != null) | {name: .name, url: .url, author: $author, source: $source, original_name: (.name + "-" + $author)}' \
                >> "$all_icons_jsonl"
-        else echo "  ⚠️ 警告: 无法解析来自 '$comment' 的JSON。" >&2; fi
-    else echo "  ⚠️ 警告: 无法下载来自 '$comment' 的源。" >&2; fi
+        else echo "    ⚠️ 警告: 无法解析来自 '$comment' 的JSON。" >&2; fi
+    else echo "    ⚠️ 警告: 无法下载来自 '$comment' 的源。" >&2; fi
 done < "config.csv"
 
 total_icons=$(wc -l < "$all_icons_jsonl")
 if [ "$total_icons" -eq 0 ]; then
-    echo "❌ 错误: 未能从任何源收集到图标。" >&2
-    mkdir -p "$(dirname "$ALL_IN_ONE_JSON")" && echo '{ "name": "Emby图标库", "description": "未能收集到任何图标。", "icons": [] }' > "$ALL_IN_ONE_JSON"
+    echo "    ❌ 错误: 未能从任何源收集到图标。" >&2
+    mkdir -p "$(dirname "$ALL_IN_ONE_JSON")" && echo '{ "name": "Emby Icons", "description": "未能收集到任何图标。", "icons": [] }' > "$ALL_IN_ONE_JSON"
     exit 0
 fi
 
@@ -142,8 +142,8 @@ authors=$(jq -r '.[].primary.author' "$md5_map_tmp" | sort -u | tr '\n' ',' | se
 
 mkdir -p "$(dirname "$ALL_IN_ONE_JSON")"
 jq -n \
-  --arg name "Emby图标库 (All-in-One CDN版)" \
-  --arg desc "一个超级合集，所有图标均已本地化存储于本仓库，并通过 jsDelivr CDN 提供服务。通过MD5去重技术整合了所有图标源，包含来自 ${authors:-'N/A'} 的作品。原始图标 ${processed_count} 个，去重后保留 ${final_count} 个，移除了 ${duplicate_count} 个重复项。图标按名称排序，重复的来源已在描述中注明。" \
+  --arg name "Emby Icons" \
+  --arg desc "此配置文件中的所有图标资源均已缓存到本仓库，并通过 jsDelivr CDN 提供服务。通过MD5去重并整合了包含来自 ${authors:-'N/A'} 大佬的 Emby 图标。原始图标 ${processed_count} 个，去重后保留 ${final_count} 个，移除了 ${duplicate_count} 个重复项。图标按名称排序，重复的来源已在描述中注明。" \
   --slurpfile icons "$final_icons_tmp" \
   '{ "name": $name, "description": $desc, "icons": $icons[0] }' > "$ALL_IN_ONE_JSON"
 
@@ -157,7 +157,7 @@ while IFS=, read -r comment src_url path; do
     comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
     [[ "$comment" =~ ^# ]] && continue; [ -z "$src_url" ] && continue
 
-    echo "  - 重写: $path"
+    echo "    - 重写: $path"
     if downloaded_json=$(curl -fsSL "$src_url"); then
         if jq -e . >/dev/null 2>&1 <<<"$downloaded_json"; then
             jq --slurpfile url_map "$url_map_tmp" \
