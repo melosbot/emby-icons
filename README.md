@@ -6,11 +6,15 @@
 
 | 配置名称 | CDN 链接 | 说明 |
 |:---|:---|:---|
-| 全部图标合集 (本地版) | [`icons/allinone.json`](https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/icons/allinone.json) | 🎯 整合所有图标源，图片已全部下载至本仓库并进行MD5去重，按名称排序。 |
+| 全部图标合集 (本地版) | [`icons/allinone.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/allinone.json) | 🎯 整合所有图标源，图片已全部下载至本仓库并进行MD5去重，按名称排序。 |
 
 ## 📁 分类图标配置文件
 
-$(cat "$TABLE_TMP_FILE")
+| 配置名称 | CDN 链接 |
+|:---|:---|
+| Baitang 圆形图标 | [`icons/baiitang_yuan_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/baiitang_yuan_tubiao.json) |
+| Ginibond 图标配置 | [`icons/ginibond_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/ginibond_tubiao.json) |
+| Softlyx 圆形图标 | [`icons/Softlyx_yuan_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/Softlyx_yuan_tubiao.json) |
 
 ## 🚀 使用方法
 
@@ -19,14 +23,16 @@ $(cat "$TABLE_TMP_FILE")
 ### 示例
 
 ```txt
-https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/icons/baiitang_yuan_tubiao.json
+https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/baiitang_yuan_tubiao.json
 ```
 
 所有图标图片资源托管于 [`icons/assets`](icons/assets) 目录。
 
 ## 📋 配置文件来源
 
-${SOURCE_LIST}
+- **Softlyx**: [`Fileball`](https://github.com/Softlyx/Fileball)
+- **baiitang**: [`Sakura`](https://github.com/baiitang/Sakura)
+- **ginibond**: [`ginibond`](https://github.com/ginibond/ginibond)
 
 ## 🔄 更新机制
 
