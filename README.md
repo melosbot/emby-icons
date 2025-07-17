@@ -6,7 +6,7 @@
 
 | 配置名称 | CDN 链接 | 说明 |
 |:---|:---|:---|
-| 全部图标合集 (本地版) | [`icons/allinone.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/allinone.json) | 🎯 整合所有图标源，图片已全部下载至本仓库并进行MD5去重，按名称排序。 |
+| 全部图标合集 | [`icons/allinone.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/allinone.json) | 🎯 整合所有图标源，图片已全部下载至本仓库并进行MD5去重，通过 jsDelivr CDN 加速。 |
 
 ## 📁 分类图标配置文件
 
@@ -18,7 +18,7 @@
 
 ## 🚀 使用方法
 
-直接复制上表中您需要的 CDN 链接，在支持该格式的客户端（如 Forward、Hills 等）中进行配置即可。
+直接复制上表中您需要的 CDN 链接，在支持该格式的客户端中进行配置即可。
 
 ### 示例
 
