@@ -40,7 +40,6 @@ get_ext_from_mime() {
     esac
 }
 
-# 并发工作单元：只负责下载URL并输出 MD5 和新路径的映射
 download_and_map_url() {
     local url="$1"; local temp_image_file;
     temp_image_file=$(mktemp -p "$TEMP_DIR")
@@ -57,7 +56,6 @@ download_and_map_url() {
     
     [ ! -f "$new_filepath" ] && mv "$temp_image_file" "$new_filepath" || rm -f "$temp_image_file"
     
-    # 输出 TSV 格式: 原始URL, 新的CDN URL, MD5
     printf "%s\t%s\t%s\n" "$url" "${BASE_CDN_URL}${new_filepath}" "$md5_hash"
 }
 export -f get_ext_from_mime download_and_map_url
@@ -66,7 +64,7 @@ export TEMP_DIR ICON_ASSETS_DIR BASE_CDN_URL
 # --- 程序入口 ---
 main() {
     log "STEP" "环境检查与初始化..."
-    for cmd in jq curl file nproc awk md5sum; do
+    for cmd in jq curl file nproc awk md5sum sort join; do
         ! command -v "$cmd" &> /dev/null && log "ERROR" "核心依赖 '$cmd' 未安装。" && exit 1
     done
     [ ! -f "config.csv" ] && log "ERROR" "配置文件 'config.csv' 未找到！" && exit 1
@@ -87,44 +85,52 @@ main() {
         fi
     done
 
-    local total_to_process; total_to_process=$(wc -l < "$all_icons_jsonl")
-    local url_to_cdn_map="$TEMP_DIR/url_to_cdn.map"
-    if (( total_to_process == 0 )); then
-        log "WARN" "config.csv 中未找到有效上游源，将仅使用历史数据生成文件。"
+    local total_urls; total_urls=$(jq -r '.url' "$all_icons_jsonl" | sort -u | wc -l)
+    local url_map_tsv="$TEMP_DIR/url_map.tsv"
+    if (( total_urls == 0 )); then
+        log "WARN" "未发现任何有效的图标URL，将仅使用历史数据。"
     else
-        log "STEP" "共发现 ${total_to_process} 个图标条目，开始并行下载和处理..."
-        # 提取所有唯一的URL进行处理
-        jq -r '.url' "$all_icons_jsonl" | sort -u | xargs -n 1 -P"$(nproc)" bash -c 'download_and_map_url "$@"' _ > "$url_to_cdn_map" || true
+        log "STEP" "共发现 ${total_urls} 个唯一的图标URL，开始并行下载..."
+        jq -r '.url' "$all_icons_jsonl" | sort -u | xargs -n 1 -P"$(nproc)" bash -c 'download_and_map_url "$@"' _ > "$url_map_tsv" || true
         
-        local processed_count; processed_count=$(wc -l < "$url_to_cdn_map")
-        log "INFO" "成功处理 ${processed_count} 个唯一的图标资源。"
+        local processed_count; processed_count=$(wc -l < "$url_map_tsv")
+        log "INFO" "成功处理 ${processed_count} / ${total_urls} 个唯一的图标资源。"
     fi
 
     log "STEP" "聚合数据并生成永久归档的 allinone.json..."
     
-    # 构建一个 jq 脚本来将 all_icons.jsonl 中的原始URL替换为新的CDN URL
-    local url_map_jq_filter;
-    url_map_jq_filter=$(awk -F'\t' '{printf "if .url == \"%s\" then .url = \"%s\" else ", $1, $2}' "$url_to_cdn_map" | tr -d '\n' | sed 's/else $//' )
-    url_map_jq_filter+=". end" # 闭合所有 if-then-else
-    
-    local md5_map_jq_filter;
-    md5_map_jq_filter=$(awk -F'\t' '{printf "if .url == \"%s\" then .md5 = \"%s\" else ", $2, $3}' "$url_to_cdn_map" | tr -d '\n' | sed 's/else $//' )
-    md5_map_jq_filter+=". end"
+    # 准备用于 join 的两个文件
+    local icons_data_tsv="$TEMP_DIR/icons_data.tsv"
+    jq -r '[.url, .] | @tsv' "$all_icons_jsonl" | sort -k1,1 > "$icons_data_tsv"
+    sort -k1,1 "$url_map_tsv" -o "$url_map_tsv"
 
-    # 执行替换和聚合
+    # 使用 join 合并数据
+    local joined_data_tsv="$TEMP_DIR/joined_data.tsv"
+    join -t $'\t' -1 1 -2 1 "$icons_data_tsv" "$url_map_tsv" > "$joined_data_tsv"
+    
     local new_icons_normalized_tmp="$TEMP_DIR/new_icons.json"
-    jq -c "$url_map_jq_filter" "$all_icons_jsonl" | jq -c "$md5_map_jq_filter" | \
+    jq -s -R '
+        split("\n") | .[] | select(length > 0) |
+        split("\t") | 
+        (.[1] | fromjson) as $icon_details |
+        {
+            "name": $icon_details.name,
+            "author": $icon_details.author,
+            "source": $icon_details.source,
+            "new_url": .[2],
+            "md5": .[3]
+        }' "$joined_data_tsv" | \
     jq -s '
         group_by(.md5) |
         map({
             primary: .[0],
             aliases: (.[1:] | map(.author + "的" + .name)),
-            url: .[0].url
+            url: .[0].new_url
         }) |
         map({
             name: .primary.name,
             url: .url,
-            description: ("来源: " + .primary.source + (if .aliases | length > 0 then " | 别名(来自其他源的相同图标): " + (.aliases | join(", ")) else "" end))
+            description: ("来源: " + .primary.source + (if .aliases | length > 0 then " | 别名: " + (.aliases | join(", ")) else "" end))
         })' > "$new_icons_normalized_tmp"
 
     local old_icons_archive_tmp="$TEMP_DIR/old_icons.json"
@@ -147,18 +153,15 @@ main() {
     log "INFO" "成功生成 ${ALL_IN_ONE_JSON}，共 ${final_count} 个图标。"
 
     log "STEP" "重写独立的镜像 JSON 文件..."
-    # 构建一个用于替换独立文件的jq过滤器
-    local individual_files_filter;
-    individual_files_filter=$(awk -F'\t' '{printf ".icons |= map(if .url == \"%s\" then .url = \"%s\" else . end)", $1, $2}' "$url_to_cdn_map" | tr '\n' ' | ')
-    individual_files_filter=${individual_files_filter%??} # 移除最后的 " | "
+    local url_replace_sed; url_replace_sed=$(awk -F'\t' '{printf "s|%s|%s|g;", $1, $2}' "$url_map_tsv")
     
     grep -v '^\s*#' config.csv | grep -v '^\s*$' | while IFS=, read -r comment src_url path; do
         comment=$(echo "$comment" | xargs); src_url=$(echo "$src_url" | xargs); path=$(echo "$path" | xargs)
         log " " "  - 更新: $path"
         if downloaded_json=$(curl -fsSL --retry 2 "$src_url"); then
+            echo "$downloaded_json" | sed "$url_replace_sed" | \
             jq --arg name "$comment (CDN镜像版)" --arg desc "此配置文件是源的镜像，所有图标通过jsDelivr CDN提供。源自: $src_url" \
-               '.name = $name | .description = $desc' <<< "$downloaded_json" | \
-            jq "$individual_files_filter" > "$path"
+               '.name = $name | .description = $desc' > "$path"
         fi
     done
     log "INFO" "所有独立的配置文件更新完成。"
