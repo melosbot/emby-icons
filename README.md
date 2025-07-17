@@ -12,9 +12,9 @@
 
 | 配置名称 | CDN 链接 |
 |:---|:---|
-| Baitang 圆形图标 | [`icons/baiitang_yuan_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/baiitang_yuan_tubiao.json) |
-| Ginibond 图标配置 | [`icons/ginibond_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/ginibond_tubiao.json) |
-| Softlyx 圆形图标 | [`icons/Softlyx_yuan_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/Softlyx_yuan_tubiao.json) |
+| Baitang 圆形 | [`icons/baiitang_yuan_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/baiitang_yuan_tubiao.json) |
+| Ginibond 配置 | [`icons/ginibond_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/ginibond_tubiao.json) |
+| Softlyx 圆形 | [`icons/Softlyx_yuan_tubiao.json`](https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/Softlyx_yuan_tubiao.json) |
 
 ## 🚀 使用方法
 

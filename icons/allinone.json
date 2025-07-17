@@ -1,16 +1,16 @@
 {
-  "name": "Emby图标库 (All-in-One CDN版)",
-  "description": "一个超级合集，所有图标均已本地化存储于本仓库，并通过 jsDelivr CDN 提供服务。通过MD5去重技术整合了所有图标源，包含来自 Softlyx, baiitang, ginibond 的作品。原始图标 1150 个，去重后保留 781 个，移除了 369 个重复项。图标按名称排序，重复的来源已在描述中注明。",
+  "name": "Emby Icons",
+  "description": "此配置文件中的所有图标资源均已缓存到本仓库，并通过 jsDelivr CDN 提供服务。通过MD5去重并整合了包含来自 Softlyx, baiitang, ginibond 大佬的 Emby 图标。原始图标 1150 个，去重后保留 781 个，移除了 369 个重复项。图标按名称排序，重复的来源已在描述中注明。",
   "icons": [
     {
       "name": "0_gikerwan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f4908ef9dfc9753c336b57bcfb041e97.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "105-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7bcd066d79e174eaa4e4f010c8c8e977.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "1111-baiitang",
@@ -20,22 +20,22 @@
     {
       "name": "1111_gaoma-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9da0c78f954fda25d3c451b7d8c4d5b0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "1111_gongfei-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2fa4d27f21b51e9533338d455b39c985.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "1111gaoma-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e62d527b550337e540f9dcab364e7dcf.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "1111gongfei-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1219413b6deae8c6a54903204625a0df.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "115-baiitang",
@@ -70,27 +70,27 @@
     {
       "name": "69yun-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/df957f8cb561b8344ab7b6a0156b5ef3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "69yun_dpx-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dc5cc185a1b8f3a579d7514c2f1f394a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "69yun_jms-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/da951ed0f1090ee64dd1dd5778dac5d3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "69yun_pornemby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3e3d0efd1d92839c43ce36e8ce652750.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "9club-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f7de5fe261d2586014a2d2d809dd54ab.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "ALiYun-baiitang",
@@ -125,7 +125,7 @@
     {
       "name": "Agan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b1cd5d075e88b9ea432b88fd8e9334f1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Akuai-baiitang",
@@ -135,12 +135,12 @@
     {
       "name": "Akuai-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/87d6e871fc08a662ac955e4ccdd23287.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Aladdin-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e6bdf9f5a16907ca1fd99e619b834bbc.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Alist-baiitang",
@@ -155,102 +155,102 @@
     {
       "name": "AlphaChild-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0f1cca194b1ab72126e2385ec9fb5033.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AlphaTV2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cda868dcaac96f13b6e7a516dcf65e22.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AlphaTV3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ef6b290ed7085982a84dbee5e99198a6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AlphaTVOG-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/833ee5d368e9486701e4c034384dc307.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOG1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6d88a9d60cb962ebac7e9e8cbbd3de00.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOG2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01c2b40575fc825a8ece256cd07e17cf.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOG3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6dd439724a7eb2ce5b95bcdc73d2e24f.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOG4-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a02f5cc439c289dff2adce1a33a5f2aa.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOGPro-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/99a4cd207af455bbd97bcdcd7aaceee4.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOGX-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c09eabbd466ab06a7d1ec54021b3cba2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOGX1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9b9ede52bcd22b040223f3a32283fcd3.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTVOPro1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c2c489757d68a329b2cc52d2cad83ea9.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AlphaTV_pro-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/31d081839b93c4ed426900d8cb105cdf.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AlphaTV_pro1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dbfeb9c9d36a02ec5c9dae19c8e2f50d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Alpha_omega1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c79109831577de4a1bcd45613ef1152d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Alpha_omega2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d05f047f060caeaa7f911b3ca13d620f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Alpha_omega3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d105a83ca01cc4d5243acf0e8437c317.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Alphatvx-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/16babd08ea07a3bb6230d55744dd297d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Alphatvx1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/14ff30ae72df9d447dcd1db84a40cf9d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AniSaga-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f5b1f3b352a3f543d0af426ce1f7cc2b.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "AnimeHome-baiitang",
@@ -260,22 +260,22 @@
     {
       "name": "Anisaga-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/177919d3a50808346e06ee60324d60cc.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Anisaga1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7066dc08bd3ec88ec724d829b091d8e7.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Anisaga2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ca171cd18253784df5e33cf419ffd58e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Anran-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e2153e9714241569f15a4df02db3a958.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Apop-baiitang",
@@ -285,7 +285,7 @@
     {
       "name": "Apop-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bd177e4ffeeea672778eb705907aadd5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Asakie-baiitang",
@@ -295,52 +295,52 @@
     {
       "name": "Ash-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f0efda98091e74bfac918a7086922474.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ash-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dc00f6319cf791771715118dee1f7a7e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ash1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e6aa8443bb44bf63a5e4b1a4a50d947a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ash2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d1af63238b0af89c326594f3ad065809.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AshPro-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/72603e2088516dd81f6ec699334e092d.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ask-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c54b727c52531f70bf07952bdcdf79fd.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ask-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/591b7d35a20de7c204e7b38b936360ea.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ask1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/84e7f05bec18368db424a07e6e2f163e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ask2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c24d29e88efcec6ce3e9455778946798.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ask_ultra-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/801ff032f777f8a470ae2eabc7e93250.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Atvii-baiitang",
@@ -350,37 +350,37 @@
     {
       "name": "Aurora-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/25b4e47eaed9cd9b607f564e4ec2a7d7.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Auroramedia-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/42ff32005de6da1f9ad8c321a123ff68.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Auroramedia-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/39ee236912a3f60517284c83e386a381.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Auroramedia1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e077af905d377364af1afa2aed6a8ded.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Auroramedia1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1a0b9c6829ea882cb81059ce08df57a5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Auroramedia2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5fa621f81839fc05d014d360d7c04044.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Auroramedia3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1136138f9ab37aaff72e80c86c0bcd55.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Awa-baiitang",
@@ -390,52 +390,52 @@
     {
       "name": "Awa-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9daf886cace9147d35f673737fea4a42.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Awa1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b9ab78e237599bc4a11cfa4df9f664c2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Awa2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b51b291ddd6ba0819e45481e0f721462.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Awa3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/44dcfd6d6922fd1c822413a8dccf0fc9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AwaSF-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/754e2bf19205a814d5c176c73d748f39.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AwaSF1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/af970ab4acf8d2167b3384c2e48546fd.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "AwaSF2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/187cedf4764fff2cfe9cd15c7d6a94f8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "BBFree-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aee70dfe627e1d9057c97779fbc530f3.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "BTYIN-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f7e41ae734dd3e766bb255d7d98d523c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "BTYIN1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/694ecdf69b4261ae2501c016ce3b44ae.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "BaiDuYun-baiitang",
@@ -455,12 +455,12 @@
     {
       "name": "Baipiao-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/21f39b349b5957c941fc4e2c509dd677.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Baipiao1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/34941d66d89b3452954b787b985f9c8c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Bdd-baiitang",
@@ -475,7 +475,7 @@
     {
       "name": "Beebee-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dd6691c15e58096fa08cfdaacd096e37.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Beitai-baiitang",
@@ -485,12 +485,12 @@
     {
       "name": "Beitai1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/23acfeb6e7fa1c54997c2f574c8c76a9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Beitai2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9fb73bc022341d64ad1f197a2ccb53f8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "BestEmby-baiitang",
@@ -510,7 +510,7 @@
     {
       "name": "Bingfu-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e370fa33da4b73baa07fbbb804d2b456.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Bingzhenxigua-baiitang",
@@ -520,22 +520,22 @@
     {
       "name": "Bingzhenxigua-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8d90381634c8e3edb41c24f29fb69f61.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Bingzhenxigua1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d2dd4551a37dd4a2c10ac059500e6995.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "BirdBar-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/31d869e673bd6a766eeb280062698f4c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Black-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/034a2794a6c17d9fd04756a3ad43a965.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "BlueSea-baiitang",
@@ -595,12 +595,12 @@
     {
       "name": "Cbao-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5c977a8530a7baf154eed5c4a9531693.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cbao1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f460114e4c57e01efe55c2dce0a7f6f2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cbcb-baiitang",
@@ -610,7 +610,7 @@
     {
       "name": "Cbcb-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a195586cc5b78f21c8d097568130cfd6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cbcb1-baiitang",
@@ -625,22 +625,22 @@
     {
       "name": "CcEmby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/385f1ef8ac53f1d230f001777172f8ed.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "CcEmby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f70a91471f24bfcb124da8d5194184a6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cc_de_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/52f5961a527df33b431691bacaca9a1f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cdemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9782e4c12a908d2dbeda387d6e3cec9b.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "CharonTV-baiitang",
@@ -655,7 +655,7 @@
     {
       "name": "Cherry-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/381fe70e364e8d607171434fef071f54.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "CherryTV-baiitang",
@@ -665,12 +665,12 @@
     {
       "name": "Cherry_gongyi-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7f0f84ba96a873141d86720eba98dbd0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cherrygy-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f57b95b920f005ad268f97859d63c3e0.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ciji-baiitang",
@@ -680,37 +680,37 @@
     {
       "name": "Cimmera-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/beac608737af58648bcdcbeb9135e59b.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Cimmera-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0752f14916b1003f9d9de267656a2464.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cimmera1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5e6df33bc61efe152121fa2cdaac0051.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "CineTrail-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/625c4c469ef4319e14ed5ebb43270de5.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Clouddrive2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38f27f5a40ddf2c5eaa2913ccfafdd07.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Coco-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0165b0d1cd2f93ba4055948301bba76.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Coco-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/12e2456fac66d12cad7d20c33cd955a1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Cola-baiitang",
@@ -750,27 +750,27 @@
     {
       "name": "DPeak-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5e06ea51119ac652a873a919cc9982e3.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "DPeak-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4fed43fb33752af0c212da74852340a7.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "DVYY-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2bcd66128545bfa8274458ad8d5e390e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "DVYY1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6a19c9350b6cda3a7f54d34e8caf8e52.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "DVYY2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9d2ed9212f0eb618ad48e88c376b4248.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "DaHangHai-baiitang",
@@ -785,32 +785,32 @@
     {
       "name": "Daigua-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2f9920951eb269a5d1b9c76e4920606f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Daigua2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/032b314d4193d0baa698c25bd3a62888.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Daigua3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1815279759463eec51d4edabcd93f1cb.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Daigua3_bingzhenxigua1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6947d9afd754a31ec3fc961fd8d4b588.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Daigua3_bingzhenxigua2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2c223e3a194b5aea7555c98221a6cbf3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Dantayun-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b872094d17d2b39f04601f95c9cb0e1f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Davyingyuan-baiitang",
@@ -820,7 +820,7 @@
     {
       "name": "Davyingyuan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/63967a99607fe2ddd63e9f85aca8fc5b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Des-baiitang",
@@ -835,7 +835,7 @@
     {
       "name": "Dianyingpindao-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/89e808b4529e4a4b79a35d19a6d1782c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Didiemby-baiitang",
@@ -845,7 +845,7 @@
     {
       "name": "Dimlight-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6c7324b3f2f321e3bb8af4778e07f54e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Dipingxian-baiitang",
@@ -860,42 +860,42 @@
     {
       "name": "Donbon_1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/540b896a4c81bb83629498abeb291102.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Donbon_2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bf6e22208aab6dd2024e887bab0473a6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Doubon-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3a33476aca1e2997c8b09e387d491e6d.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Doubon-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9f8f1ff581a33d782b01a51688ab62b2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "DoveNest-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2a14837259d987acd4761ad9a239be35.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Dovenest-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5ec34fdcc4b73329af843332a71bf4a2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Dusky-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a4ed2d177cbdd26de3d1fe0641ad75b3.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Dusky-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5f283072208aaef4283b00fc4a3e7925.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Dv-baiitang",
@@ -910,47 +910,47 @@
     {
       "name": "E_105du-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f3ce98596f632f895d72d782cfdbe119.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Echoflix-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/51ac4030d05a3dc2baff0728d2a67381.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Echoflix1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/93facdab713493a756dcab4d89927765.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Echoflix2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/23b32420d7da9d9e15fedfa038c4a686.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Edge_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b0cc30af3affea5203423a7f1d54283e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Edge_emby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/48cac3b91a862da1dd49b19901b3f201.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Efu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4ce02da64846f515b147739fcce0e90.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ehome-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/de8ae387f8184ab5b7d056740e82e66a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ehome1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c9259345f128533ebc56f02e1ac04f72.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "ElevenPlus-baiitang",
@@ -970,32 +970,32 @@
     {
       "name": "Emby2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a08bb16523d54cb67fe055e8f560aeec.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Emby3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cc58fcc28d3e852bb50f70e5db017675.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Emby4-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d3f90fea1930167194d1f853710ad324.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Emby5-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9cefe11b6eb9ed53400dd18679333ae1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Emby6-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e5df9fc4b0ea83c2676b7daafb41c312.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Emby7-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4f37f5247ec2e950b316b90e79655fef.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "EmbyClub-baiitang",
@@ -1030,77 +1030,77 @@
     {
       "name": "Embyks-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/59d995383f20bdda86dbce86be4029f3.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Embyks1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/182928315997a191bf7d9218b5113a7e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Embys-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c0e40c553f25610d1c477ebbe8a98d02.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Embys1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d7fc622969b29570d6d1ac60c94e5aa0.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Epub-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/914004a51e6df2cfd09a51d9cdaaff4d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Epub1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/997b8fbe5c8ed4308f3c136bb8a6f781.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Epub2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0e1d7371950ca6efb54019da497b73af.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Erciyuan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c01a215bb8561bf26c2d9734b9304410.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Erciyuan1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/daeaf8d2741fbbf80a34090005cc5846.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fac_1111-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5a5cd4eb00ec9a5bbd6055dd118e4d0d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fac_misty-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/518806691dd41670264a526ef4029e65.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fac_peach-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7d9fe8f8f1b620cd623773a7ef66a082.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fac_pilipili-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4542325f280de82d9728c9c33a0b00a1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fac_porn-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4745392efb6ec58ffcb63368d96a5108.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "FaintRay-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/56653284c2235463c3535817f77a40d2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Fangyt-baiitang",
@@ -1120,17 +1120,17 @@
     {
       "name": "FatBeef-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3d5b1c19cdfcfa7dc0b232185a43d5fe.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "FeiniuOS-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/467a8a7b4b44bc82c4ae4457bf117429.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Feiniu_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8d80fadec5d9f1917f2f861835077c4c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyue-baiitang",
@@ -1140,57 +1140,57 @@
     {
       "name": "Feiyue1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/304387429b4d018581a6244d19b1a207.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Feiyue2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3954b60162a89857275bed1813c82023.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Feiyue3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7e2ed467e3fab1dac7a33745452f6d24.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "FeiyueDPX-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/83b84d87dc2687ac295f6e7938e29ff8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "FeiyueYH-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/13ca7069419b404d0b5f68e1c4157c6d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "FeiyueYH1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7f18f91a3d5c15d5dd27ba3d145ca9d5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyue_youqibing-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ed782d5ae89639ccadac448eab8b059f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyuecaihong-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d2dc67ad6c6e58a39aa415ea5bb325b9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyuecaihong1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/52d5791e65428d9fe2d4eeaa13d93f79.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyuecaihong2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/00b582f5728c966c4a3e340088c944ae.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyuecaihong3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b5285b9416eba6550a94aba5e3caf625.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyuedipingxian-baiitang",
@@ -1200,7 +1200,7 @@
     {
       "name": "Feiyuemedia1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/adee06ddb674bf244ec08ff572b91cbd.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Feiyuemtk-baiitang",
@@ -1215,17 +1215,17 @@
     {
       "name": "Fenghuolun-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/52cf58d4d1f7a86eee9179c46068e34e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fenghuolun1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ec10c4d6451fb9f8ef6ef22b16f3d64.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fenghuolun2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bdd5aab8f59215f4780b18e1e8148387.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Flareix-baiitang",
@@ -1260,27 +1260,27 @@
     {
       "name": "Fufu_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/204cb9e5a0147eb5be42b460ab74c379.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fufuemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1de80ab557ec8d2ea6bfee79d2c4c868.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Funmedia-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d30287034e5508baf4cb4ae8c54fcd85.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Funmedia1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/49bfdd06de7e66010ddc796c7332e167.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Fyyh-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1e6d89d36add44405d73565398ad5018.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "GfwEmby-baiitang",
@@ -1300,7 +1300,7 @@
     {
       "name": "Guanyingtuan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/90042970e47d2d2cf14ad155be829c7b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Gugu-baiitang",
@@ -1310,12 +1310,12 @@
     {
       "name": "Gymeowfly-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d69f80d5b8a30e0b49c9f42d0f2ef43a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Gymeowfly1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5c349d6c59ef7d4b13dfc2e8e5641866.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Han-baiitang",
@@ -1325,12 +1325,12 @@
     {
       "name": "Handou-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bd02681057510e519ddad93381338dfb.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Handouemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e9c3e39971f2a59cf096d6e7ade388a4.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Haoji-baiitang",
@@ -1340,12 +1340,12 @@
     {
       "name": "Haoya-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f4325205e2c9b5efc1daaab9867af674.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Haoya1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/92efa956573241555e72cb1b39a07757.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "HeiShan-baiitang",
@@ -1360,7 +1360,7 @@
     {
       "name": "Heimao-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd4d89c7d216233daaad8b9a4c913325.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Heisi-baiitang",
@@ -1370,12 +1370,12 @@
     {
       "name": "Heisi-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d88d69ba58bb13b5ee4e1674aa0efad9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "HeisiR18-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01686f5e1c7eee5b058af9d6c9b8c81c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "HentaiHome-baiitang",
@@ -1390,7 +1390,7 @@
     {
       "name": "Hkaemby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0858598c1337b073b7cc27d4eefa7575.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "HongChen-baiitang",
@@ -1400,17 +1400,17 @@
     {
       "name": "HongChen1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d473e84f5dc1023cebe0ce44e04a4527.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Houyinx-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38ab4e5f7d70d3e28f7d992ee72ee5d2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Huige-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/652bb0a452a219aae74ff4e0280643ad.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Hxd-baiitang",
@@ -1425,7 +1425,7 @@
     {
       "name": "Hxd1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/681c46859c387c3fbf6460498fea840d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Hxd2-baiitang",
@@ -1465,7 +1465,7 @@
     {
       "name": "Jianghu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/de27337c85020c2137863da68a7821b1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Jianshouqing-baiitang",
@@ -1475,7 +1475,7 @@
     {
       "name": "Jianshouqing-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/391644a1cf9587e63d71ed54385f3e7a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "JieNiGui-baiitang",
@@ -1495,37 +1495,37 @@
     {
       "name": "Jinglingxueyuan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b646e945c741fbcf5a7f5cf873013ce7.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Jingzhe-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dd90055ca37458a96d2c5819591df3ed.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Jingzhe-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/39048d824919fe482015881d9d4b7312.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Jingzhe1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a3bce651eecf0c83e583fc645d52132a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Jingzhe2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ed3ce7aec1a9cab0e1371dfb4d9b2111.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Jms1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/eba1c03f572ee5f6831ca76a8ecd7f9a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Jms2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f0f40488a4713959f6e70b9a645effa1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "JuDog-baiitang",
@@ -1540,17 +1540,17 @@
     {
       "name": "July-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d863c887e9d035f1de0fa73931f854d1.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "July-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/209d1c7c2375fad2346b0715b0f916e2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "July1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/41cbce96cc7f6f868d36b1976a4e2a2c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Jyctv-baiitang",
@@ -1560,17 +1560,17 @@
     {
       "name": "Jzrm-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/509463b9cbdee617104828e23abf598a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Jzrm1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/35c8cdff7cac9cbdfef62b765482d59f.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "KFCV50-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/541000537d9b7458daec6bf3d8fcfc6f.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "KaiLu-baiitang",
@@ -1585,7 +1585,7 @@
     {
       "name": "Kaixin-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecb803c6b2e2fc060840bbfd2df5dd8c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Kaoyanvip-baiitang",
@@ -1610,27 +1610,27 @@
     {
       "name": "Kiku-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9fae8e17f2ad31b69dcf15f20ab31d48.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Kiku-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/43b9b4103bb7fc8b0891bb25105a43cc.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Kiku1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec3dde0f007a213009f5f09d6b2bbd23.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Kiku1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ad448cb9054ed46852540b8babebba72.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Kissme-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5fae089958687b10496c0e36d3b06d5c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "KshtEmby-baiitang",
@@ -1645,47 +1645,47 @@
     {
       "name": "LEVILDE-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3027b5eb908699bccb8ef56211b4c14.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "LEVILDE1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/de4cd7858acca535078fbdd50a1d7399.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Laoda-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a31c38df6a565fc8966d7f14fbe9eb25.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Laoda_jiesu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01dd3f486b2738f1d0fe961dfa320316.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Laoda_jiesu1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6079a08249ef6940e696816ef58c84ab.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Laosifu-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9cc54800ff39a3b39cca2bddbf3c9fbc.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Laosifu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cb72308f3ced6cf7ab1796c85d0c3b54.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Lemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/744be5c32afd25fed83eb0df391827de.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Lemby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/87442f74d49d3904f2face22c657d54c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Lend-baiitang",
@@ -1695,7 +1695,7 @@
     {
       "name": "Levilde-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9856a132fbdeb1f451b4eb2ea9a7107e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "LiangShan-baiitang",
@@ -1715,22 +1715,22 @@
     {
       "name": "Lily-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/22603221f31b08c573e7765847d4743a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Lily_diy-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c7540cee5930b619b16b1036eba5d1a2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Liminal-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e49561baf2239fc29b88e6a753438665.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Linjing-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c1af6964926d9ed8477c49a44d184e1b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Lion-baiitang",
@@ -1740,22 +1740,22 @@
     {
       "name": "Liubaba-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6641b008848e1a9027c8b49caa7a6a45.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Liuxing-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e37b7866ec90ba8f0f47a02a6caaa117.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ljemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7dad0dc0de234261a9d1d04d3c0a0bbd.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ljemby1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e545883653d24528de4d42f78d9ff0ae.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Loniper-baiitang",
@@ -1765,27 +1765,27 @@
     {
       "name": "Loonby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/802cc58030304a507ac33506edc25a44.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Luobei-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/be7ad3e9b2aa0e32ec989befdafa86c1.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Luobo-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b572c17bbb7b59dda3d58c77b4dc71c7.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Luoma-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8ce6d7742b74ab06c3bd779c25765cfd.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Luoma-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cf997302712f494eebee8d99ab5f013f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Lvlian-baiitang",
@@ -1795,12 +1795,12 @@
     {
       "name": "Lxemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/76e7a334f3dc40a9a68197a0a1ce38ac.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Lxemby1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b60722ad2819491c4519df2584b1f1df.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Lyrebird-baiitang",
@@ -1810,12 +1810,12 @@
     {
       "name": "Lyrebird-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d022679eaf37e1c22361b71eef453bb6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Lyrebird1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/717c8237498aa28c452c94f047958654.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Magic-baiitang",
@@ -1850,22 +1850,22 @@
     {
       "name": "Maomao-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/83bc2cde874db2017baee18c29d679da.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Maoyan-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecd5aefa2d5ad47134026089ac19eafe.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Maoyan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bce835a37880a8e9d38f5fe470463748.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Maoyan1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/59fd8e0aa062a8e7537e46308f4b8479.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Marmot-baiitang",
@@ -1875,27 +1875,27 @@
     {
       "name": "Mefun-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/75ae220eafc8935d78d9b15c1552e838.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mefun_general-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e95c1fa3e1174be1c98b00686e68e7f6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mefun_general1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5e42182547463bc3da28e3aa1e5e6037.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mefun_porn-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a2c8e3fc7b26e750e5be51a33e45dfe0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mefun_porn1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0274bde4adece7e6d54569f90aab66c6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "MengMeng-baiitang",
@@ -1905,12 +1905,12 @@
     {
       "name": "Meowfly-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38ce5c3dd968e8f6b5500b39d5b14116.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Meowfly1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/abbac34f0285c2b50ed7f41cd64a2a55.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Micu-baiitang",
@@ -1920,7 +1920,7 @@
     {
       "name": "Micu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/da9ada8ee67c016528655ac14da8caba.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Midsummer-baiitang",
@@ -1930,7 +1930,7 @@
     {
       "name": "Mihuansenlin-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4a588aeeebdd057ab98f53980cc1d6fb.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mildnes-baiitang",
@@ -1950,12 +1950,12 @@
     {
       "name": "Mingtiandaobi-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe85e827f66cef67d9b0c92ec065bde8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mingtiandaobi1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aef84e8e9f6c240cd774dd8d5ac7111d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "MisakaF-baiitang",
@@ -1970,7 +1970,7 @@
     {
       "name": "MisakaFvip-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/93b18b46b3bbbe11ebde7702e3f60995.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Misty+-baiitang",
@@ -1985,17 +1985,17 @@
     {
       "name": "Misty2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d4da436f803e3bcc2ae3356b813348be.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Misty3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2471b380c9a06ca12f9b20316e09268f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Misty4-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9f36b88a60d9e8b8220338641b98dc31.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mjj-baiitang",
@@ -2005,12 +2005,12 @@
     {
       "name": "Mmhy-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/09a40ec2ed086f1ad1c080b5d9ff1ea5.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mmhy1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe82fe430acbd109b8a2625ec32b22b9.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mooguu-baiitang",
@@ -2020,47 +2020,47 @@
     {
       "name": "Mooguu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d2a6fab689abee63361edefe1064aa2a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mooguu_gf3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1a0d8f1df34f2653e7c2b6eab1419da4.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mooguu_gf4-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6f251e9b502107dd9b8a1cc532f7ac6e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mooguuharddisk-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/56fe3a1283cc0974fb6ba56300d1b6a6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mooguuharddisk1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0fe8da20f1761f33bc86029066d0fd08.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mooguuyp-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/560d509303693d74858a38941bd9d6b6.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mooncake-Softlyx",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9e4a90844b36508b8a8c8590c5647457.png",
-      "description": "Softlyx 圆形图标"
+      "description": "Softlyx 圆形"
     },
     {
       "name": "Mooncake-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aa421221c4c769745aeec234b7e3c1af.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mooncake1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ac7b26538a4ea25c68e506c575504b94.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Moonlight-baiitang",
@@ -2075,42 +2075,42 @@
     {
       "name": "Moyunge-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/900f737dee5920f40d756f17f1992bad.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Moyunge-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/66025fbb154d95a82208b644e98a5b39.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Moyunge1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d5cb208d0eb7d1ed97255b2b929b5d78.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Moyunge1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/87a04e051ca0aac040721a3267154380.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Msky-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ba892cc2284ba761987c489f1c40e583.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Msky_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0a9514c3719ac2615cd6c0002039c78.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Msky_emby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/50af5642d0fc7e5b571f81b3a0abff6d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Mtdb-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3a663f9a908483ac2f2063afc022895.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Mulgore-baiitang",
@@ -2145,87 +2145,87 @@
     {
       "name": "Nebula2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/487ec17366eabd53e5d2179353813798.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nebula_sexrain-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8cde640ec02a7dde641e0056d5795c72.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebula_sexrain1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/42d9d14900afca635ec0a8d1aabd3e2d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebula_starharn1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3eb210dcd84e2c5fe6b1b7e1168d1420.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebula_starharn2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/19e5babd792a2758734e0178f4c570c2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebula_starsho1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/06f3803eb759879cf04aabd12ade4a29.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebula_starsho2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/63367a5919b4094ff5133a5e595fb739.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebulamedia-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fb72161229c4f43a2010ba8c29ad1101.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebulamedia2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/32d615156a142250d23fc943172d7538.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebulamedia3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/642d315ae1489c4bea364105d3c758dc.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nebulamedia4-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/54770f5a2e1acc87e88ce6fbd3a15cd6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nezhayun-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4c22e27dce39046cdec22c895e077380.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nezhayun-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3241cd94a76e7da519a73ac38ad9fbaf.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nezhayun1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ee0184140d05e0f9d940542c85a665ed.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nezhayun1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/854009bb8346b7da260b29fc364779d5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nezhayun2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5866ceacd05778f6274ee3f9a367d62c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nezhayun_kfc-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4ccf29ba90a03c239c55be68d69b83c5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nginx-baiitang",
@@ -2235,27 +2235,27 @@
     {
       "name": "NiceDuck-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e4f17390fcd516b1df6fbf9fadc5c03b.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "NiceDuck1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/73ef3bd53fea1328d532bc6ccf33ccfc.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "NiceDuck1111-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dd7f210117e657019e5ae3d2a1388377.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "NiceDuckDPX-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2eab08cc36100f060aa17336b1ed0e04.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "NiceDuckJMS-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1edab7e3cb05135749febf553d29dc84.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nijigen-baiitang",
@@ -2270,12 +2270,12 @@
     {
       "name": "Nijigen2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5f4d49bc93fd458fd2460d619ec53fb6.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nijigen3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ee3c181cf4e97738145a0bcec992ce10.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ninja-baiitang",
@@ -2300,27 +2300,27 @@
     {
       "name": "Nsfw-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4850f8983a4e19bc23a197abe9d71df2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nsfw1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9c0f1e246a55b4a600938328288c1861.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nsfw2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6dc42c496faad99b1c3038236334e48d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nsfw3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c95c922e426b337dec7b3494442b455b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Nsfw_emby_qiumingshanjuezhan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/10613a478fd0b90db2e715ae8500f215.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ntrrr-baiitang",
@@ -2335,12 +2335,12 @@
     {
       "name": "Ntrrr2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b681337a4d187493595a8567def9f5c2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ntrrr3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ccd72a5e3e0168342469a516faa09db6.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Nya-baiitang",
@@ -2365,7 +2365,7 @@
     {
       "name": "Odyssey2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7e688c4564a830b6956792a6754e36ee.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ofuniverse-baiitang",
@@ -2375,7 +2375,7 @@
     {
       "name": "Omega-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/177cdc12cab5e5331f5301d9343e7f3d.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "OneDrive-baiitang",
@@ -2390,22 +2390,22 @@
     {
       "name": "Onyra-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/63c30a95246a612a9da6ba1c0dbc1d10.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Onyra-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/853665b133e1483a5e58c2dc53a008bc.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Onyra1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b5062de537b76660d6cf52f8fead7eba.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Openlist-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0b4f958c5c0c4fe4cffab34f1fb552f0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Orange-baiitang",
@@ -2420,7 +2420,7 @@
     {
       "name": "PCMEmby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fcae624b41227c73f879c218e09ed0c2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Pandatv-baiitang",
@@ -2430,12 +2430,12 @@
     {
       "name": "Pandatv1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/253531c588764922fa2de91e3ed3254d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Pandatv2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1520b088413c8bbf782a0cf071cb82f7.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PaoChe-baiitang",
@@ -2460,32 +2460,32 @@
     {
       "name": "Paolu-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2f40d4cd9abd8d176dab021c0cdac03a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Paolu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/44372a419c8293665fe0ca551f184320.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Paolu1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/959b5e01157ce44ecda0e7d41f1e3164.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Paolu1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/06746620a38a5955ff06c0c9581fb074.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Paolu2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/893eb9821aeb7badf656bfd69645e734.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Paolu3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3af2915c14ba1948754ab7adab84a488.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Paul-baiitang",
@@ -2495,12 +2495,12 @@
     {
       "name": "Pcmemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4d1aaa210055f84b4e1d0fbf28f90644.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Pdx_lab-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5a6e95f1808c1b1d4a709d352f1bb948.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Peach-baiitang",
@@ -2510,7 +2510,7 @@
     {
       "name": "Peach-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ed621d9b7df0068a61a051256c1c314e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Peach1-baiitang",
@@ -2520,22 +2520,22 @@
     {
       "name": "Peach1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/622f2a806e65f9248cf22dd2b7a73f14.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Peach_selfmade-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bf5e469cd3918269d0cfe0108799e643.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Pianke-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/eb188bc26bd0a3423ec2548d52ecc3b7.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Pianke1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/efe0876377300066c99af6dda17aac10.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "PikPak-baiitang",
@@ -2550,12 +2550,12 @@
     {
       "name": "PiliPili1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/db8be141e5d177bfbe798a6147671b0a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PiliPili2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/de4705fd84ef3157bdd2d4461850cc7c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PinYun-baiitang",
@@ -2565,22 +2565,22 @@
     {
       "name": "Pinhaofu-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/340f800b2a5bfecfe509dfcbb59d309c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Pinhaofu1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/18e007d2627a5c182738c26e40822789.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Playz-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0673ac3c7a961c5197ef783dba8e8f00.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Playz_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7a4fb6fd30e61e43a169617c436ac20e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Plex-baiitang",
@@ -2595,7 +2595,7 @@
     {
       "name": "Plex2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8aaee531cee79d3cea1e958ed38fb9db.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Plumber-baiitang",
@@ -2605,22 +2605,22 @@
     {
       "name": "Plumber-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fbdce7e7f86f0f134f71a1e3fe110af2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Plunber-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5c0491d6a68fbdcb50127ff890b12905.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Plunber1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7c0dbf28f24dad19305c860d7efe71dc.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Plunber2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6c099fa971d88985e9e1288cdeda9f4f.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Plus-baiitang",
@@ -2635,27 +2635,27 @@
     {
       "name": "Plusemby1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8702bd4719974d1214fcdedba29f7ab0.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Plusemby2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd8875fd0aca87e8a5e3b8fce19a0ff6.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Plusemby3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/39662261d2a61db887561aca0fb21172.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Polaris-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a5bb3a10082f5c676547954726bbed04.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Polaris1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8e64e22ef6173c42cb2a2567d1fca65e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Polo-baiitang",
@@ -2670,12 +2670,12 @@
     {
       "name": "Popc-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecb39a832b6dd87eb5371fe41a16f95c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "PornDX-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4cc6aa106c19a5994d9e680259715e73.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PornEmby-baiitang",
@@ -2685,27 +2685,27 @@
     {
       "name": "PornEmby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c8064f1d4c28815de9fcfbe83a9f302d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PornEmby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e8e114d57e43c2b61a11a4c3907b6e04.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PornEmbyVip-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4032ad9acdd2a7957a10f576a7f535dd.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "PrejuDice-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/beb6f9d4e6293812a67840caa7728576.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Prejudice-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f3cb2de77c1e620cfe41323e84cc8624.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Prpr-baiitang",
@@ -2715,37 +2715,37 @@
     {
       "name": "Qidianzhan-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7323a5617c5d6d859d18d2a4e2e1bbfb.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Qidianzhan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6706acffb6e884905426fe24de3073b9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Qidianzhan1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2fb2c2393c3f0eec2e9ef6deae2b4dc8.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Qingmeiyinghua-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1e550934af9a2a93ab4205ea06299117.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Qlemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/03baa95351ecb2dce092b35ac4d5be44.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Qmyh-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ed1a2d19ff507c4861aa6bd43faa252.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Qmyh1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/adb2fa526a89580369ec0021166d401c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "QqEmby-baiitang",
@@ -2760,32 +2760,32 @@
     {
       "name": "Raise-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0f71eb0f573121c4b844e9c57a232939.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Randall-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f477ca9f59ed8f275c2f14058b0e4560.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ransifu-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ac4bcee549d831ff08b7dfcf06f6e3a0.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Rjemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/06772ca191c6a277589e562f684aca03.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Rjemby1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4620a856270380a0791953eeab92f6aa.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Rjemby2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f4d6cda6e6c9a9d974f6255dc30dd370.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Robo-baiitang",
@@ -2795,37 +2795,37 @@
     {
       "name": "Robo-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/638d5edcd0ce7d32acbea63d92fdb75c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Robo1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe0b54c8266f02ab27428af832183dca.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Robo1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/91bb1b6f036eb8aa2b6ebe90d89a05ec.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Robo2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d4a67b3b44fb862e8c4cdd8b03a9f0c0.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Ruji-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bd2eb355192a378d4baf566e7f208071.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ruji_qili-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/73b1e0dca5617ed30ab1d98e5b71f07b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Ruji_rujing-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cb089897a36849011743316cc938ab43.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sana-baiitang",
@@ -2835,82 +2835,82 @@
     {
       "name": "Sanluo-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3f9ae6544ba1aa094f70f9f4375521a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Sanluo1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b49162e7b20e69d7bb31646359703d77.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturDay-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ef2d60fc2bc055a8dcc733ae0ba426c5.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturDayLite-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7de3d7b01f0f7dff65e911138511bbaa.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturDayLite1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7794155ef58f19e6ddfb2a59629d7224.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturDayPremium-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e1acbb19c41381cbbcd6d903d78f0aa1.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturDayPro-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e914783e727f6b5de0ce946f7eaff12b.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturDayXperience-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/10e854a59ad58177aaff6db9f7022566.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "SaturdayPermium-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/877a6f7d3f3e8e4cc6f7ff9f2e922ac5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "SaturdayPermium1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d788911e84cb47048b2bb8af4ce9046d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "SaturdayXperience-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7e7dcd1ddee9390f5cfdc62e36395d9d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "SaturdayXperience1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5b117fdbd72aada77077d6f418ced7d8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Saturdaylite1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/539f5909e1db534ceefafd864581dcd3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Saturdaylite2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/efb56a4768b71ad18bd22591f0b7840a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sdl-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3ec6f52b4ccd1c4cba0d22284f5adb2e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sdp-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/386cfd4b884906cd92dfe98b752ecfdd.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sela-baiitang",
@@ -2935,12 +2935,12 @@
     {
       "name": "Sexrain-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a2567d1c9bc8e316b5c556a053808403.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Sexrain1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4cba4810e38cfce53dd374a5692d5f27.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "ShenLan-baiitang",
@@ -2960,22 +2960,22 @@
     {
       "name": "Shouhou-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6630a8cfeb718cb7541328207147d6b3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shouhou1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dac8b652a6706b75e23280ca4b83d0c6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shoushushijiexian-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/59a917d82631b2fcf5ecf82af4454d9f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shoushushijiexian1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/103440bb60717e43065d69f7e4756a68.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shufu-baiitang",
@@ -2985,22 +2985,22 @@
     {
       "name": "Shufu1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b47ac685aead4a7af3895d908ced3e26.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Shufu1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b5219ea5254e9beb518f4942a36bb1b0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shufu2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b320f659311f4801648f46b73cc6efef.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Shufu2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/eabcecaa781a8aa8066197d1c65c3f4c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "ShuiMu-baiitang",
@@ -3015,57 +3015,57 @@
     {
       "name": "ShuiMu2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0aaf39c77d62f46022fd30ad57c875af.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "ShuiMuV-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d62fd1f81ac2a154dc04e9294e22c9ab.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Shuimu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f8fe5ce11fbbe243ccc189c80759f050.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shupian-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1b512f3e0e53be94c73046b2506b8782.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Shupian-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/374492b680349d64723cc4bcb413a335.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shupian2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2058da983b4fb45e4297047706f24e72.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Shwl-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/703b7379fb570bfb98ed70ed12c63abb.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Siesta-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e4e64e27b6114d452ba176feb95d4382.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Siesta-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c998f962631b646994aee850159562d9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Siesta1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c69a4dc3f07814b7bd5dd7a31dc4362f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sifangcai-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2f7adc27263d83cc6c5394677788b58a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Singularity-baiitang",
@@ -3075,22 +3075,22 @@
     {
       "name": "Smb-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cf07bf6e2a3231aa3dcb3ebcf966962f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sssjx-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/462478ac95a6bcae9fe3f903bdb7e09c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Sssjx1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f94a0771402f0bc1a7f1671641869f1e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Sssjx2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0ab2c3babc7be957a78a7a83674878c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "StarCat-baiitang",
@@ -3100,112 +3100,112 @@
     {
       "name": "StarCat-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/91abfc74cb06172931eb02e7c859b705.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "StarCat1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fcc9ff84b4354c4829b92f30b65c6e37.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "StarCat1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b2e8a0207db9cc4cb7545df911c12d63.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "StarCat2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ff954030501cca46e017234be4da6731.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "StarCat_Orion-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fa2abff2f54129d27e75ab3c2dd54e4e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Star_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/758ac31cf324f96750b815224bc52453.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Star_emby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a82c82589635f2c7988219d2b2981ea6.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Star_emby2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9ed987d906fb4f362afc095b8d3800b5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Star_emby3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4622e092bebefd67a4cbbe6be252d338.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Staremby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9a1ed9c0145505f16dd9a4e74aa73377.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Staremby1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1694af339437575c42510f6e665cf45a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Staremby2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/feacc5f01449458efb20f2e7524e4256.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Staremby3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ddbd6a7b6424880ce66c68670f091658.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Starharn-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b3e888d485ab184a27839e75a9a856b2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Starharn1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8051deb2ed4cc5bdff95aa4a5a193dbf.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Stark-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4f96ab6773421b1c203f440933527bc6.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Starnsfw-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a3138c68e7ba4936a3a48291ea8d4b28.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Starsho-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0194afe29fea2cb947284ddc88c44ad8.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Starsho1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c8faea4cdaa7c6969bc26cf933f8d5d5.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Steven-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2397d5c3cf99f39e7ab352603e477f56.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Steven1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/be2a1f7804bbab0b78db4ad17793de8e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Storemedia-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2092a0ce55bf906cc5a244d692739905.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "StudyFun-baiitang",
@@ -3220,37 +3220,37 @@
     {
       "name": "Suanyixuan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b63ea3fe14ec48119178b4977806cd49.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sutang-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38664f8e73f709a6f3cadb118fc5f6f8.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Sutang-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/767ecc04c62e01fdbf7b0bf1a6342163.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sutang1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a26df5643befc02cdb8bd0a96c08cf5c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Sutang1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/405a6b184bf1bafca6c523e342e37d97.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Sutang_mitang-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d0d72e90555db31c59a267f801fcac88.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Syn-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/621f9c17588b37d2fd4868c99f2c294d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tag-baiitang",
@@ -3265,12 +3265,12 @@
     {
       "name": "Tanhua-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/342a725e780ab6369fd852f578a97c9f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tanhua1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/447db093433dfef05a54585f749bbce8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tank-baiitang",
@@ -3295,7 +3295,7 @@
     {
       "name": "Teka1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c97f364045f29dc28c8277180e0e0920.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Temby-baiitang",
@@ -3310,7 +3310,7 @@
     {
       "name": "Temby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5d428d2d0c39a931d9292891112e82ec.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Terminus-baiitang",
@@ -3320,12 +3320,12 @@
     {
       "name": "Terminus1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8fece212a5bc3b68f5e490d6e15e0cd3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Terminus2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d7e8f8ef405d0a9f88ac9482c9aefce1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Texon-baiitang",
@@ -3335,7 +3335,7 @@
     {
       "name": "Tiannan-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/35b18f1b09d271207bb1d4fdc036eb18.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tiannanxiaozhu-baiitang",
@@ -3345,22 +3345,22 @@
     {
       "name": "Tiannanxiaozhu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ce37088f7370aa3952ac109d66d37206.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tiannanxiaozhu1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/31229093d734d1b20757396c0b1d3788.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Tiannanxiaozhu1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a9de5ecbc352a29e39d12e314df5c333.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tiannanxiaozhu2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd6a1f892cbc0490d2e779e9f4c2670a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tianxiaorui-baiitang",
@@ -3375,7 +3375,7 @@
     {
       "name": "Tpression-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c1deaa9ed191e94a8d9da7f4a07a33fc.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "TreeDiagram-baiitang",
@@ -3385,27 +3385,27 @@
     {
       "name": "Tufei_emby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/feb904c9b25ebdbb9255466770a081c2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Tufeiemby-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d92a50b2db5e5da310fac42940ebe131.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Tututu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a771d87c266705fa68aeeb1a3f3c7306.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "UHD-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/69027d66c6e6565eaa950989b0f7c39f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "UHD1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7c26c83927cc5afc5f138d29afc06d5d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "V6-baiitang",
@@ -3425,27 +3425,27 @@
     {
       "name": "Violet-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/daf1ee277c56a60cfb74bf48da2788b8.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Violet-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4f14ed8d05c74062242b42527210770b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Violet1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/211d0acc23127465fcd04eca5d9d7908.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Violet2-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0d8c6d94becbfe5a7077f5168802386c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Violet3-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/feef2d9d73f7e073e56f149d6fe383d9.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Viper-baiitang",
@@ -3455,22 +3455,22 @@
     {
       "name": "VisExp-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d0b36cccdb9b991fa4132179c361759e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Visexp-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f2c65695ca70565633043af8130af8c1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Voilet1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/18b397c1081feea727cb5a33975ff9d9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Vtg-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/777fbb9730f1ae65a3226df251dce112.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Wagon-baiitang",
@@ -3480,7 +3480,7 @@
     {
       "name": "Wahaha-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f50f6cb865a6a22e45c207549531326e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "WangZhe-baiitang",
@@ -3490,12 +3490,12 @@
     {
       "name": "Wdfhl-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2c7ef242fc260f62b3fd9cbdf9e00055.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Wdiasda-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ba2d6dd4b87c86544ca7fbfb9e98b1b3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Webdav-baiitang",
@@ -3510,17 +3510,17 @@
     {
       "name": "Weiguang-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a4ae50acc3b374efd1b0142b6f6272d2.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Wenjian1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01d0299b63b68d3fd044dc546c7c88a5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Wonderegg-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fc2adb30245e8261919afd36734476e2.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "XfEmby-baiitang",
@@ -3545,27 +3545,27 @@
     {
       "name": "Xiguasf-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9e879ecefcdacce7c7d45cb68b6218f0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Xiong-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d6e87d4ea5334280f2836597354bfc1e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Xiong1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/08bdb125c7d7ded6844fd4928fec18d4.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Xiong2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/23102f25b370fa68dbfd46a8dff5b1e9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Xiong3-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/269f8e002f36ad0f516183acd30c6ba4.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Xltx-baiitang",
@@ -3575,7 +3575,7 @@
     {
       "name": "Xmaxs-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b6250e7ee6c19e81368a23324bf6ba44.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Xmss-baiitang",
@@ -3590,17 +3590,17 @@
     {
       "name": "Xuli-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fdfdcae7cb9502958c9217242178bcfe.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "YKemby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1af4cb7cdc471d18170c79cfa1bdff8c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yagao-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7d1fa1e50d73ceaaa4f8b893872f6ae1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "YeJiChang-baiitang",
@@ -3615,7 +3615,7 @@
     {
       "name": "Yeshou-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8b08bfff7612d56baea31a753d2cb86c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "YeshouPlus-baiitang",
@@ -3625,62 +3625,62 @@
     {
       "name": "Yezi-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6f2ee107dface51dbe132bcfddf952ba.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yezi1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/77a11c9aa983215906196e1c2fb3ae43.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yezi1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bb33fddca2444cf871ab747898ebe310.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yezi2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1f912b3f59cdde929d8fb966c2ea7edb.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yezi_HighBitrate-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/630cb606f830a62790d7ee3ec712534a.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yezonghui-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/13a6c80bdcc066e49d1a94ed43e98bd3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yingji-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2df0244cbfde96205d11d1d7c736e9c8.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yingji1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8afd2ad47f53fbe1aeda51d4d2d0024d.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yingkanzhengwan-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c07532035bb8acd3d20e293fb84c53ce.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yingyue-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/78edbeaad5e22762b0435670ccc78c1a.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yingyue1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8a38a28b106fc0b7dade72f213fee8e1.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yingyuepro-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/75907f0b309fa150fdeab866582aa690.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yomo-baiitang",
@@ -3690,7 +3690,7 @@
     {
       "name": "Yomo-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e48b9b2ea8ae8d5c6ae3969f440332bd.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yomo1-baiitang",
@@ -3705,97 +3705,97 @@
     {
       "name": "Youno-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/293122a611559b15461a8c42dd6a2778.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "YounoPlus-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4dec42c303647e80fb755db2d4dfe62e.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Younoemby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b14bb0a2e53c4234cd60c83fb3a86f89.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Younoemby1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d1583684077af504c68b6310fdcbedec.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yuanwei-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/90618be37fc28fe78dd1530f88145f59.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yuebing-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/12ca6ddddaa12ea89c4696fb9d0f104b.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yuebing1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f747bd7be3eeced13afe13ce4db051ec.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "YuebingVIP-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4e348babb14bbf98ccba86f1deeaac1f.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "YuebingVIP1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1a8560baf9220c8d24de967edf0a5277.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yunemby-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/18067b0a78fa8910eb042df7061aa76e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yunhai-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0c7660c69275b9fb72840cc1edd6b05.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yunhai1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f394a97619b06ee0c3a1bdebb42ba8df.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "YunhaiHub-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/60677aaae88fdac750d33eba91860b42.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yunhaihulian-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aac4f9253cb0ccd02ff62b4cc8642ba1.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yunmu_NubeBelle-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fee4827444afb14453f71e440df46ec0.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yunshang-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9a4b8706c8b7fc1eda93cb732870b000.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Yunshangguizhou-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5fdab1f632bf24d010d8a247a9c51ddc.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Yunshangguizhou1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a4f84665d8e959b27d6d05572dfa1973.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "ZN_yingshiku-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/100dc756d1305d129a5a414bb184b054.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "ZhiPianRen-baiitang",
@@ -3820,7 +3820,7 @@
     {
       "name": "Zhongchou1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/270ad3fe20867790b48a363d153487f9.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Zhuduobao-baiitang",
@@ -3840,22 +3840,22 @@
     {
       "name": "Zox-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/48d09fb821ff3a2b396247e74bc69be5.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Zox1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e09a228761f36fc4c53b868fcb46eb92.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "Zox1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/266fa15a62e28d015a7319395bf0f1e3.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Zox_free-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7f8e0f59af8b1255026714f0e0db1cca.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "Zzk-baiitang",
@@ -3870,42 +3870,42 @@
     {
       "name": "ikun-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/721ca45c472ddb91a58005f426f5835c.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "ikun1-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3841b5c8f11f026cd626c424218b6fce.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "ikun2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/156a9dec386c49065ee75ffbf412cb74.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "libhsulife-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe18ebec75433d4cd395a6b27a65000f.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "libhsulife1-baiitang",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3546d29c82a3da811ec4361e1414401c.png",
-      "description": "Baitang 圆形图标"
+      "description": "Baitang 圆形"
     },
     {
       "name": "pinhaofu-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/519ebf9c9785f5edd9f89e4f14774da9.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "pinhaofu2-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/56d9b07958d6cb22172badd1c19acac7.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     },
     {
       "name": "qingmeiyinghua_zhuma-ginibond",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/81971c051e2a1c03d0106235a18a964e.png",
-      "description": "Ginibond 图标配置"
+      "description": "Ginibond 配置"
     }
   ]
 }
