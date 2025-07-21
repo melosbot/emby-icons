@@ -130,7 +130,7 @@ jobs:
           echo "将 ${ICON_COUNT} 个新图标添加到 allinone.json。" >> "$COMMIT_MSG_FILE"
           echo "" >> "$COMMIT_MSG_FILE"
           echo "新增图标列表 (最多显示10个):" >> "$COMMIT_MSG_FILE"
-          head -n 10 update.log | sed 's/^[^:]*:[[:space:]]*\(.*\)[[:space:]]*$/  - \1/' >> "$COMMIT_MSG_FILE"```
+          head -n 10 update.log | sed 's/^[^:]*:[[:space:]]*\(.*\)[[:space:]]*$/  - \\1/' >> "$COMMIT_MSG_FILE"
           
           if [ "$ICON_COUNT" -gt 10 ]; then
             echo "... 及其他 $(($ICON_COUNT - 10)) 个。" >> "$COMMIT_MSG_FILE"
