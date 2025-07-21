@@ -121,6 +121,7 @@ jobs:
         fi
         COMMIT_MSG_FILE=$(mktemp)
         trap 'rm -f -- "$COMMIT_MSG_FILE"' EXIT
+        
         if [ -s update.log ]; then
           ICON_COUNT=$(wc -l < update.log)
           COMMIT_MSG_SUBJECT="feat: 新增 ${ICON_COUNT} 个图标"
@@ -129,7 +130,8 @@ jobs:
           echo "将 ${ICON_COUNT} 个新图标添加到 allinone.json。" >> "$COMMIT_MSG_FILE"
           echo "" >> "$COMMIT_MSG_FILE"
           echo "新增图标列表 (最多显示10个):" >> "$COMMIT_MSG_FILE"
-          head -n 10 update.log | sed 's/^/  - /' >> "$COMMIT_MSG_FILE"
+          head -n 10 update.log | sed 's/^[^:]*:[[:space:]]*\(.*\)[[:space:]]*$/  - \1/' >> "$COMMIT_MSG_FILE"```
+          
           if [ "$ICON_COUNT" -gt 10 ]; then
             echo "... 及其他 $(($ICON_COUNT - 10)) 个。" >> "$COMMIT_MSG_FILE"
           fi
@@ -143,6 +145,7 @@ jobs:
           echo "" >> "$COMMIT_MSG_FILE"
           echo "例行更新，未检测到新增图标。" >> "$COMMIT_MSG_FILE"
         fi
+        
         echo "" >> "$COMMIT_MSG_FILE"
         echo "更新时间: $(date +'%Y-%m-%d %H:%M:%S %Z')" >> "$COMMIT_MSG_FILE"
         git commit --file "$COMMIT_MSG_FILE"

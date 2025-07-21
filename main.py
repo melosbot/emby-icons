@@ -14,7 +14,7 @@ import requests
 CONFIG_FILE = Path("config.csv")
 ICON_ASSETS_DIR = Path("icons/assets")
 ALL_IN_ONE_JSON = Path("icons/allinone.json")
-NEW_ICON_NAMES_FILE = Path("update.log")
+UPDATE_LOG_FILE = Path("update.log")
 BASE_CDN_URL = ""
 
 # --- MIME 类型到文件扩展名的映射 ---
@@ -74,7 +74,7 @@ def process_icon_entry(session: requests.Session, icon_data: dict) -> dict | Non
             "original_url": url,
         }
     except requests.exceptions.RequestException as e:
-        print(f"  - 错误: 下载失败. URL: {url}, 错误: {e}", file=sys.stderr)
+        print(f"  - 错误: 下载失败. URL: {url}", file=sys.stderr)
         return None
 
 def main():
@@ -90,8 +90,8 @@ def main():
         print("⚠️ 警告: 未提供GitHub仓库名称。将使用相对路径生成URL。", file=sys.stderr)
 
     ICON_ASSETS_DIR.mkdir(parents=True, exist_ok=True)
-    if NEW_ICON_NAMES_FILE.exists():
-        NEW_ICON_NAMES_FILE.unlink()
+    if UPDATE_LOG_FILE.exists():
+        UPDATE_LOG_FILE.unlink()
 
     # 1. 解析配置文件，收集上游图标
     print("\n🔄 (1/4) 解析配置文件, 收集上游最新图标...")
@@ -166,13 +166,14 @@ def main():
             md5_map[md5]["aliases"].append(result["primary"])
 
     new_normalized_icons = []
-    for data in md5_map.values():
+    for md5, data in md5_map.items():
         description = f"来源: {data['primary']['source']}"
         if data['aliases']:
             alias_names = ", ".join(alias['original_name'] for alias in data['aliases'])
             description += f" | 别名: {alias_names}"
         
         new_normalized_icons.append({
+            "md5": md5,
             "name": data["primary"]["name"],
             "url": data["url"],
             "size": data.get("size", 0),
@@ -185,17 +186,13 @@ def main():
             old_icons = json.loads(ALL_IN_ONE_JSON.read_text(encoding="utf-8")).get("icons", [])
         except json.JSONDecodeError:
             print(f"⚠️ 警告: '{ALL_IN_ONE_JSON}' 文件损坏，将重新创建。")
-            old_icons = []
-
-    # 合并与去重
+    
     all_icons_map = {icon['url']: icon for icon in old_icons}
     all_icons_map.update({icon['url']: icon for icon in new_normalized_icons})
     final_icons_list = list(all_icons_map.values())
     
-    # 排序：名称不区分大小写升序，同名则按文件大小降序
     final_icons_list.sort(key=lambda x: (x['name'].lower(), -x.get('size', 0)))
 
-    # 增量更新检查
     old_count = len(old_icons)
     final_count = len(final_icons_list)
     
@@ -204,9 +201,10 @@ def main():
     else:
         print(f"  - 检测到新增图标！将更新 '{ALL_IN_ONE_JSON}'。 旧: {old_count}, 新: {final_count}")
         old_urls = {icon['url'] for icon in old_icons}
-        new_icon_names = [icon['name'] for icon in final_icons_list if icon['url'] not in old_urls]
-        if new_icon_names:
-            NEW_ICON_NAMES_FILE.write_text("\n".join(new_icon_names), encoding="utf-8")
+        new_icons = [icon for icon in final_icons_list if icon['url'] not in old_urls]
+        if new_icons:
+            log_lines = [f'"{icon["md5"]}": {icon["name"]}' for icon in new_icons]
+            UPDATE_LOG_FILE.write_text("\n".join(log_lines), encoding="utf-8")
         
         all_authors = ", ".join(sorted(list(set(
             Path(row[2].strip()).name.split("_")[0]
@@ -227,7 +225,7 @@ def main():
         reader = csv.reader(filter(lambda row: row and not row[0].strip().startswith('#'), f))
         for row in reader:
              if len(row) < 3: continue
-             comment, src_url, path_str = [item.strip() for item in row]
+             _comment, _src_url, path_str = [item.strip() for item in row]
              path = Path(path_str)
              if path.exists():
                  print(f"  - 重写: {path}")
