@@ -28,7 +28,9 @@ https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/baiitang_yuan_tubiao.
 
 所有图标图片资源托管于 [`icons/assets`](icons/assets) 目录。
 
-## 📋 配置文件来源
+## 📋 来源和致谢
+
+本仓库收集了多个开源图标源，感谢以下作者和项目的贡献：
 
 - **Softlyx**: [`Fileball`](https://github.com/Softlyx/Fileball)
 - **baiitang**: [`Sakura`](https://github.com/baiitang/Sakura)
@@ -41,7 +43,6 @@ https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/baiitang_yuan_tubiao.
 - **推送更新**: 向 `main` 分支的任何推送都会触发更新。
 
 ## 🤝 贡献
-
 欢迎通过 Pull Request 或 Issue 添加新的图标源。请按以下格式编辑 `config.csv` 文件：
 
 ```csv
