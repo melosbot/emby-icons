@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 791 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 793 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1963,11 +1963,25 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "e42d7938f8be0f66bf26192aec43b567",
+      "name": "HoHai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e42d7938f8be0f66bf26192aec43b567.png",
+      "size": 9517,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "a2ba0eccc367f956ffdea1f892a613bd",
       "name": "Hohai",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a2ba0eccc367f956ffdea1f892a613bd.png",
       "size": 5159,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "c3a37b7aa6d2a6076d3567bd8b416aed",
+      "name": "HoHai1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3a37b7aa6d2a6076d3567bd8b416aed.png",
+      "size": 5412,
+      "description": "来源: Baitang"
     },
     {
       "md5": "b88a137e3a629119b55a3f1c1664446a",
@@ -2031,6 +2045,20 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c6b3847f310142ba08a04f500e3d1807.png",
       "size": 38635,
       "description": "来源: Baitang | 别名: Hygge+-ginibond, Hygge+-Softlyx"
+    },
+    {
+      "md5": "fe18ebec75433d4cd395a6b27a65000f",
+      "name": "Iibhsulife",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe18ebec75433d4cd395a6b27a65000f.png",
+      "size": 20531,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "3546d29c82a3da811ec4361e1414401c",
+      "name": "Iibhsulife1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3546d29c82a3da811ec4361e1414401c.png",
+      "size": 23654,
+      "description": "来源: Baitang"
     },
     {
       "md5": "9ffdde5622916bcd6054592186bfca80",
@@ -2430,20 +2458,6 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/df492dad8dd7d07986122ec4db1bffc3.png",
       "size": 43598,
       "description": "来源: Baitang | 别名: LiangShan1-Softlyx"
-    },
-    {
-      "md5": "fe18ebec75433d4cd395a6b27a65000f",
-      "name": "libhsulife",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe18ebec75433d4cd395a6b27a65000f.png",
-      "size": 20531,
-      "description": "来源: Baitang"
-    },
-    {
-      "md5": "3546d29c82a3da811ec4361e1414401c",
-      "name": "libhsulife1",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3546d29c82a3da811ec4361e1414401c.png",
-      "size": 23654,
-      "description": "来源: Baitang"
     },
     {
       "md5": "c909e98b21fbbe5de1d01ec2b36dc4ec",
