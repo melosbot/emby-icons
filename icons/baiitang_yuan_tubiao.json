@@ -947,6 +947,14 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ba892cc2284ba761987c489f1c40e583.png"
     },
     {
+      "name": "Moli",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/70321bf88311e7f3ed98d74258b5a0a5.png"
+    },
+    {
+      "name": "Moli1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4ac421321d79c02c0a49b68f383afe3b.png"
+    },
+    {
       "name": "NakoNako",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7831fce5de1471b1731630c2b4e33d68.png"
     },
@@ -1857,6 +1865,10 @@
     {
       "name": "AshPro",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/72603e2088516dd81f6ec699334e092d.png"
+    },
+    {
+      "name": "Collluka",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/23af20f6e85406b17a3faf649ad8c5ea.png"
     },
     {
       "name": "NiceDuck",
