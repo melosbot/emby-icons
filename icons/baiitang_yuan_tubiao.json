@@ -1,0 +1,1914 @@
+{
+  "name": "Baitang (CDN镜像版)",
+  "description": "源自: https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/tubiao.json",
+  "icons": [
+    {
+      "name": "Emby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bbf6734cea6482edef4cd99e258d1ab1.png"
+    },
+    {
+      "name": "Emby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4c788762720b38c07f39f56a5b0d0dde.png"
+    },
+    {
+      "name": "Embys",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c0e40c553f25610d1c477ebbe8a98d02.png"
+    },
+    {
+      "name": "Embys1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d7fc622969b29570d6d1ac60c94e5aa0.png"
+    },
+    {
+      "name": "Embyks",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/59d995383f20bdda86dbce86be4029f3.png"
+    },
+    {
+      "name": "Embyks1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/182928315997a191bf7d9218b5113a7e.png"
+    },
+    {
+      "name": "Jellyfin",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c94e14f74f8f46468853486051ecb5c4.png"
+    },
+    {
+      "name": "Plex",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d72a4e934f6a192a93f7b99d8374e909.png"
+    },
+    {
+      "name": "Plex1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/453bb6918b9bbe676e9f95f63104ee54.png"
+    },
+    {
+      "name": "Plex2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8aaee531cee79d3cea1e958ed38fb9db.png"
+    },
+    {
+      "name": "FeiniuOS",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/467a8a7b4b44bc82c4ae4457bf117429.png"
+    },
+    {
+      "name": "AcEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3810771a0b03b8e74c323a4238e3894f.png"
+    },
+    {
+      "name": "AcEmby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f02e42ccdc529f4dd0938faf0f8e8d52.png"
+    },
+    {
+      "name": "Acg",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f24344705c78c79536e13921153820e4.png"
+    },
+    {
+      "name": "Acg1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b1393b6d074ce635b90a65f620d3d57d.png"
+    },
+    {
+      "name": "Agan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4ce37a870f35666c3de41d37dfbb97d7.png"
+    },
+    {
+      "name": "Akuai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/43946ac55fa19e482d0bf52b14ff6768.png"
+    },
+    {
+      "name": "Alpha",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec639afd57e4a7959dee8028b5f32f2e.png"
+    },
+    {
+      "name": "AnimeHome",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5a336ef97bad97ffcc4fd27ab8ed2907.png"
+    },
+    {
+      "name": "Apop",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1a60e48cb37eab9898e86bd704d9ba6d.png"
+    },
+    {
+      "name": "Asakie",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1efb70cb7637052de49ad58e4018c7d2.png"
+    },
+    {
+      "name": "Atvii",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/846cd2b2ed596b2d4e91e1aecd8d11d9.png"
+    },
+    {
+      "name": "Awa",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5eb3e7dce7204af0ef298a92dcbb395b.png"
+    },
+    {
+      "name": "AlphaTVOG",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/833ee5d368e9486701e4c034384dc307.png"
+    },
+    {
+      "name": "AlphaTVOG1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6d88a9d60cb962ebac7e9e8cbbd3de00.png"
+    },
+    {
+      "name": "AlphaTVOG2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01c2b40575fc825a8ece256cd07e17cf.png"
+    },
+    {
+      "name": "AlphaTVOG3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6dd439724a7eb2ce5b95bcdc73d2e24f.png"
+    },
+    {
+      "name": "AlphaTVOG4",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a02f5cc439c289dff2adce1a33a5f2aa.png"
+    },
+    {
+      "name": "AlphaTVOGPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/99a4cd207af455bbd97bcdcd7aaceee4.png"
+    },
+    {
+      "name": "AlphaTVOPro1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c2c489757d68a329b2cc52d2cad83ea9.png"
+    },
+    {
+      "name": "AlphaTVOGX",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c09eabbd466ab06a7d1ec54021b3cba2.png"
+    },
+    {
+      "name": "AlphaTVOGX1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9b9ede52bcd22b040223f3a32283fcd3.png"
+    },
+    {
+      "name": "Auroramedia",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/42ff32005de6da1f9ad8c321a123ff68.png"
+    },
+    {
+      "name": "Auroramedia1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e077af905d377364af1afa2aed6a8ded.png"
+    },
+    {
+      "name": "Ask",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c54b727c52531f70bf07952bdcdf79fd.png"
+    },
+    {
+      "name": "Aurora",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/25b4e47eaed9cd9b607f564e4ec2a7d7.png"
+    },
+    {
+      "name": "Awa1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b9ab78e237599bc4a11cfa4df9f664c2.png"
+    },
+    {
+      "name": "AniSaga",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f5b1f3b352a3f543d0af426ce1f7cc2b.png"
+    },
+    {
+      "name": "Bailangtu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/be3a848c43d5affed602cd3bf5f71032.png"
+    },
+    {
+      "name": "BaiPiaoWang",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3cd471b96c9e3954a71b90e85af5f75c.png"
+    },
+    {
+      "name": "Bdd",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/27feddacd7e633478cba8953819e55ae.png"
+    },
+    {
+      "name": "Bdd1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/12e0f4b0010e21924b27adfb303c2202.png"
+    },
+    {
+      "name": "Beitai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cce74b2b897f725c1750e3f49fb4cb3e.png"
+    },
+    {
+      "name": "BestEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b1571e177387b3348999161dc9b4e605.png"
+    },
+    {
+      "name": "BestEmby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/535f39bca85256f3f90a97a16a530a53.png"
+    },
+    {
+      "name": "Bigbus",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6b6ab99de374badc78c2b2b6d197983f.png"
+    },
+    {
+      "name": "Bingzhenxigua",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8e078a5a46f4e2e359731421c5e427c0.png"
+    },
+    {
+      "name": "BlueSea",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/412b57031608645a1ce4b6a90a7801b2.png"
+    },
+    {
+      "name": "BlueSeaEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/33711e7d786f5c6c43252bb6846b2b0e.png"
+    },
+    {
+      "name": "BoYinYuan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/35e31efe30e7b8635ef0f1de250e13c2.png"
+    },
+    {
+      "name": "BuGeiKan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dd49776061eb367af88e0476ff75df77.png"
+    },
+    {
+      "name": "BuGeiKan1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5b4b7f37b3d4b89e3b79251329f1856d.png"
+    },
+    {
+      "name": "BuGeiTing",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4da39250cf21ed29fb465ec2770234c6.png"
+    },
+    {
+      "name": "Byg",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a163c92f1edae4d9514d83e5a9c20847.png"
+    },
+    {
+      "name": "Black",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/034a2794a6c17d9fd04756a3ad43a965.png"
+    },
+    {
+      "name": "BTYIN",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f7e41ae734dd3e766bb255d7d98d523c.png"
+    },
+    {
+      "name": "BTYIN1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/694ecdf69b4261ae2501c016ce3b44ae.png"
+    },
+    {
+      "name": "BBFree",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aee70dfe627e1d9057c97779fbc530f3.png"
+    },
+    {
+      "name": "Bingfu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e370fa33da4b73baa07fbbb804d2b456.png"
+    },
+    {
+      "name": "Bingzhenxigua1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d2dd4551a37dd4a2c10ac059500e6995.png"
+    },
+    {
+      "name": "Captain-z",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/405f3a440c51922997ca0e10d6a4ab99.png"
+    },
+    {
+      "name": "Captain-z1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/76b4b7ac36f5801c63e9ddedb086b8e8.png"
+    },
+    {
+      "name": "CatFish",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/33c853c52bd871e15b9e7b3a9e9c42ad.png"
+    },
+    {
+      "name": "CatFish1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dbd6db59f4f6f5219af8df729d3db5da.png"
+    },
+    {
+      "name": "Cbcb",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/481106756031cb59201ebe55d4e10ec6.png"
+    },
+    {
+      "name": "Cbcb1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bcfbfbea6b2b0189572c8efd4c8f01c9.png"
+    },
+    {
+      "name": "CcEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5d26861c9116c883f2972c5eb3f03068.png"
+    },
+    {
+      "name": "CharonTV",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/32f37ab708ce18c0e174f10bfba9968b.png"
+    },
+    {
+      "name": "CharonTV1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/16c3946e7f077eaa3b4c2a1717c26835.png"
+    },
+    {
+      "name": "CherryTV",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d9c1172c225f0fd21196fc951bea41f7.png"
+    },
+    {
+      "name": "Ciji",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ed7a8b03bd9594877e2693bed9483c4.png"
+    },
+    {
+      "name": "Cola",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d67ed7c25c013134eb5595d66114bca1.png"
+    },
+    {
+      "name": "CrossGreatWall",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/306ac5aa41d08435f04008557b0285c9.png"
+    },
+    {
+      "name": "Csn",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2d463d0b228d5ef32f1ef8f22ede673d.png"
+    },
+    {
+      "name": "Csn1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/30ea439f020f104692ece9fe3ba22475.png"
+    },
+    {
+      "name": "Csn2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/49833002b8290434da59df8432b22e5b.png"
+    },
+    {
+      "name": "CurlyMouse",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec9aedcf34c0d74b140ae4f69745c9c0.png"
+    },
+    {
+      "name": "CurlyMouse1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/daf923441caf7bd8bd9132adf7e41479.png"
+    },
+    {
+      "name": "CineTrail",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/625c4c469ef4319e14ed5ebb43270de5.png"
+    },
+    {
+      "name": "Coco",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0165b0d1cd2f93ba4055948301bba76.png"
+    },
+    {
+      "name": "Cimmera",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/beac608737af58648bcdcbeb9135e59b.png"
+    },
+    {
+      "name": "Cimmera1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5e6df33bc61efe152121fa2cdaac0051.png"
+    },
+    {
+      "name": "Cherrygy",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f57b95b920f005ad268f97859d63c3e0.png"
+    },
+    {
+      "name": "Cdemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9782e4c12a908d2dbeda387d6e3cec9b.png"
+    },
+    {
+      "name": "Dafashijian",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0ae6a5b6c8c15e2e6e99294d67a78847.png"
+    },
+    {
+      "name": "DaHangHai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c4c220e2b34d6ff03653522e0d1b0c52.png"
+    },
+    {
+      "name": "Davyingyuan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bfa805fdd594955d6f50ff9127ce98b5.png"
+    },
+    {
+      "name": "Des",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/da9c706430c8782b19e876eaa09bcdbe.png"
+    },
+    {
+      "name": "Des1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/835e7842ab9e91011958f36366f17f9e.png"
+    },
+    {
+      "name": "Didiemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/34e21a6a6ffc134534b3e9ec9f7e7823.png"
+    },
+    {
+      "name": "Dipingxian",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/86b0b75f0477b419f494ca01748fbdbd.png"
+    },
+    {
+      "name": "Dolphin",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/107021f33597c05d7ed716ad6060d093.png"
+    },
+    {
+      "name": "Dv",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1757f7015d624c4a45952c26f3768f50.png"
+    },
+    {
+      "name": "DxzEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/816b196691d7af4b61ca45cf724acc55.png"
+    },
+    {
+      "name": "DVYY",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2bcd66128545bfa8274458ad8d5e390e.png"
+    },
+    {
+      "name": "DVYY1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6a19c9350b6cda3a7f54d34e8caf8e52.png"
+    },
+    {
+      "name": "DVYY2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9d2ed9212f0eb618ad48e88c376b4248.png"
+    },
+    {
+      "name": "DoveNest",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2a14837259d987acd4761ad9a239be35.png"
+    },
+    {
+      "name": "Doubon",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3a33476aca1e2997c8b09e387d491e6d.png"
+    },
+    {
+      "name": "DPeak",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5e06ea51119ac652a873a919cc9982e3.png"
+    },
+    {
+      "name": "Dusky",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a4ed2d177cbdd26de3d1fe0641ad75b3.png"
+    },
+    {
+      "name": "ElevenPlus",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/128dd47fed7f24c14a971ad171d36b90.png"
+    },
+    {
+      "name": "EmbyClub",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4b8a3b0a20807abb18742fb9d02d6841.png"
+    },
+    {
+      "name": "EmbyClub1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/04bf938418f08070aa6d8df75095f3c1.png"
+    },
+    {
+      "name": "EmbyHub",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ca954e7f8863183fc4e418b0de4b8bca.png"
+    },
+    {
+      "name": "EmbyHub1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/be4978242722e1bc3a570955b8fed1f2.png"
+    },
+    {
+      "name": "EmbyHub2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9ded5651925538870ba89d4b84eef3df.png"
+    },
+    {
+      "name": "EmbyX",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f2ee6785afd4fb2830c6c46d27a0c0e6.png"
+    },
+    {
+      "name": "Ehome",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/de8ae387f8184ab5b7d056740e82e66a.png"
+    },
+    {
+      "name": "Ehome1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c9259345f128533ebc56f02e1ac04f72.png"
+    },
+    {
+      "name": "Fangyt",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f961cd25d09fe24de0c105ff3649064f.png"
+    },
+    {
+      "name": "Fangyt1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f5a90204accb9edb6ba57700e134fda8.png"
+    },
+    {
+      "name": "Fangyt2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7cc03dbb2fdbe387c79e1090fb1de36f.png"
+    },
+    {
+      "name": "Fenghuolun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c28ef02cdb9262315f0af68c50277e81.png"
+    },
+    {
+      "name": "Feiyue",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/618b1f85ae1bfff9ee56b9e73a59f91f.png"
+    },
+    {
+      "name": "Feiyuedipingxian",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/136d234705df28c8babc2ac233c75ae4.png"
+    },
+    {
+      "name": "Feiyuemtk",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/811a5d11199eb7e3564dc3f897df34a6.png"
+    },
+    {
+      "name": "Flareix",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/79e05515551f36b3a2f1b9957d4b3bb4.png"
+    },
+    {
+      "name": "Foxcoo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a9e552d14ee0adbf5dc026b9f738e5db.png"
+    },
+    {
+      "name": "Free",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c70aff3c167fae982ddddfb951559f0d.png"
+    },
+    {
+      "name": "FreeEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bbd46d1ca879f77df6e560d82c4d3f12.png"
+    },
+    {
+      "name": "Freestyle",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1e9d57ac2b65dd2dd5ac5bbbafd29c89.png"
+    },
+    {
+      "name": "Froghub",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ab964dc332f037d9b6f18bd43e76b3bd.png"
+    },
+    {
+      "name": "Fyyh",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1e6d89d36add44405d73565398ad5018.png"
+    },
+    {
+      "name": "Feiyue1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/304387429b4d018581a6244d19b1a207.png"
+    },
+    {
+      "name": "Feiyue2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3954b60162a89857275bed1813c82023.png"
+    },
+    {
+      "name": "Feiyue3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7e2ed467e3fab1dac7a33745452f6d24.png"
+    },
+    {
+      "name": "FaintRay",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/56653284c2235463c3535817f77a40d2.png"
+    },
+    {
+      "name": "FatBeef",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3d5b1c19cdfcfa7dc0b232185a43d5fe.png"
+    },
+    {
+      "name": "Fufuemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1de80ab557ec8d2ea6bfee79d2c4c868.png"
+    },
+    {
+      "name": "Fufuemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f93d7e646bf40bd4630e3777b0263ed2.png"
+    },
+    {
+      "name": "GfwEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/702427ae05c2ace96d3e05ddf1e384d1.png"
+    },
+    {
+      "name": "Guanying",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2c967b2767dc23c0280c9ddaa9792bb6.png"
+    },
+    {
+      "name": "Gugu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e620a9fd8fa1ee8eafa8e874375bc924.png"
+    },
+    {
+      "name": "Gymeowfly",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d69f80d5b8a30e0b49c9f42d0f2ef43a.png"
+    },
+    {
+      "name": "Gymeowfly1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5c349d6c59ef7d4b13dfc2e8e5641866.png"
+    },
+    {
+      "name": "Han",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b32c2e8b006f768d2bdb5d2f09abb7c5.png"
+    },
+    {
+      "name": "Haoji",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ccfabbd5de91142b6bbcae02d2b40f43.png"
+    },
+    {
+      "name": "Heige",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e439895e08ee881a67850cd450f8859b.png"
+    },
+    {
+      "name": "HeiShan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2ad5f67e95a48889b741ac311a1c82dc.png"
+    },
+    {
+      "name": "Heisi",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a37eb70add2825c469bc367782291e53.png"
+    },
+    {
+      "name": "HentaiHome",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/706360c2ec0421e08e1bd1a8c91633d1.png"
+    },
+    {
+      "name": "Hka",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9d5862fef91cd939987cf96b2628aeea.png"
+    },
+    {
+      "name": "HongChen",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b88a137e3a629119b55a3f1c1664446a.png"
+    },
+    {
+      "name": "Hxd",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6487cca4d6f1d7a35367285c1848291f.png"
+    },
+    {
+      "name": "Hxd1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5b8a148688f3ef6536a1c4ff887b936d.png"
+    },
+    {
+      "name": "Hxd2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/37358901cc20a0dc7f20e83c251a16be.png"
+    },
+    {
+      "name": "Hygge+",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c6b3847f310142ba08a04f500e3d1807.png"
+    },
+    {
+      "name": "Houyinx",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38ab4e5f7d70d3e28f7d992ee72ee5d2.png"
+    },
+    {
+      "name": "Heimao",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd4d89c7d216233daaad8b9a4c913325.png"
+    },
+    {
+      "name": "Handouemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e9c3e39971f2a59cf096d6e7ade388a4.png"
+    },
+    {
+      "name": "HeisiR18",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01686f5e1c7eee5b058af9d6c9b8c81c.png"
+    },
+    {
+      "name": "HoHai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e42d7938f8be0f66bf26192aec43b567.png"
+    },
+    {
+      "name": "HoHai1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3a37b7aa6d2a6076d3567bd8b416aed.png"
+    },
+    {
+      "name": "Infinity",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d5f7d843c5518d20f136671bcdf8d5d7.png"
+    },
+    {
+      "name": "Ikoumi",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9ffdde5622916bcd6054592186bfca80.png"
+    },
+    {
+      "name": "Iibhsulife",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe18ebec75433d4cd395a6b27a65000f.png"
+    },
+    {
+      "name": "Iibhsulife1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3546d29c82a3da811ec4361e1414401c.png"
+    },
+    {
+      "name": "Jhemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/97004d08b67c1204b06fc1640f5867fc.png"
+    },
+    {
+      "name": "Jianshouqing",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecb248b28f2af225c6b570d7a95c7774.png"
+    },
+    {
+      "name": "JieNiGui",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2315bde8a24402111845928f63da6d82.png"
+    },
+    {
+      "name": "JieSen",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6bd216d23c1cbd34927fe895491e2b85.png"
+    },
+    {
+      "name": "JuDog",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8b999f7aa1a3072858c41577fb0dca92.png"
+    },
+    {
+      "name": "JuDog1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/810556edaf2d2ed005aaaa3afa0f2535.png"
+    },
+    {
+      "name": "Jyctv",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4820eb48eadba78d3c0704d48b8a2136.png"
+    },
+    {
+      "name": "Jzrm",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/509463b9cbdee617104828e23abf598a.png"
+    },
+    {
+      "name": "Jzrm1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/35c8cdff7cac9cbdfef62b765482d59f.png"
+    },
+    {
+      "name": "July",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d863c887e9d035f1de0fa73931f854d1.png"
+    },
+    {
+      "name": "July1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/41cbce96cc7f6f868d36b1976a4e2a2c.png"
+    },
+    {
+      "name": "Jingzhe",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dd90055ca37458a96d2c5819591df3ed.png"
+    },
+    {
+      "name": "Jingzhe1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a3bce651eecf0c83e583fc645d52132a.png"
+    },
+    {
+      "name": "Jingzhe2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ed3ce7aec1a9cab0e1371dfb4d9b2111.png"
+    },
+    {
+      "name": "KaiLu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4058735dc5d580605f5db600b7bc78ba.png"
+    },
+    {
+      "name": "Kaixin",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/791504a769d333d3647af77445c39adf.png"
+    },
+    {
+      "name": "Kaoyanvip",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/506b2e085b5235ccccbfebb890eda6bf.png"
+    },
+    {
+      "name": "Kevin",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/72d4134b534136d5927a3a573acd14b8.png"
+    },
+    {
+      "name": "Kiki",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8aa02e0fac5298adbeb4a3811031d0f0.png"
+    },
+    {
+      "name": "Kiki1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f1cccc4caeb17190090bc6fc11ed6527.png"
+    },
+    {
+      "name": "KshtEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/123d88a903a2dd8771249c6f973cace2.png"
+    },
+    {
+      "name": "Kuanemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8c85c00cff42df727848f97955e31769.png"
+    },
+    {
+      "name": "Kiku",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9fae8e17f2ad31b69dcf15f20ab31d48.png"
+    },
+    {
+      "name": "Kiku1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec3dde0f007a213009f5f09d6b2bbd23.png"
+    },
+    {
+      "name": "KFCV50",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/541000537d9b7458daec6bf3d8fcfc6f.png"
+    },
+    {
+      "name": "Lend",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/49ec30bbca1b35217dea18cd177b1250.png"
+    },
+    {
+      "name": "LiangShan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e961e07c1b2fad949715b97c891582d0.png"
+    },
+    {
+      "name": "LiangShan1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/df492dad8dd7d07986122ec4db1bffc3.png"
+    },
+    {
+      "name": "Lily",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c909e98b21fbbe5de1d01ec2b36dc4ec.png"
+    },
+    {
+      "name": "Lion",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d67b94e3b2bb8eaafeed20b1c192eb79.png"
+    },
+    {
+      "name": "Loniper",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d0a3a0167763114c3d6debf9a98e1bae.png"
+    },
+    {
+      "name": "Lyrebird",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/501814a0cf87399bbb721adab691feea.png"
+    },
+    {
+      "name": "Lyrebird1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/717c8237498aa28c452c94f047958654.png"
+    },
+    {
+      "name": "LEVILDE",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3027b5eb908699bccb8ef56211b4c14.png"
+    },
+    {
+      "name": "LEVILDE1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/de4cd7858acca535078fbdd50a1d7399.png"
+    },
+    {
+      "name": "Laosifu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9cc54800ff39a3b39cca2bddbf3c9fbc.png"
+    },
+    {
+      "name": "Luoma",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8ce6d7742b74ab06c3bd779c25765cfd.png"
+    },
+    {
+      "name": "Lemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/744be5c32afd25fed83eb0df391827de.png"
+    },
+    {
+      "name": "Lxemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/76e7a334f3dc40a9a68197a0a1ce38ac.png"
+    },
+    {
+      "name": "Lxemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b60722ad2819491c4519df2584b1f1df.png"
+    },
+    {
+      "name": "Ljemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7dad0dc0de234261a9d1d04d3c0a0bbd.png"
+    },
+    {
+      "name": "Ljemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e545883653d24528de4d42f78d9ff0ae.png"
+    },
+    {
+      "name": "Liminal",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e49561baf2239fc29b88e6a753438665.png"
+    },
+    {
+      "name": "Luobei",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/be7ad3e9b2aa0e32ec989befdafa86c1.png"
+    },
+    {
+      "name": "Magic",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4019a68faf6d922b6ab52b4fbf562cf9.png"
+    },
+    {
+      "name": "Magic1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4abf11a55c5e834502c88c6e0b62d6c7.png"
+    },
+    {
+      "name": "Magpie",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/661e9157fe62db81d6c28c32185e5437.png"
+    },
+    {
+      "name": "Magpie1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1b4ee286c9372797755ff96279c3916d.png"
+    },
+    {
+      "name": "Magpie2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4181ebea3e0cd6ff175c82ff0fbad9e7.png"
+    },
+    {
+      "name": "Maliao",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3eecf9ff7a8c62e30942ff95020a117f.png"
+    },
+    {
+      "name": "Marmot",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/476a9c8aed1019fc9bcc9ded3e99e399.png"
+    },
+    {
+      "name": "MengMeng",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/97d74cc96be6b5a43ce64e563ebb9b97.png"
+    },
+    {
+      "name": "Micu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d0a95b37e264e63ef844a060d4126c54.png"
+    },
+    {
+      "name": "Midsummer",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c0ede3a50d7c8c6723b6cb2dc428fcf3.png"
+    },
+    {
+      "name": "Mildnes",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9fbf4091a51b4fdf05ef82478faf17d4.png"
+    },
+    {
+      "name": "Mildnes1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/791d6e377abea90fefb5be565bd16a00.png"
+    },
+    {
+      "name": "Mildnes2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7fd742f57347390faa0d5d4b5e8dd190.png"
+    },
+    {
+      "name": "MisakaF",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4b93186d61614d268aa89fb63d57ff3.png"
+    },
+    {
+      "name": "MisakaF1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0886ebf49a6aaad6cb2b8a06faa47dae.png"
+    },
+    {
+      "name": "Misty",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6350e0e34cb377a28238cbd859cafbbd.png"
+    },
+    {
+      "name": "Misty+",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c6e6698fbcc7d8dc340f95da31076c22.png"
+    },
+    {
+      "name": "Mjj",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7ffd41806bfb0f83b983e9e1dc367fb5.png"
+    },
+    {
+      "name": "Mooguu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a9f5215d9d72e3b92f30eb31c67ddae6.png"
+    },
+    {
+      "name": "Moonlight",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f0658ffe3419ca3961981a9556e1e42c.png"
+    },
+    {
+      "name": "More",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/68c18ed7ad866d0e8532ef38a1165609.png"
+    },
+    {
+      "name": "Mulgore",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5ad1c683c137ee52f1cede5b4345ee60.png"
+    },
+    {
+      "name": "Mooncake",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aa421221c4c769745aeec234b7e3c1af.png"
+    },
+    {
+      "name": "Mooncake1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ac7b26538a4ea25c68e506c575504b94.png"
+    },
+    {
+      "name": "Mihuansenlin",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4a588aeeebdd057ab98f53980cc1d6fb.png"
+    },
+    {
+      "name": "Mtdb",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3a663f9a908483ac2f2063afc022895.png"
+    },
+    {
+      "name": "Moyunge",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/900f737dee5920f40d756f17f1992bad.png"
+    },
+    {
+      "name": "Moyunge1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d5cb208d0eb7d1ed97255b2b929b5d78.png"
+    },
+    {
+      "name": "Mooguuyp",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/560d509303693d74858a38941bd9d6b6.png"
+    },
+    {
+      "name": "Mefun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/75ae220eafc8935d78d9b15c1552e838.png"
+    },
+    {
+      "name": "Maoyan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecd5aefa2d5ad47134026089ac19eafe.png"
+    },
+    {
+      "name": "Mmhy",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/09a40ec2ed086f1ad1c080b5d9ff1ea5.png"
+    },
+    {
+      "name": "Mmhy1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe82fe430acbd109b8a2625ec32b22b9.png"
+    },
+    {
+      "name": "Msky",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ba892cc2284ba761987c489f1c40e583.png"
+    },
+    {
+      "name": "Moli",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/70321bf88311e7f3ed98d74258b5a0a5.png"
+    },
+    {
+      "name": "Moli1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4ac421321d79c02c0a49b68f383afe3b.png"
+    },
+    {
+      "name": "NakoNako",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7831fce5de1471b1731630c2b4e33d68.png"
+    },
+    {
+      "name": "Nebula",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ff64a724debed150234dea6b923f7e3c.png"
+    },
+    {
+      "name": "Nebula1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0843a262c2f1852709ec9be9a1f744eb.png"
+    },
+    {
+      "name": "Nginx",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3dae2d0f53c031c231601eeec1c4bd95.png"
+    },
+    {
+      "name": "Nijigen",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c6cf290c255c312e8a8390257881e32f.png"
+    },
+    {
+      "name": "Nijigen1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/beb3c0f8a66695fc3b2ae76627a8cd0f.png"
+    },
+    {
+      "name": "Ninja",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ad087426c55bc620519307a85edd7689.png"
+    },
+    {
+      "name": "Nirvana",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9830df3668244ab383473358e7422dca.png"
+    },
+    {
+      "name": "NmEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ba880f70f16da85bbbd1669f6427e560.png"
+    },
+    {
+      "name": "Ntrrr",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3097b29d6b8093eb7dfb9a3b107b3b0b.png"
+    },
+    {
+      "name": "Ntrrr1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b98f520d9604a1a0600aa2f25ddd1880.png"
+    },
+    {
+      "name": "Nya",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7dd8c508102dfb6aa675179885556d32.png"
+    },
+    {
+      "name": "Ntrrr2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b681337a4d187493595a8567def9f5c2.png"
+    },
+    {
+      "name": "Ntrrr3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ccd72a5e3e0168342469a516faa09db6.png"
+    },
+    {
+      "name": "Nijigen2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5f4d49bc93fd458fd2460d619ec53fb6.png"
+    },
+    {
+      "name": "Nijigen3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ee3c181cf4e97738145a0bcec992ce10.png"
+    },
+    {
+      "name": "Nebula2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/487ec17366eabd53e5d2179353813798.png"
+    },
+    {
+      "name": "Nezhayun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4c22e27dce39046cdec22c895e077380.png"
+    },
+    {
+      "name": "Nezhayun1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ee0184140d05e0f9d940542c85a665ed.png"
+    },
+    {
+      "name": "Nezhayun2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5866ceacd05778f6274ee3f9a367d62c.png"
+    },
+    {
+      "name": "Odyssey",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/384fcfbabb1a25f454e4ad8eda64dbcd.png"
+    },
+    {
+      "name": "Ofuniverse",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7cd9dd6a7825619c135dc06b2a0fa219.png"
+    },
+    {
+      "name": "OnlyFans",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/286fe49bbf10ac134a9ab1bea6990864.png"
+    },
+    {
+      "name": "Orange",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6393406987337d9c7f53860af13b8622.png"
+    },
+    {
+      "name": "Orange1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/07019c854af69fe835de6e599b965d82.png"
+    },
+    {
+      "name": "O9o",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4a21e2039cf44513e65295767fcdaae7.png"
+    },
+    {
+      "name": "O9o1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/65038f9aa36ffbc6b209846214f1fc7f.png"
+    },
+    {
+      "name": "Onyra",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/63c30a95246a612a9da6ba1c0dbc1d10.png"
+    },
+    {
+      "name": "Omega",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/177cdc12cab5e5331f5301d9343e7f3d.png"
+    },
+    {
+      "name": "Pandatv",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3d471bd8b738f28e82b540b0227c4b9.png"
+    },
+    {
+      "name": "PaoChe",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/475159c245f421d4535ff32b5bf6b187.png"
+    },
+    {
+      "name": "PaoChe1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/730a8f31b73cb8dc2945925e220ebcef.png"
+    },
+    {
+      "name": "PaoLuLe",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/85598d223049a9ac668f82dc1a3ab17b.png"
+    },
+    {
+      "name": "PaoLuLe1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/704437c5085d16bf2994492c25f0e865.png"
+    },
+    {
+      "name": "Paul",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/29ae60994a703ac843ed02c36f7b70a1.png"
+    },
+    {
+      "name": "Peach",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f477e5583f8e8887be19c7402532e00f.png"
+    },
+    {
+      "name": "Peach1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/771ef89c1fd712623a319d529d98d4cc.png"
+    },
+    {
+      "name": "PiliPili",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/761aa5e635d017b19609461a31970906.png"
+    },
+    {
+      "name": "Plumber",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0c8b5c32299ba01078197d24b5bb82d2.png"
+    },
+    {
+      "name": "PinYun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/478ddebe02b7d8edd0141457bbea2d53.png"
+    },
+    {
+      "name": "Plus",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/edc236b961a775232aec23b60a1f077d.png"
+    },
+    {
+      "name": "Plusemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9f94f0494f72048da6ea536ba7ad6bbc.png"
+    },
+    {
+      "name": "Polo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f591c6353ee6e3836a6ffca8e6a25e2c.png"
+    },
+    {
+      "name": "Polo1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/278efa380a24587296e862c281bb540e.png"
+    },
+    {
+      "name": "PornEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1d22e29012e6ced6dfc7f273ba7b8e2a.png"
+    },
+    {
+      "name": "Prpr",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e768665f07fad78480f31e2d1dc73097.png"
+    },
+    {
+      "name": "Plunber",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5c0491d6a68fbdcb50127ff890b12905.png"
+    },
+    {
+      "name": "Plunber1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7c0dbf28f24dad19305c860d7efe71dc.png"
+    },
+    {
+      "name": "Plunber2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6c099fa971d88985e9e1288cdeda9f4f.png"
+    },
+    {
+      "name": "Plusemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8702bd4719974d1214fcdedba29f7ab0.png"
+    },
+    {
+      "name": "Plusemby2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd8875fd0aca87e8a5e3b8fce19a0ff6.png"
+    },
+    {
+      "name": "Plusemby3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/39662261d2a61db887561aca0fb21172.png"
+    },
+    {
+      "name": "PrejuDice",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/beb6f9d4e6293812a67840caa7728576.png"
+    },
+    {
+      "name": "Polaris",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a5bb3a10082f5c676547954726bbed04.png"
+    },
+    {
+      "name": "Polaris1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8e64e22ef6173c42cb2a2567d1fca65e.png"
+    },
+    {
+      "name": "Popc",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecb39a832b6dd87eb5371fe41a16f95c.png"
+    },
+    {
+      "name": "Pinhaofu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/340f800b2a5bfecfe509dfcbb59d309c.png"
+    },
+    {
+      "name": "Pinhaofu1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/18e007d2627a5c182738c26e40822789.png"
+    },
+    {
+      "name": "Pcmemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4d1aaa210055f84b4e1d0fbf28f90644.png"
+    },
+    {
+      "name": "Paolu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2f40d4cd9abd8d176dab021c0cdac03a.png"
+    },
+    {
+      "name": "Paolu1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/959b5e01157ce44ecda0e7d41f1e3164.png"
+    },
+    {
+      "name": "Paolu2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/893eb9821aeb7badf656bfd69645e734.png"
+    },
+    {
+      "name": "Paolu3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3af2915c14ba1948754ab7adab84a488.png"
+    },
+    {
+      "name": "Playz",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0673ac3c7a961c5197ef783dba8e8f00.png"
+    },
+    {
+      "name": "Pianke",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/eb188bc26bd0a3423ec2548d52ecc3b7.png"
+    },
+    {
+      "name": "Pianke1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/efe0876377300066c99af6dda17aac10.png"
+    },
+    {
+      "name": "QqEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/70c4b68d8a6d591df3569dce4c38bbb5.png"
+    },
+    {
+      "name": "Qidianzhan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7323a5617c5d6d859d18d2a4e2e1bbfb.png"
+    },
+    {
+      "name": "Qidianzhan1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2fb2c2393c3f0eec2e9ef6deae2b4dc8.png"
+    },
+    {
+      "name": "Qlemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/03baa95351ecb2dce092b35ac4d5be44.png"
+    },
+    {
+      "name": "Qmyh",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ed1a2d19ff507c4861aa6bd43faa252.png"
+    },
+    {
+      "name": "Qmyh1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/adb2fa526a89580369ec0021166d401c.png"
+    },
+    {
+      "name": "Robo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/81602f42b1e934da9465177c00c35af6.png"
+    },
+    {
+      "name": "Robo1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe0b54c8266f02ab27428af832183dca.png"
+    },
+    {
+      "name": "Robo2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d4a67b3b44fb862e8c4cdd8b03a9f0c0.png"
+    },
+    {
+      "name": "Rjemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/06772ca191c6a277589e562f684aca03.png"
+    },
+    {
+      "name": "Rjemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4620a856270380a0791953eeab92f6aa.png"
+    },
+    {
+      "name": "Rjemby2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f4d6cda6e6c9a9d974f6255dc30dd370.png"
+    },
+    {
+      "name": "Randall",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f477ca9f59ed8f275c2f14058b0e4560.png"
+    },
+    {
+      "name": "Sana",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d87812727fca731dde46290f547796b6.png"
+    },
+    {
+      "name": "Sela",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ac5383db31aa18676fa1319a2009c8b.png"
+    },
+    {
+      "name": "Seoul",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a93e5594f1ba39e192406339379d0b78.png"
+    },
+    {
+      "name": "SeseEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/20f3644234078f6caa9010232dcd3d2a.png"
+    },
+    {
+      "name": "SeseEmby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f47baae8ead687e71bf4bfb1e2e91bb4.png"
+    },
+    {
+      "name": "ShenLan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/19bb778c1cfaa42777baf25852d5af35.png"
+    },
+    {
+      "name": "ShenLan1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/546a00e6b002bf87f74aeee6847e9052.png"
+    },
+    {
+      "name": "ShenNong",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c5a38bf66221f9c9bd02d9f91805f409.png"
+    },
+    {
+      "name": "Shufu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/62af74097e3c47d445d4506b993a3df1.png"
+    },
+    {
+      "name": "ShuiMu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7dac75461b860de2e4cbd2d3341b758f.png"
+    },
+    {
+      "name": "ShuiMu1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4919ee5d373cd60d4ff33e712d3c4fd2.png"
+    },
+    {
+      "name": "Singularity",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9b45684cfcde527f1e643ee65f3b53bd.png"
+    },
+    {
+      "name": "StarCat",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/43ba580bf59a8ebcc03c115670569fac.png"
+    },
+    {
+      "name": "StudyFun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/93578c388cb55d54b2b06ec69400a4e7.png"
+    },
+    {
+      "name": "StudyFun1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/676b2623d50bb25513ca9c620d6361aa.png"
+    },
+    {
+      "name": "ShuiMuV",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d62fd1f81ac2a154dc04e9294e22c9ab.png"
+    },
+    {
+      "name": "Shufu1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b47ac685aead4a7af3895d908ced3e26.png"
+    },
+    {
+      "name": "Shufu2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b320f659311f4801648f46b73cc6efef.png"
+    },
+    {
+      "name": "Sssjx",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/462478ac95a6bcae9fe3f903bdb7e09c.png"
+    },
+    {
+      "name": "Sssjx1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f94a0771402f0bc1a7f1671641869f1e.png"
+    },
+    {
+      "name": "Sssjx2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0ab2c3babc7be957a78a7a83674878c.png"
+    },
+    {
+      "name": "Siesta",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e4e64e27b6114d452ba176feb95d4382.png"
+    },
+    {
+      "name": "ShuiMu2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0aaf39c77d62f46022fd30ad57c875af.png"
+    },
+    {
+      "name": "SaturDay",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ef2d60fc2bc055a8dcc733ae0ba426c5.png"
+    },
+    {
+      "name": "Sutang",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38664f8e73f709a6f3cadb118fc5f6f8.png"
+    },
+    {
+      "name": "Sutang1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a26df5643befc02cdb8bd0a96c08cf5c.png"
+    },
+    {
+      "name": "StarCat1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fcc9ff84b4354c4829b92f30b65c6e37.png"
+    },
+    {
+      "name": "StarCat2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ff954030501cca46e017234be4da6731.png"
+    },
+    {
+      "name": "SaturDayLite",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7de3d7b01f0f7dff65e911138511bbaa.png"
+    },
+    {
+      "name": "SaturDayLite1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7794155ef58f19e6ddfb2a59629d7224.png"
+    },
+    {
+      "name": "SaturDayPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e914783e727f6b5de0ce946f7eaff12b.png"
+    },
+    {
+      "name": "SaturDayPremium",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e1acbb19c41381cbbcd6d903d78f0aa1.png"
+    },
+    {
+      "name": "SaturDayXperience",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/10e854a59ad58177aaff6db9f7022566.png"
+    },
+    {
+      "name": "Starharn",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b3e888d485ab184a27839e75a9a856b2.png"
+    },
+    {
+      "name": "Starharn1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8051deb2ed4cc5bdff95aa4a5a193dbf.png"
+    },
+    {
+      "name": "Starsho",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0194afe29fea2cb947284ddc88c44ad8.png"
+    },
+    {
+      "name": "Starsho1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c8faea4cdaa7c6969bc26cf933f8d5d5.png"
+    },
+    {
+      "name": "Sexrain",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a2567d1c9bc8e316b5c556a053808403.png"
+    },
+    {
+      "name": "Sexrain1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4cba4810e38cfce53dd374a5692d5f27.png"
+    },
+    {
+      "name": "Sanluo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c3f9ae6544ba1aa094f70f9f4375521a.png"
+    },
+    {
+      "name": "Sanluo1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b49162e7b20e69d7bb31646359703d77.png"
+    },
+    {
+      "name": "Staremby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9a1ed9c0145505f16dd9a4e74aa73377.png"
+    },
+    {
+      "name": "Staremby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1694af339437575c42510f6e665cf45a.png"
+    },
+    {
+      "name": "Staremby2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/feacc5f01449458efb20f2e7524e4256.png"
+    },
+    {
+      "name": "Staremby3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ddbd6a7b6424880ce66c68670f091658.png"
+    },
+    {
+      "name": "Staremby4",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/37b69cd514f8bf8c3f3a4aa9993ae703.png"
+    },
+    {
+      "name": "Staremby5",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6fbefd2aa1e6bcbfd60b84c3d8a560e9.png"
+    },
+    {
+      "name": "Starnsfw",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a3138c68e7ba4936a3a48291ea8d4b28.png"
+    },
+    {
+      "name": "Stark",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4f96ab6773421b1c203f440933527bc6.png"
+    },
+    {
+      "name": "Shupian",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1b512f3e0e53be94c73046b2506b8782.png"
+    },
+    {
+      "name": "Sntpemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5db6f61d60f8d893daaa565445f089b0.png"
+    },
+    {
+      "name": "Sntpemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/866e6cae57b278b3b3000a2778a500de.png"
+    },
+    {
+      "name": "Tag",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38f7f5768d5fa7f0c0e63557fcf7727c.png"
+    },
+    {
+      "name": "Tanhua",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6715eb9fe21cb4f39162503360d7014b.png"
+    },
+    {
+      "name": "Tank",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/14725a64c9f530933560f2f0e9f7517f.png"
+    },
+    {
+      "name": "Tank1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/28cc8574cfad6322f47ffd075c8c90de.png"
+    },
+    {
+      "name": "Teka",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7543a162bacb49d403734c90013bc2cc.png"
+    },
+    {
+      "name": "Teka1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/eb6c37d7760c3a4dd5b3ef849b5ed916.png"
+    },
+    {
+      "name": "Temby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/af2d7322e8adcadac7b3bd7c047c21eb.png"
+    },
+    {
+      "name": "Temby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e1d98067c60eea586750fcddcc7f35e6.png"
+    },
+    {
+      "name": "Terminus",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0693304ab034262fa877d18b31aca82f.png"
+    },
+    {
+      "name": "Texon",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd8bde20aed0f90d16e50e3e22e4a278.png"
+    },
+    {
+      "name": "Tiannanxiaozhu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c2ac66b757c4a213f9347a1c5ba8921f.png"
+    },
+    {
+      "name": "Tianxiaorui",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f6aadd74f664bd23a2aeb978bc97916e.png"
+    },
+    {
+      "name": "Tls",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/16f75b682c1c985d6f337f212a690403.png"
+    },
+    {
+      "name": "TreeDiagram",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2103de567535115bb7a93677399c74fa.png"
+    },
+    {
+      "name": "Tiannanxiaozhu1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/31229093d734d1b20757396c0b1d3788.png"
+    },
+    {
+      "name": "Tpression",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c1deaa9ed191e94a8d9da7f4a07a33fc.png"
+    },
+    {
+      "name": "Tufeiemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d92a50b2db5e5da310fac42940ebe131.png"
+    },
+    {
+      "name": "Video4lib",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/afbc40a6418d4232698eab67386dafa8.png"
+    },
+    {
+      "name": "Viper",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1079252a58f2ecb86d8577fa5f5ce1f4.png"
+    },
+    {
+      "name": "V6",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e7da69783d119f03f780b937dce95b70.png"
+    },
+    {
+      "name": "V61",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/513658d915da40a276ce65aacdabdc9d.png"
+    },
+    {
+      "name": "VisExp",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d0b36cccdb9b991fa4132179c361759e.png"
+    },
+    {
+      "name": "Violet",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/daf1ee277c56a60cfb74bf48da2788b8.png"
+    },
+    {
+      "name": "Violet1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/211d0acc23127465fcd04eca5d9d7908.png"
+    },
+    {
+      "name": "Violet2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0d8c6d94becbfe5a7077f5168802386c.png"
+    },
+    {
+      "name": "Violet3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/feef2d9d73f7e073e56f149d6fe383d9.png"
+    },
+    {
+      "name": "Wagon",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b8b0ecbfc427a6e088e113f7344b8a56.png"
+    },
+    {
+      "name": "WangZhe",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a7007fe79a920e1c0e127773e2c250cc.png"
+    },
+    {
+      "name": "WeiWei",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8269323e98d583fba56c2be2afec73cf.png"
+    },
+    {
+      "name": "Wdfhl",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2c7ef242fc260f62b3fd9cbdf9e00055.png"
+    },
+    {
+      "name": "Wahaha",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f50f6cb865a6a22e45c207549531326e.png"
+    },
+    {
+      "name": "Weiguang",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a4ae50acc3b374efd1b0142b6f6272d2.png"
+    },
+    {
+      "name": "XfEmby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/18b250c7424a548ce138776d1543c55c.png"
+    },
+    {
+      "name": "XfEmby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/500f9058a12d79de7746ed831857499c.png"
+    },
+    {
+      "name": "XiangGangLiShiJie",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f49d46e22198d15b7ca1d55171380ef6.png"
+    },
+    {
+      "name": "Xiaoyi",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d499c726f6421d613d5014a2148c9d93.png"
+    },
+    {
+      "name": "Xltx",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/32efc350e754407d84ba3793178df0a4.png"
+    },
+    {
+      "name": "Xmss",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/661d71960273e81ca9e09e56ccc0331c.png"
+    },
+    {
+      "name": "Xop",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/47596503b888948711742e2cf4a98b87.png"
+    },
+    {
+      "name": "Xuli",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fdfdcae7cb9502958c9217242178bcfe.png"
+    },
+    {
+      "name": "YeJiChang",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/430e38b335b151859b5dfe7f582eb93e.png"
+    },
+    {
+      "name": "YeJiFu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/47bb0f2abc63b577b403d7c5cdf6339e.png"
+    },
+    {
+      "name": "YeshouPlus",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8d239e5fed3ff371b5edac07bd0b27f3.png"
+    },
+    {
+      "name": "Yomo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4196ed5393a04738faace79c6a27ec9c.png"
+    },
+    {
+      "name": "Yomo1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/af663f6278a46f4bc13fca009d4c17e9.png"
+    },
+    {
+      "name": "Yomo2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9ffedafdbd917d9637ebd0e777d7fa11.png"
+    },
+    {
+      "name": "Yezi",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6f2ee107dface51dbe132bcfddf952ba.png"
+    },
+    {
+      "name": "Yezi1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/77a11c9aa983215906196e1c2fb3ae43.png"
+    },
+    {
+      "name": "Yuanwei",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/90618be37fc28fe78dd1530f88145f59.png"
+    },
+    {
+      "name": "Yingyue",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/78edbeaad5e22762b0435670ccc78c1a.png"
+    },
+    {
+      "name": "Yingyue1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8a38a28b106fc0b7dade72f213fee8e1.png"
+    },
+    {
+      "name": "Yingkanzhengwan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c07532035bb8acd3d20e293fb84c53ce.png"
+    },
+    {
+      "name": "Yunshangguizhou",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5fdab1f632bf24d010d8a247a9c51ddc.png"
+    },
+    {
+      "name": "Yunshangguizhou1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a4f84665d8e959b27d6d05572dfa1973.png"
+    },
+    {
+      "name": "Youno",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/293122a611559b15461a8c42dd6a2778.png"
+    },
+    {
+      "name": "YounoPlus",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4dec42c303647e80fb755db2d4dfe62e.png"
+    },
+    {
+      "name": "Yunhai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0c7660c69275b9fb72840cc1edd6b05.png"
+    },
+    {
+      "name": "Yunhai1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f394a97619b06ee0c3a1bdebb42ba8df.png"
+    },
+    {
+      "name": "YunhaiHub",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/60677aaae88fdac750d33eba91860b42.png"
+    },
+    {
+      "name": "ZhiPianRen",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5f06fc756b3552988d5fa36f9c195fe2.png"
+    },
+    {
+      "name": "ZhiPianRen1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/06be3722863386c0bc3eebc55dbd303c.png"
+    },
+    {
+      "name": "ZhiPianRen2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cac9e4bafe46dc2554f5fb966e5eb84f.png"
+    },
+    {
+      "name": "Zhongchou",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0dc8bd3b168990951ca018aa747965fa.png"
+    },
+    {
+      "name": "Zhuduobao",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/df2ee4bdf89369bcb73b6526ff046668.png"
+    },
+    {
+      "name": "Ziling",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d3821411aee0cc45f23973ea9c2f9dff.png"
+    },
+    {
+      "name": "Zox",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ff5ad06a4e117336873fa7695983309c.png"
+    },
+    {
+      "name": "Zzk",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/faf0548ca637f0c2212021d14ad677e4.png"
+    },
+    {
+      "name": "Zzk1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c861b4832f817de8133714826abf6b4c.png"
+    },
+    {
+      "name": "Zhongchou1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/270ad3fe20867790b48a363d153487f9.png"
+    },
+    {
+      "name": "Zox1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e09a228761f36fc4c53b868fcb46eb92.png"
+    },
+    {
+      "name": "1111",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ad8f3a06c57c775181114a2fe1c4f3fd.png"
+    },
+    {
+      "name": "1111gongfei",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1219413b6deae8c6a54903204625a0df.png"
+    },
+    {
+      "name": "1111gaoma",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e62d527b550337e540f9dcab364e7dcf.png"
+    },
+    {
+      "name": "105",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7bcd066d79e174eaa4e4f010c8c8e977.png"
+    },
+    {
+      "name": "11Pshare",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9a9b28fa0a04aeb2ba7d3861e17516db.png"
+    },
+    {
+      "name": "23Studio",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/550ae07bf29b40021f2a8eac90916c95.png"
+    },
+    {
+      "name": "2020",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8dedc06645c22809478abbb9dde11edb.png"
+    },
+    {
+      "name": "404",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/280bce40a409c8a837e85bd8d5dcabd9.png"
+    },
+    {
+      "name": "9club",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f7de5fe261d2586014a2d2d809dd54ab.png"
+    },
+    {
+      "name": "115",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/076e1774b3e1f2bf2861af956020f3ad.png"
+    },
+    {
+      "name": "115yun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/10a483e0c619d4478063930bc94d5750.png"
+    },
+    {
+      "name": "ALiYun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/970badfa721fd0e53ba80990d9e3b346.png"
+    },
+    {
+      "name": "BaiDuYun",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/364f3bfd0b9025c6f45a0bbc86719524.png"
+    },
+    {
+      "name": "GoogleDrive",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/67a1ea3a0a8d34cb54349bb05ed34b09.png"
+    },
+    {
+      "name": "OneDrive",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/efee4de9409dd7b27047b02ffbbaa3a7.png"
+    },
+    {
+      "name": "PikPak",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/863ef825592886d64f0a8fb4472e322f.png"
+    },
+    {
+      "name": "Jikongjian",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9de9be8a430997dff885fb98535461bb.png"
+    },
+    {
+      "name": "Lvlian",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/23e1910ae1d9430d418283f60eb3f4ff.png"
+    },
+    {
+      "name": "Nas",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4ec8b0bc3f531e4f4510d9b52f12234.png"
+    },
+    {
+      "name": "Qunhui",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d1db9a3ef55a457b7227c04d13ba2f57.png"
+    },
+    {
+      "name": "Alist",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/acbe309830be150aaf7079de0b14ea34.png"
+    },
+    {
+      "name": "Webdav",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3e4e421052ff8e5910a5ec7f53995133.png"
+    },
+    {
+      "name": "Nplayer",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6970f20c651261deef97e650872eca31.png"
+    },
+    {
+      "name": "Infuse",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a045b594ebdfb488287f85363bf36cdc.png"
+    },
+    {
+      "name": "Music",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a3da7ded1fdbfb33313fe65e61f042ae.png"
+    },
+    {
+      "name": "Ash",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f0efda98091e74bfac918a7086922474.png"
+    },
+    {
+      "name": "AshPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/72603e2088516dd81f6ec699334e092d.png"
+    },
+    {
+      "name": "Collluka",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/23af20f6e85406b17a3faf649ad8c5ea.png"
+    },
+    {
+      "name": "NiceDuck",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e4f17390fcd516b1df6fbf9fadc5c03b.png"
+    },
+    {
+      "name": "NiceDuck1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/73ef3bd53fea1328d532bc6ccf33ccfc.png"
+    },
+    {
+      "name": "NiceDuckJMS",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1edab7e3cb05135749febf553d29dc84.png"
+    },
+    {
+      "name": "NiceDuckDPX",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2eab08cc36100f060aa17336b1ed0e04.png"
+    },
+    {
+      "name": "NiceDuck1111",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dd7f210117e657019e5ae3d2a1388377.png"
+    },
+    {
+      "name": "Shwl",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/703b7379fb570bfb98ed70ed12c63abb.png"
+    },
+    {
+      "name": "Shwl1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/27a1824e4a8f34167841b18775c94d72.png"
+    },
+    {
+      "name": "Aladdin",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e6bdf9f5a16907ca1fd99e619b834bbc.png"
+    },
+    {
+      "name": "Maomao",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/83bc2cde874db2017baee18c29d679da.png"
+    },
+    {
+      "name": "Ransifu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ac4bcee549d831ff08b7dfcf06f6e3a0.png"
+    }
+  ]
+}
