@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 797 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 799 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -4294,6 +4294,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "e0461cd19488f36f9b5bb72181a5b043",
+      "name": "Shrek",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0461cd19488f36f9b5bb72181a5b043.png",
+      "size": 24545,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "7ce16cf6423c69348fa5d5a5321c3507",
       "name": "Shrek_emby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7ce16cf6423c69348fa5d5a5321c3507.png",
@@ -5132,6 +5139,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9e879ecefcdacce7c7d45cb68b6218f0.png",
       "size": 7265,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "f6d78be4ea1fbfe86c778a74f31df2b4",
+      "name": "Xinghai",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f6d78be4ea1fbfe86c778a74f31df2b4.png",
+      "size": 24181,
+      "description": "来源: Baitang"
     },
     {
       "md5": "d6e87d4ea5334280f2836597354bfc1e",
