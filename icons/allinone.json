@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 799 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 802 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2047,20 +2047,6 @@
       "description": "来源: Baitang | 别名: Hygge+-ginibond, Hygge+-Softlyx"
     },
     {
-      "md5": "fe18ebec75433d4cd395a6b27a65000f",
-      "name": "Iibhsulife",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe18ebec75433d4cd395a6b27a65000f.png",
-      "size": 20531,
-      "description": "来源: Baitang"
-    },
-    {
-      "md5": "3546d29c82a3da811ec4361e1414401c",
-      "name": "Iibhsulife1",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3546d29c82a3da811ec4361e1414401c.png",
-      "size": 23654,
-      "description": "来源: Baitang"
-    },
-    {
       "md5": "9ffdde5622916bcd6054592186bfca80",
       "name": "Ikoumi",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9ffdde5622916bcd6054592186bfca80.png",
@@ -2458,6 +2444,20 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/df492dad8dd7d07986122ec4db1bffc3.png",
       "size": 43598,
       "description": "来源: Baitang | 别名: LiangShan1-Softlyx"
+    },
+    {
+      "md5": "fe18ebec75433d4cd395a6b27a65000f",
+      "name": "Libhsulife",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fe18ebec75433d4cd395a6b27a65000f.png",
+      "size": 20531,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "3546d29c82a3da811ec4361e1414401c",
+      "name": "Libhsulife1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3546d29c82a3da811ec4361e1414401c.png",
+      "size": 23654,
+      "description": "来源: Baitang"
     },
     {
       "md5": "c909e98b21fbbe5de1d01ec2b36dc4ec",
@@ -4084,6 +4084,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "4c37c1a0c37062250881bcc327db2bed",
+      "name": "SaoDu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4c37c1a0c37062250881bcc327db2bed.png",
+      "size": 20262,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "45b9c90a5d9c96d9b283caae47c128f4",
       "name": "Saodu",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/45b9c90a5d9c96d9b283caae47c128f4.png",
@@ -4280,6 +4287,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "519810a5bb15559dbdb78ef3ba7d9f7d",
+      "name": "Shouhou_sntplite5",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/519810a5bb15559dbdb78ef3ba7d9f7d.png",
+      "size": 3651,
+      "description": "来源: Ginibond"
+    },
+    {
       "md5": "59a917d82631b2fcf5ecf82af4454d9f",
       "name": "Shoushushijiexian",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/59a917d82631b2fcf5ecf82af4454d9f.png",
@@ -4466,6 +4480,13 @@
       "name": "Sntpemby1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/866e6cae57b278b3b3000a2778a500de.png",
       "size": 23688,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "741edac38ee44075e55ac4d9f7d1bdba",
+      "name": "Sntpemby2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/741edac38ee44075e55ac4d9f7d1bdba.png",
+      "size": 6332,
       "description": "来源: Baitang"
     },
     {

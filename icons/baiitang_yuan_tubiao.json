@@ -1479,8 +1479,16 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/866e6cae57b278b3b3000a2778a500de.png"
     },
     {
+      "name": "Sntpemby2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/741edac38ee44075e55ac4d9f7d1bdba.png"
+    },
+    {
       "name": "Shrek",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0461cd19488f36f9b5bb72181a5b043.png"
+    },
+    {
+      "name": "SaoDu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4c37c1a0c37062250881bcc327db2bed.png"
     },
     {
       "name": "Tag",
