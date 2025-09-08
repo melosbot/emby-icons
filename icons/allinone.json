@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 822 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 824 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2089,6 +2089,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "6a3057080a3a718b849d4984d3b69643",
+      "name": "Ichinosein_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6a3057080a3a718b849d4984d3b69643.png",
+      "size": 26101,
+      "description": "来源: Ginibond"
+    },
+    {
       "md5": "9ffdde5622916bcd6054592186bfca80",
       "name": "Ikoumi",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9ffdde5622916bcd6054592186bfca80.png",
@@ -2639,6 +2646,13 @@
       "name": "Luoma",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cf997302712f494eebee8d99ab5f013f.png",
       "size": 18448,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "bbf046d583981be899e0d07381b8035b",
+      "name": "Lustfulboy_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bbf046d583981be899e0d07381b8035b.png",
+      "size": 14781,
       "description": "来源: Ginibond"
     },
     {
