@@ -191,6 +191,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c24d29e88efcec6ce3e9455778946798.png"
     },
     {
+      "name": "Ask_premium",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/619b321b2e6d752e5c274a0d6f740fb5.png"
+    },
+    {
       "name": "Ask_ultra",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/801ff032f777f8a470ae2eabc7e93250.png"
     },
@@ -337,6 +341,10 @@
     {
       "name": "Cola",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d67ed7c25c013134eb5595d66114bca1.png"
+    },
+    {
+      "name": "Crab_emby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/35545203e0382efbc84d6b986c4a536f.png"
     },
     {
       "name": "DPeak",
