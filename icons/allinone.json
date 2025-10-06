@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 838 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 840 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1319,6 +1319,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "ef17b5808f0abb5d610682f4f6b055d2",
+      "name": "EchoFlix",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ef17b5808f0abb5d610682f4f6b055d2.png",
+      "size": 6592,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "51ac4030d05a3dc2baff0728d2a67381",
       "name": "Echoflix",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/51ac4030d05a3dc2baff0728d2a67381.png",
@@ -1345,6 +1352,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f17c909834067da2da13ce8e1ac32d6f.png",
       "size": 6309,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "73c785de0664792ba393726986debe54",
+      "name": "EchoFlixPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/73c785de0664792ba393726986debe54.png",
+      "size": 10180,
+      "description": "来源: Baitang"
     },
     {
       "md5": "b0cc30af3affea5203423a7f1d54283e",
