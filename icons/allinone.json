@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 844 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 846 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -211,6 +211,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec639afd57e4a7959dee8028b5f32f2e.png",
       "size": 79831,
       "description": "来源: Baitang | 别名: Alpha-Softlyx"
+    },
+    {
+      "md5": "55c993e9f3a5e02584dc40009ff93839",
+      "name": "Alpha_kids_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/55c993e9f3a5e02584dc40009ff93839.png",
+      "size": 22176,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "c79109831577de4a1bcd45613ef1152d",
@@ -4733,6 +4740,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/741edac38ee44075e55ac4d9f7d1bdba.png",
       "size": 6332,
       "description": "来源: Baitang"
+    },
+    {
+      "md5": "527be8e1a38a68dcf8c5b5d01b62128c",
+      "name": "Spacek_new_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/527be8e1a38a68dcf8c5b5d01b62128c.png",
+      "size": 8569,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "462478ac95a6bcae9fe3f903bdb7e09c",
