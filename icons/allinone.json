@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 846 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 850 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1641,6 +1641,13 @@
       "description": "来源: Baitang | 别名: Fangyt-ginibond, Fangyt2-Softlyx"
     },
     {
+      "md5": "0ad0f9ad3a8a0c2e1e82731660f06f83",
+      "name": "Fanjiyou_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0ad0f9ad3a8a0c2e1e82731660f06f83.png",
+      "size": 18326,
+      "description": "来源: Ginibond"
+    },
+    {
       "md5": "3d5b1c19cdfcfa7dc0b232185a43d5fe",
       "name": "FatBeef",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3d5b1c19cdfcfa7dc0b232185a43d5fe.png",
@@ -2276,6 +2283,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6bd216d23c1cbd34927fe895491e2b85.png",
       "size": 42175,
       "description": "来源: Baitang | 别名: JieSen-Softlyx"
+    },
+    {
+      "md5": "1a454a99d3479472ac7e6533a93aaa9b",
+      "name": "Jiesuyuedui_new_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1a454a99d3479472ac7e6533a93aaa9b.png",
+      "size": 29486,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "9de9be8a430997dff885fb98535461bb",
@@ -4168,6 +4182,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "8d7d6e97bc937b3a2b4c35433e3e68d3",
+      "name": "Qiyuanyingshi_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8d7d6e97bc937b3a2b4c35433e3e68d3.png",
+      "size": 10023,
+      "description": "来源: Ginibond"
+    },
+    {
       "md5": "03baa95351ecb2dce092b35ac4d5be44",
       "name": "Qlemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/03baa95351ecb2dce092b35ac4d5be44.png",
@@ -5440,6 +5461,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3f6c3bebc5517e1d062193bf06f98f4f.png",
       "size": 23479,
       "description": "来源: Baitang"
+    },
+    {
+      "md5": "0e1966673126e3b27d40d66558dab984",
+      "name": "Xiaozhuxuan_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0e1966673126e3b27d40d66558dab984.png",
+      "size": 20206,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "9e879ecefcdacce7c7d45cb68b6218f0",
