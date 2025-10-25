@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 850 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 851 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1856,6 +1856,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ab964dc332f037d9b6f18bd43e76b3bd.png",
       "size": 81651,
       "description": "来源: Baitang | 别名: Froghub-Softlyx"
+    },
+    {
+      "md5": "4c98a374053c92f1c40fcb7c70491cd0",
+      "name": "Fufu_91fu_porn_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4c98a374053c92f1c40fcb7c70491cd0.png",
+      "size": 10810,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "204cb9e5a0147eb5be42b460ab74c379",
