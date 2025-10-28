@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 851 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 855 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1543,6 +1543,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "5d4c04bf23462442c7bef64425762019",
+      "name": "Emospg",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5d4c04bf23462442c7bef64425762019.png",
+      "size": 26674,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "914004a51e6df2cfd09a51d9cdaaff4d",
       "name": "Epub",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/914004a51e6df2cfd09a51d9cdaaff4d.png",
@@ -2670,6 +2677,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "c78af3340a021c1ca6a970b7413a6ecd",
+      "name": "LiminalLite",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c78af3340a021c1ca6a970b7413a6ecd.png",
+      "size": 23772,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "e3f172c301a6ef09ea9a4fad5ce8f062",
       "name": "LiminalPro",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3f172c301a6ef09ea9a4fad5ce8f062.png",
@@ -2915,6 +2929,13 @@
       "description": "来源: Baitang | 别名: Marmot-ginibond, Marmot-Softlyx"
     },
     {
+      "md5": "7b2e00ef15bddebc67570e2b4741f604",
+      "name": "Mdlemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7b2e00ef15bddebc67570e2b4741f604.png",
+      "size": 11131,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "33f77d4654194acfdbb886d361c08d41",
       "name": "Mebimmer",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/33f77d4654194acfdbb886d361c08d41.png",
@@ -3109,6 +3130,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9f36b88a60d9e8b8220338641b98dc31.png",
       "size": 9101,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "9250c3e43d9e1bb339d8dc5aa9e282d9",
+      "name": "Mitang",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9250c3e43d9e1bb339d8dc5aa9e282d9.png",
+      "size": 13283,
+      "description": "来源: Baitang"
     },
     {
       "md5": "7ffd41806bfb0f83b983e9e1dc367fb5",

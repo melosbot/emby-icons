@@ -455,6 +455,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/73c785de0664792ba393726986debe54.png"
     },
     {
+      "name": "Emospg",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5d4c04bf23462442c7bef64425762019.png"
+    },
+    {
       "name": "Fangyt",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f961cd25d09fe24de0c105ff3649064f.png"
     },
@@ -843,6 +847,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e49561baf2239fc29b88e6a753438665.png"
     },
     {
+      "name": "LiminalLite",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c78af3340a021c1ca6a970b7413a6ecd.png"
+    },
+    {
       "name": "LiminalPro",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3f172c301a6ef09ea9a4fad5ce8f062.png"
     },
@@ -1009,6 +1017,14 @@
     {
       "name": "Mebimmer",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/33f77d4654194acfdbb886d361c08d41.png"
+    },
+    {
+      "name": "Mitang",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9250c3e43d9e1bb339d8dc5aa9e282d9.png"
+    },
+    {
+      "name": "Mdlemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7b2e00ef15bddebc67570e2b4741f604.png"
     },
     {
       "name": "NakoNako",
