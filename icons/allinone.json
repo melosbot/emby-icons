@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 855 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 858 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2670,6 +2670,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "0c53330c3e5faac8379958a75d5ee989",
+      "name": "Liminal1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0c53330c3e5faac8379958a75d5ee989.png",
+      "size": 17422,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "1d1e35042c5d549ddf6d3440be0337d7",
       "name": "Liminal_1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1d1e35042c5d549ddf6d3440be0337d7.png",
@@ -2684,10 +2691,24 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "b4ecdaccc3584244ca3765d375fda1c6",
+      "name": "LiminalLite1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4ecdaccc3584244ca3765d375fda1c6.png",
+      "size": 22777,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "e3f172c301a6ef09ea9a4fad5ce8f062",
       "name": "LiminalPro",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3f172c301a6ef09ea9a4fad5ce8f062.png",
       "size": 20020,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "7258e9e7239b646c6790cc6c561952df",
+      "name": "LiminalPro1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7258e9e7239b646c6790cc6c561952df.png",
+      "size": 18174,
       "description": "来源: Baitang"
     },
     {

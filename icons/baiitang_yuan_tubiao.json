@@ -847,12 +847,24 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e49561baf2239fc29b88e6a753438665.png"
     },
     {
+      "name": "Liminal1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0c53330c3e5faac8379958a75d5ee989.png"
+    },
+    {
       "name": "LiminalLite",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c78af3340a021c1ca6a970b7413a6ecd.png"
     },
     {
+      "name": "LiminalLite1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4ecdaccc3584244ca3765d375fda1c6.png"
+    },
+    {
       "name": "LiminalPro",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3f172c301a6ef09ea9a4fad5ce8f062.png"
+    },
+    {
+      "name": "LiminalPro1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7258e9e7239b646c6790cc6c561952df.png"
     },
     {
       "name": "Luobei",
