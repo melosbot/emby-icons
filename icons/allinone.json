@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 858 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 871 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -171,6 +171,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "1944b66d80207b1b688b2ca5656b4d0f",
+      "name": "Ailuomusic",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1944b66d80207b1b688b2ca5656b4d0f.png",
+      "size": 20764,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "43946ac55fa19e482d0bf52b14ff6768",
       "name": "Akuai",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/43946ac55fa19e482d0bf52b14ff6768.png",
@@ -239,6 +246,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d105a83ca01cc4d5243acf0e8437c317.png",
       "size": 4943,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "a284a25b27463f95dc7c6537c078213c",
+      "name": "AlphaAbsGroup",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a284a25b27463f95dc7c6537c078213c.png",
+      "size": 25094,
+      "description": "来源: Baitang"
     },
     {
       "md5": "0f1cca194b1ab72126e2385ec9fb5033",
@@ -1550,6 +1564,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "72f50682476751f538721425dbff5c5d",
+      "name": "Emusica",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/72f50682476751f538721425dbff5c5d.png",
+      "size": 14507,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "914004a51e6df2cfd09a51d9cdaaff4d",
       "name": "Epub",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/914004a51e6df2cfd09a51d9cdaaff4d.png",
@@ -1907,6 +1928,20 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "6ca44f0cc7ad9c04dd1dee4a31d1656f",
+      "name": "FutureEchoChat",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6ca44f0cc7ad9c04dd1dee4a31d1656f.png",
+      "size": 23497,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "fc09b1e56ffa8e633eee8409e9afe2d5",
+      "name": "FutureEchoChat1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fc09b1e56ffa8e633eee8409e9afe2d5.png",
+      "size": 21172,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "999075774d54acb8c422cfd4ada20359",
       "name": "Fworks_emby1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/999075774d54acb8c422cfd4ada20359.png",
@@ -2236,6 +2271,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "7155a854cad011c4e30916cb786c733d",
+      "name": "Ikunvv",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7155a854cad011c4e30916cb786c733d.png",
+      "size": 11299,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "d5f7d843c5518d20f136671bcdf8d5d7",
       "name": "Infinity",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d5f7d843c5518d20f136671bcdf8d5d7.png",
@@ -2248,6 +2290,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a045b594ebdfb488287f85363bf36cdc.png",
       "size": 47331,
       "description": "来源: Baitang | 别名: Infuse-ginibond, Infuse-Softlyx"
+    },
+    {
+      "md5": "738a5d0bfe16b3b794724584cba7bd4c",
+      "name": "Iuiimusic",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/738a5d0bfe16b3b794724584cba7bd4c.png",
+      "size": 20875,
+      "description": "来源: Baitang"
     },
     {
       "md5": "c94e14f74f8f46468853486051ecb5c4",
@@ -2999,6 +3048,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "8f38053466699fb599546186e5884557",
+      "name": "MelodicTideschat",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8f38053466699fb599546186e5884557.png",
+      "size": 24731,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "97d74cc96be6b5a43ce64e563ebb9b97",
       "name": "MengMeng",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/97d74cc96be6b5a43ce64e563ebb9b97.png",
@@ -3356,6 +3412,13 @@
       "description": "来源: Baitang | 别名: NakoNako-Softlyx"
     },
     {
+      "md5": "c53217301c23a5ec19a8270f6bf5782d",
+      "name": "Nanguade",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c53217301c23a5ec19a8270f6bf5782d.png",
+      "size": 20671,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "b4ec8b0bc3f531e4f4510d9b52f12234",
       "name": "Nas",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4ec8b0bc3f531e4f4510d9b52f12234.png",
@@ -3592,6 +3655,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6970f20c651261deef97e650872eca31.png",
       "size": 50026,
       "description": "来源: Baitang | 别名: Nplayer-ginibond, Nplayer-Softlyx"
+    },
+    {
+      "md5": "d6e2b50532dcbabc60a49f187271a155",
+      "name": "NqmBook",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d6e2b50532dcbabc60a49f187271a155.png",
+      "size": 12116,
+      "description": "来源: Baitang"
     },
     {
       "md5": "4850f8983a4e19bc23a197abe9d71df2",
@@ -4131,6 +4201,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f591c6353ee6e3836a6ffca8e6a25e2c.png",
       "size": 46548,
       "description": "来源: Baitang | 别名: Polo-ginibond, Polo-Softlyx"
+    },
+    {
+      "md5": "8224fc27f59c39a934b25d1764c8bda5",
+      "name": "Polo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8224fc27f59c39a934b25d1764c8bda5.png",
+      "size": 18635,
+      "description": "来源: Baitang"
     },
     {
       "md5": "278efa380a24587296e862c281bb540e",
@@ -5421,6 +5498,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "263fb2f30da52c6e3b1364db6f1f24ef",
+      "name": "WalkingChat",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/263fb2f30da52c6e3b1364db6f1f24ef.png",
+      "size": 17154,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "a7007fe79a920e1c0e127773e2c250cc",
       "name": "WangZhe",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/a7007fe79a920e1c0e127773e2c250cc.png",
@@ -5818,6 +5902,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1a8560baf9220c8d24de967edf0a5277.png",
       "size": 7472,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "1ac54befe1853565abb196f74a1d5829",
+      "name": "YueErFMChat",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ac54befe1853565abb196f74a1d5829.png",
+      "size": 12730,
+      "description": "来源: Baitang"
     },
     {
       "md5": "7831f47496d71dc080cc83dcbd39d230",
