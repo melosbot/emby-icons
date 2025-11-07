@@ -2032,7 +2032,11 @@
     },
     {
       "name": "LibhsulifeBook",
-      "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/icon/LibhsulifeBook.png"
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/78708bbdb31624fe43c23e405fb5c7f7.png"
+    },
+    {
+      "name": "LibhsulifeBook1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/65ce4557fecdbcd8d3bcf9a335bab2fa.png"
     },
     {
       "name": "NqmBook",
@@ -2076,7 +2080,7 @@
     },
     {
       "name": "LibhsulifeMusic",
-      "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/icon/LibhsulifeMusic.png"
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4585d5014c334dd026f6f059ff09f05b.png"
     },
     {
       "name": "MelodicTideschat",
