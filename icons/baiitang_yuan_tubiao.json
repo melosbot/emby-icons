@@ -2051,6 +2051,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/263fb2f30da52c6e3b1364db6f1f24ef.png"
     },
     {
+      "name": "Wenjianbook",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1f45d657c5d2614374b16bf046a2a2a4.png"
+    },
+    {
       "name": "YueErFMChat",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1ac54befe1853565abb196f74a1d5829.png"
     },
@@ -2089,6 +2093,10 @@
     {
       "name": "Nanguade",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c53217301c23a5ec19a8270f6bf5782d.png"
+    },
+    {
+      "name": "Wenjianmusic",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/811398a02160d3126df0f41cd4d653f1.png"
     }
   ]
 }
