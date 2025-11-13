@@ -547,6 +547,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f93d7e646bf40bd4630e3777b0263ed2.png"
     },
     {
+      "name": "Fufuemby2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/101436d07da0ccc4d06990b78efbe552.png"
+    },
+    {
       "name": "Fworksemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f958e9428c3152a94d50620e52e9492d.png"
     },
@@ -2096,7 +2100,7 @@
     },
     {
       "name": "Wenjianmusic",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/811398a02160d3126df0f41cd4d653f1.png"
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/34377eb23feca2db38f397fe962b4634.png"
     }
   ]
 }
