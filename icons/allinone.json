@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 881 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 883 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1557,6 +1557,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "50fbe4a5526870730988739a38d48719",
+      "name": "Emosnsfw",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/50fbe4a5526870730988739a38d48719.png",
+      "size": 22716,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "5d4c04bf23462442c7bef64425762019",
       "name": "Emospg",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5d4c04bf23462442c7bef64425762019.png",
@@ -2983,6 +2990,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4181ebea3e0cd6ff175c82ff0fbad9e7.png",
       "size": 79750,
       "description": "来源: Baitang | 别名: Magpie2-ginibond, Magpie2-Softlyx"
+    },
+    {
+      "md5": "9c0ea0cf01cf322cbe055dc4ed3cbf3a",
+      "name": "Maidanglao_gongyi_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9c0ea0cf01cf322cbe055dc4ed3cbf3a.png",
+      "size": 4887,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "3eecf9ff7a8c62e30942ff95020a117f",
