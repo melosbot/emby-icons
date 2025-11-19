@@ -587,6 +587,10 @@
       "url": "https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/emby/Fenghuoluo_18+.png"
     },
     {
+      "name": "Fenglinwan_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c383cb399370ec997a70a7c318c61336.png"
+    },
+    {
       "name": "Flareix",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/79e05515551f36b3a2f1b9957d4b3bb4.png"
     },
@@ -1093,6 +1097,10 @@
     {
       "name": "Ofuniverse",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7cd9dd6a7825619c135dc06b2a0fa219.png"
+    },
+    {
+      "name": "Okemby_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec0907857e6307f0c41d4c839f567aa4.png"
     },
     {
       "name": "OnlyFans",

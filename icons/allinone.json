@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 883 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 886 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1848,6 +1848,13 @@
       "name": "Fenghuolun2",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bdd5aab8f59215f4780b18e1e8148387.png",
       "size": 7486,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "c383cb399370ec997a70a7c318c61336",
+      "name": "Fenglinwan_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c383cb399370ec997a70a7c318c61336.png",
+      "size": 19739,
       "description": "来源: Ginibond"
     },
     {
@@ -3816,6 +3823,20 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7cd9dd6a7825619c135dc06b2a0fa219.png",
       "size": 77004,
       "description": "来源: Baitang | 别名: Ofuniverse-ginibond, Ofuniverse-Softlyx"
+    },
+    {
+      "md5": "04d6b00c95f9d88a6cfa09db30246cee",
+      "name": "Okemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/04d6b00c95f9d88a6cfa09db30246cee.png",
+      "size": 18265,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "ec0907857e6307f0c41d4c839f567aa4",
+      "name": "Okemby_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec0907857e6307f0c41d4c839f567aa4.png",
+      "size": 6306,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "177cdc12cab5e5331f5301d9343e7f3d",
