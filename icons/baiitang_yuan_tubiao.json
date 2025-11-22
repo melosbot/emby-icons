@@ -459,6 +459,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5d4c04bf23462442c7bef64425762019.png"
     },
     {
+      "name": "Emosnsfw",
+      "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/icon/Emosnsfw.png"
+    },
+    {
       "name": "Fangyt",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f961cd25d09fe24de0c105ff3649064f.png"
     },
@@ -555,10 +559,6 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f958e9428c3152a94d50620e52e9492d.png"
     },
     {
-      "name": "Fenglinwan",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/50fbe4a5526870730988739a38d48719.png"
-    },
-    {
       "name": "GfwEmby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/702427ae05c2ace96d3e05ddf1e384d1.png"
     },
@@ -633,6 +633,10 @@
     {
       "name": "Heimao",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd4d89c7d216233daaad8b9a4c913325.png"
+    },
+    {
+      "name": "Heimao1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/723ec688c249f15ef5b619478bfad119.png"
     },
     {
       "name": "Handouemby",
@@ -1129,6 +1133,10 @@
     {
       "name": "Nezhayun2",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5866ceacd05778f6274ee3f9a367d62c.png"
+    },
+    {
+      "name": "Nayovo",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9911db0eadc874c89684dc7d7c80eac9.png"
     },
     {
       "name": "Odyssey",
