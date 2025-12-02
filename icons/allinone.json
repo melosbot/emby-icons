@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 891 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 894 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2852,6 +2852,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "0479805ccd82a2409b1ac8e452690428",
+      "name": "Liuyingshe_emby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0479805ccd82a2409b1ac8e452690428.png",
+      "size": 25019,
+      "description": "来源: Ginibond"
+    },
+    {
       "md5": "7dad0dc0de234261a9d1d04d3c0a0bbd",
       "name": "Ljemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7dad0dc0de234261a9d1d04d3c0a0bbd.png",
@@ -4371,6 +4378,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "2a21198dccc1800994d0522955c08214",
+      "name": "Proni",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2a21198dccc1800994d0522955c08214.png",
+      "size": 17867,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "e768665f07fad78480f31e2d1dc73097",
       "name": "Prpr",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e768665f07fad78480f31e2d1dc73097.png",
@@ -4754,6 +4768,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/546a00e6b002bf87f74aeee6847e9052.png",
       "size": 28405,
       "description": "来源: Baitang | 别名: ShenLan1-Softlyx"
+    },
+    {
+      "md5": "ce08b439e5a3e7f1707c543d5c9f92c6",
+      "name": "Shenmiliwu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ce08b439e5a3e7f1707c543d5c9f92c6.png",
+      "size": 11251,
+      "description": "来源: Baitang"
     },
     {
       "md5": "c5a38bf66221f9c9bd02d9f91805f409",
