@@ -559,6 +559,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f958e9428c3152a94d50620e52e9492d.png"
     },
     {
+      "name": "Fenglinwan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/50fbe4a5526870730988739a38d48719.png"
+    },
+    {
       "name": "GfwEmby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/702427ae05c2ace96d3e05ddf1e384d1.png"
     },
@@ -1741,6 +1745,10 @@
     {
       "name": "Violet3",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/feef2d9d73f7e073e56f149d6fe383d9.png"
+    },
+    {
+      "name": "Violet4",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fa89356cb91f9065e4a79553db0b0afb.png"
     },
     {
       "name": "Wagon",
