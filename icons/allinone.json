@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 905 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 907 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -672,6 +672,13 @@
       "name": "BBFree",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/aee70dfe627e1d9057c97779fbc530f3.png",
       "size": 15773,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "8fe6c5814d87a9c1c916d2413926aff4",
+      "name": "Bcxc",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8fe6c5814d87a9c1c916d2413926aff4.png",
+      "size": 20277,
       "description": "来源: Baitang"
     },
     {
@@ -2233,6 +2240,13 @@
       "name": "Houyinx",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/38ab4e5f7d70d3e28f7d992ee72ee5d2.png",
       "size": 27625,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "44a927a651c5c9dbeec55e1996db5653",
+      "name": "Hualu",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/44a927a651c5c9dbeec55e1996db5653.png",
+      "size": 26781,
       "description": "来源: Baitang"
     },
     {
