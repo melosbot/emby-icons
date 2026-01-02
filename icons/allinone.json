@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 913 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 915 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2696,6 +2696,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9cc54800ff39a3b39cca2bddbf3c9fbc.png",
       "size": 28905,
       "description": "来源: Baitang"
+    },
+    {
+      "md5": "7e61494d752e8386c893229d96858600",
+      "name": "Laoyou_emby_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7e61494d752e8386c893229d96858600.png",
+      "size": 12047,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "744be5c32afd25fed83eb0df391827de",
@@ -5860,6 +5867,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d499c726f6421d613d5014a2148c9d93.png",
       "size": 75993,
       "description": "来源: Baitang | 别名: Xiaoyi-Softlyx"
+    },
+    {
+      "md5": "11c1a8e056f7302821e049d45040c22c",
+      "name": "Xiaoyizi_emby_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/11c1a8e056f7302821e049d45040c22c.png",
+      "size": 25839,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "3f6c3bebc5517e1d062193bf06f98f4f",
