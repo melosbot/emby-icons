@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 918 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 921 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2712,6 +2712,13 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "21125b492509929d61f59e3b1c06f0cd",
+      "name": "Leemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/21125b492509929d61f59e3b1c06f0cd.png",
+      "size": 8502,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "744be5c32afd25fed83eb0df391827de",
       "name": "Lemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/744be5c32afd25fed83eb0df391827de.png",
@@ -3151,6 +3158,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c288e76e30dd3abb62edd181aa59a326.png",
       "size": 15616,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "f878a725a23ec9f8bac9d36f404d30b7",
+      "name": "Meathub",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f878a725a23ec9f8bac9d36f404d30b7.png",
+      "size": 18238,
+      "description": "来源: Baitang"
     },
     {
       "md5": "33f77d4654194acfdbb886d361c08d41",
@@ -5649,6 +5663,13 @@
       "name": "UHD1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7c26c83927cc5afc5f138d29afc06d5d.png",
       "size": 3128,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "64e842707ea318ab6813ad9a2034c170",
+      "name": "Unbound_emby_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/64e842707ea318ab6813ad9a2034c170.png",
+      "size": 14060,
       "description": "来源: Ginibond"
     },
     {
