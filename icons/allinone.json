@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 922 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 926 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2054,6 +2054,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "2db85ef0c64b18522816ccff6e9bd125",
+      "name": "Gousheng",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2db85ef0c64b18522816ccff6e9bd125.png",
+      "size": 28053,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "2c967b2767dc23c0280c9ddaa9792bb6",
       "name": "Guanying",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2c967b2767dc23c0280c9ddaa9792bb6.png",
@@ -2198,6 +2205,13 @@
       "name": "HeisiR18",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/01686f5e1c7eee5b058af9d6c9b8c81c.png",
       "size": 7619,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "6d06e7d3a7f391cfd66a447fac72f0cf",
+      "name": "Hellohkemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6d06e7d3a7f391cfd66a447fac72f0cf.png",
+      "size": 26565,
       "description": "来源: Baitang"
     },
     {
@@ -3157,6 +3171,13 @@
       "name": "Mdlemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7b2e00ef15bddebc67570e2b4741f604.png",
       "size": 11131,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "ecd00720566acb46e1eaea929c05b4e5",
+      "name": "Mdlemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecd00720566acb46e1eaea929c05b4e5.png",
+      "size": 26681,
       "description": "来源: Baitang"
     },
     {
@@ -5552,6 +5573,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fd8bde20aed0f90d16e50e3e22e4a278.png",
       "size": 10410,
       "description": "来源: Baitang | 别名: Texon-Softlyx"
+    },
+    {
+      "md5": "e1eaf47e597b8830ddf918dd7b42e08e",
+      "name": "Thefreeemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e1eaf47e597b8830ddf918dd7b42e08e.png",
+      "size": 24454,
+      "description": "来源: Baitang"
     },
     {
       "md5": "35b18f1b09d271207bb1d4fdc036eb18",

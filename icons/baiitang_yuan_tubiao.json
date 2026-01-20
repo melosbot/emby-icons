@@ -592,7 +592,7 @@
     },
     {
       "name": "Gousheng",
-      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d367cca240d37a9092ffe2bca011e4e3.png"
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2db85ef0c64b18522816ccff6e9bd125.png"
     },
     {
       "name": "Han",
@@ -677,6 +677,10 @@
     {
       "name": "Hualu",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/44a927a651c5c9dbeec55e1996db5653.png"
+    },
+    {
+      "name": "Hellohkemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6d06e7d3a7f391cfd66a447fac72f0cf.png"
     },
     {
       "name": "Infinity",
@@ -1085,6 +1089,10 @@
     {
       "name": "Mdlemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7b2e00ef15bddebc67570e2b4741f604.png"
+    },
+    {
+      "name": "Mdlemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ecd00720566acb46e1eaea929c05b4e5.png"
     },
     {
       "name": "Meathub",
@@ -1745,6 +1753,10 @@
     {
       "name": "Tufeiemby2",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/37e7c6f269c55eec12bf8d45892e2f4d.png"
+    },
+    {
+      "name": "Thefreeemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e1eaf47e597b8830ddf918dd7b42e08e.png"
     },
     {
       "name": "Video4lib",
