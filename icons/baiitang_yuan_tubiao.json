@@ -599,6 +599,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2db85ef0c64b18522816ccff6e9bd125.png"
     },
     {
+      "name": "Gualemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8230327b8f42a1178d6003d862504507.png"
+    },
+    {
       "name": "Han",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b32c2e8b006f768d2bdb5d2f09abb7c5.png"
     },
@@ -1101,6 +1105,10 @@
     {
       "name": "Meathub",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f878a725a23ec9f8bac9d36f404d30b7.png"
+    },
+    {
+      "name": "Miraiemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fa529078ed5a6941768d43fa6e129a26.png"
     },
     {
       "name": "NakoNako",

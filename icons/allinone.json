@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 928 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 932 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2068,6 +2068,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "8230327b8f42a1178d6003d862504507",
+      "name": "Gualemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8230327b8f42a1178d6003d862504507.png",
+      "size": 19456,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "2c967b2767dc23c0280c9ddaa9792bb6",
       "name": "Guanying",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/2c967b2767dc23c0280c9ddaa9792bb6.png",
@@ -3342,6 +3349,20 @@
       "description": "来源: Ginibond"
     },
     {
+      "md5": "5cd1562bc4d928a455e1dd39dd7a4c50",
+      "name": "Mirai_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5cd1562bc4d928a455e1dd39dd7a4c50.png",
+      "size": 17245,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "fa529078ed5a6941768d43fa6e129a26",
+      "name": "Miraiemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fa529078ed5a6941768d43fa6e129a26.png",
+      "size": 20708,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "b4b93186d61614d268aa89fb63d57ff3",
       "name": "MisakaF",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b4b93186d61614d268aa89fb63d57ff3.png",
@@ -4536,6 +4557,13 @@
       "name": "PornEmbyVip",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4032ad9acdd2a7957a10f576a7f535dd.png",
       "size": 6114,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "dac99c38d9fbc1f318c8d11534129f60",
+      "name": "Pornjerry_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/dac99c38d9fbc1f318c8d11534129f60.png",
+      "size": 28364,
       "description": "来源: Ginibond"
     },
     {
