@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 934 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 936 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2121,6 +2121,13 @@
       "name": "Gymeowfly1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5c349d6c59ef7d4b13dfc2e8e5641866.png",
       "size": 27924,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "5e584bea3b86581e8f8fb1109f50b359",
+      "name": "GymeowflyPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5e584bea3b86581e8f8fb1109f50b359.png",
+      "size": 26068,
       "description": "来源: Baitang"
     },
     {
@@ -5909,6 +5916,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3e4e421052ff8e5910a5ec7f53995133.png",
       "size": 57145,
       "description": "来源: Baitang | 别名: Webdav-ginibond, Webdav-Softlyx"
+    },
+    {
+      "md5": "8d043fa06ee0d6b58d60ff27ac3ae642",
+      "name": "Weemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8d043fa06ee0d6b58d60ff27ac3ae642.png",
+      "size": 17200,
+      "description": "来源: Baitang"
     },
     {
       "md5": "a4ae50acc3b374efd1b0142b6f6272d2",
