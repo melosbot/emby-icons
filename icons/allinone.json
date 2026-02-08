@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 938 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 940 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1786,6 +1786,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/099a2d08222f738c0ea85902ed5d15d5.png",
       "size": 25857,
       "description": "来源: Baitang"
+    },
+    {
+      "md5": "bbfa8cce382533f34c0b6fb85fd85504",
+      "name": "Feiyue_chuidaniu_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bbfa8cce382533f34c0b6fb85fd85504.png",
+      "size": 17989,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "ed782d5ae89639ccadac448eab8b059f",
@@ -6014,6 +6021,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f49d46e22198d15b7ca1d55171380ef6.png",
       "size": 80438,
       "description": "来源: Baitang | 别名: XiangGangLiShiJie-ginibond, XiangGangLiShiJie-Softlyx"
+    },
+    {
+      "md5": "32d91cfea8e0f253ee1838e60417a5a1",
+      "name": "Xiaoxiami_1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/32d91cfea8e0f253ee1838e60417a5a1.png",
+      "size": 28133,
+      "description": "来源: Ginibond"
     },
     {
       "md5": "d499c726f6421d613d5014a2148c9d93",
