@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 940 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 941 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2262,6 +2262,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/706360c2ec0421e08e1bd1a8c91633d1.png",
       "size": 77566,
       "description": "来源: Baitang | 别名: HentaiHome-Softlyx"
+    },
+    {
+      "md5": "0cb792794985dbddcf5208525ce7a56f",
+      "name": "Hgemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0cb792794985dbddcf5208525ce7a56f.png",
+      "size": 22491,
+      "description": "来源: Baitang"
     },
     {
       "md5": "9d5862fef91cd939987cf96b2628aeea",
