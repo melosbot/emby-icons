@@ -351,6 +351,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6b999f51a48a55c9d203872a8486856e.png"
     },
     {
+      "name": "Chuidab",
+      "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yaun/icon/Chuidab.png"
+    },
+    {
       "name": "Dafashijian",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0ae6a5b6c8c15e2e6e99294d67a78847.png"
     },
@@ -545,6 +549,10 @@
     {
       "name": "Feiyue4",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/099a2d08222f738c0ea85902ed5d15d5.png"
+    },
+    {
+      "name": "Feiyue5",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cd9fb36487d5fddcb3e59b662b6e3616.png"
     },
     {
       "name": "FaintRay",
@@ -775,6 +783,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ed3ce7aec1a9cab0e1371dfb4d9b2111.png"
     },
     {
+      "name": "Jingzhe3",
+      "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yaun/icon/Jingzhe3.png"
+    },
+    {
       "name": "Jiuwei",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/4cf0cecb0ebf5ee04891d4cf115474cb.png"
     },
@@ -821,6 +833,10 @@
     {
       "name": "KFCV50",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/541000537d9b7458daec6bf3d8fcfc6f.png"
+    },
+    {
+      "name": "Klemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9b0fc65473ae79f5ce102cab0513dcf6.png"
     },
     {
       "name": "Lend",
@@ -1689,6 +1705,14 @@
     {
       "name": "Sntpemby2",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/741edac38ee44075e55ac4d9f7d1bdba.png"
+    },
+    {
+      "name": "Sntpemby3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b261a60db440160ac03815301156668c.png"
+    },
+    {
+      "name": "Sntpemby4",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f74e34c16a670936dfbff056fbc50646.png"
     },
     {
       "name": "Shrek",

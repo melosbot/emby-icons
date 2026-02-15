@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 941 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 945 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1788,6 +1788,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "cd9fb36487d5fddcb3e59b662b6e3616",
+      "name": "Feiyue5",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cd9fb36487d5fddcb3e59b662b6e3616.png",
+      "size": 27016,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "bbfa8cce382533f34c0b6fb85fd85504",
       "name": "Feiyue_chuidaniu_1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/bbfa8cce382533f34c0b6fb85fd85504.png",
@@ -2717,6 +2724,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5fae089958687b10496c0e36d3b06d5c.png",
       "size": 4919,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "9b0fc65473ae79f5ce102cab0513dcf6",
+      "name": "Klemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9b0fc65473ae79f5ce102cab0513dcf6.png",
+      "size": 22955,
+      "description": "来源: Baitang"
     },
     {
       "md5": "123d88a903a2dd8771249c6f973cace2",
@@ -5264,6 +5278,20 @@
       "name": "Sntpemby2",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/741edac38ee44075e55ac4d9f7d1bdba.png",
       "size": 6332,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "b261a60db440160ac03815301156668c",
+      "name": "Sntpemby3",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b261a60db440160ac03815301156668c.png",
+      "size": 19197,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "f74e34c16a670936dfbff056fbc50646",
+      "name": "Sntpemby4",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f74e34c16a670936dfbff056fbc50646.png",
+      "size": 16641,
       "description": "来源: Baitang"
     },
     {
