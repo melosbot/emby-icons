@@ -792,7 +792,7 @@
     },
     {
       "name": "Jingzhe3",
-      "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yaun/icon/Jingzhe3.png"
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7684f813c42e180b99101dae5f819444.png"
     },
     {
       "name": "Jiuwei",
@@ -837,6 +837,10 @@
     {
       "name": "Kiku1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/ec3dde0f007a213009f5f09d6b2bbd23.png"
+    },
+    {
+      "name": "Kiku2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7588104e9cc0cca551a11c1c2de89370.png"
     },
     {
       "name": "KFCV50",
@@ -1149,6 +1153,10 @@
     {
       "name": "Miraiemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fa529078ed5a6941768d43fa6e129a26.png"
+    },
+    {
+      "name": "Miraiemby1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9dfab20415dfd922441d018ddede2ef0.png"
     },
     {
       "name": "NakoNako",
