@@ -623,12 +623,16 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/9a14feb9ba32dacdc381bacace7180eb.png"
     },
     {
-      "name": "Gualemby",
+      "name": "Guaiemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/8230327b8f42a1178d6003d862504507.png"
     },
     {
-      "name": "Gualemby1",
+      "name": "Guaiemby1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/84a213ff62d52bb59d10c4ec638632c5.png"
+    },
+    {
+      "name": "GuaiembyPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/3360a0addcd2ea8e904298e70f0e6196.png"
     },
     {
       "name": "Han",
