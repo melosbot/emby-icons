@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 956 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 961 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -1940,6 +1940,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/c383cb399370ec997a70a7c318c61336.png",
       "size": 19739,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "7c3b9953d707aeab5994fd79b640cd3a",
+      "name": "Fengyuege",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7c3b9953d707aeab5994fd79b640cd3a.png",
+      "size": 15135,
+      "description": "来源: Baitang"
     },
     {
       "md5": "79e05515551f36b3a2f1b9957d4b3bb4",
@@ -5078,6 +5085,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "0ad2f38314b7f5c94d923be230107b61",
+      "name": "SharkPro",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0ad2f38314b7f5c94d923be230107b61.png",
+      "size": 22946,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "19bb778c1cfaa42777baf25852d5af35",
       "name": "ShenLan",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/19bb778c1cfaa42777baf25852d5af35.png",
@@ -6114,6 +6128,13 @@
       "description": "来源: Baitang | 别名: XfEmby1-ginibond, XfEmby1-Softlyx"
     },
     {
+      "md5": "b60531c5e26927d2d9a260fb82df534f",
+      "name": "Xiami",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/b60531c5e26927d2d9a260fb82df534f.png",
+      "size": 18491,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "f49d46e22198d15b7ca1d55171380ef6",
       "name": "XiangGangLiShiJie",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/f49d46e22198d15b7ca1d55171380ef6.png",
@@ -6485,6 +6506,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "502fa4b7797e0622ace66ec03aa3cea0",
+      "name": "Yuezhixuan",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/502fa4b7797e0622ace66ec03aa3cea0.png",
+      "size": 17519,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "7831f47496d71dc080cc83dcbd39d230",
       "name": "Yum_emby1",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7831f47496d71dc080cc83dcbd39d230.png",
@@ -6567,6 +6595,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e0ec231c042e71de52d2a17d158ccfba.png",
       "size": 9465,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "0e531d27d041913ba948004b31ad5d87",
+      "name": "Zhezhi",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0e531d27d041913ba948004b31ad5d87.png",
+      "size": 24715,
+      "description": "来源: Baitang"
     },
     {
       "md5": "4eb0f367fb342bf2e01f1a1ce8f99727",
