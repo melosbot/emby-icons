@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 961 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 963 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -682,6 +682,13 @@
       "description": "来源: Baitang"
     },
     {
+      "md5": "136d2909f10fd8724f8c91a771d11b8c",
+      "name": "Bcxc1",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/136d2909f10fd8724f8c91a771d11b8c.png",
+      "size": 21333,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "27feddacd7e633478cba8953819e55ae",
       "name": "Bdd",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/27feddacd7e633478cba8953819e55ae.png",
@@ -1149,6 +1156,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/daf923441caf7bd8bd9132adf7e41479.png",
       "size": 75648,
       "description": "来源: Baitang | 别名: Jms-ginibond, CurlyMouse1-Softlyx"
+    },
+    {
+      "md5": "550b9abc803ab3bb7c81166a319d1122",
+      "name": "CurlyMouse2",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/550b9abc803ab3bb7c81166a319d1122.png",
+      "size": 24358,
+      "description": "来源: Baitang"
     },
     {
       "md5": "0ae6a5b6c8c15e2e6e99294d67a78847",
