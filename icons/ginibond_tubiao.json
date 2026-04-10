@@ -207,6 +207,18 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/11f652ffc32c6fbd8b6235683eff1bbf.png"
     },
     {
+      "name": "Ask_emby_new",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1127671cb560cdeb9c8e95faa0680106.png"
+    },
+    {
+      "name": "Ask_emby_pre_new",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/139e04a5e697bed19ea2d765b1485f71.png"
+    },
+    {
+      "name": "Ask_emby_ultra_new",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0eb835d080bc53d2609d743435b37c40.png"
+    },
+    {
       "name": "Ask_premium",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/619b321b2e6d752e5c274a0d6f740fb5.png"
     },

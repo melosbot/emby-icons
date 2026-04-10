@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 971 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 974 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -518,6 +518,27 @@
       "name": "Ask_ash_3",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/11f652ffc32c6fbd8b6235683eff1bbf.png",
       "size": 5792,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "1127671cb560cdeb9c8e95faa0680106",
+      "name": "Ask_emby_new",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/1127671cb560cdeb9c8e95faa0680106.png",
+      "size": 8244,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "139e04a5e697bed19ea2d765b1485f71",
+      "name": "Ask_emby_pre_new",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/139e04a5e697bed19ea2d765b1485f71.png",
+      "size": 8022,
+      "description": "来源: Ginibond"
+    },
+    {
+      "md5": "0eb835d080bc53d2609d743435b37c40",
+      "name": "Ask_emby_ultra_new",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/0eb835d080bc53d2609d743435b37c40.png",
+      "size": 8800,
       "description": "来源: Ginibond"
     },
     {
