@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 980 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 982 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -4147,6 +4147,13 @@
       "description": "来源: Baitang | 别名: NmEmby-ginibond, NmEmby-Softlyx"
     },
     {
+      "md5": "94e5ea5ced3acf191bdc7bacdf5a463e",
+      "name": "Noxemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/94e5ea5ced3acf191bdc7bacdf5a463e.png",
+      "size": 20280,
+      "description": "来源: Baitang"
+    },
+    {
       "md5": "6970f20c651261deef97e650872eca31",
       "name": "Nplayer",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/6970f20c651261deef97e650872eca31.png",
@@ -5006,6 +5013,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/cb089897a36849011743316cc938ab43.png",
       "size": 22200,
       "description": "来源: Ginibond"
+    },
+    {
+      "md5": "e3ce8f48c732d0ab9827fe661d2946af",
+      "name": "Sakurachiritei",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3ce8f48c732d0ab9827fe661d2946af.png",
+      "size": 26371,
+      "description": "来源: Baitang"
     },
     {
       "md5": "d87812727fca731dde46290f547796b6",

@@ -1295,6 +1295,10 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/d0b91207a41cd3cb7f087af5cc003327.png"
     },
     {
+      "name": "Noxemby",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/94e5ea5ced3acf191bdc7bacdf5a463e.png"
+    },
+    {
       "name": "Odyssey",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/384fcfbabb1a25f454e4ad8eda64dbcd.png"
     },
@@ -1801,6 +1805,10 @@
     {
       "name": "Syemby",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5b2a009c50855209bdf1961646174ffe.png"
+    },
+    {
+      "name": "Sakurachiritei",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/e3ce8f48c732d0ab9827fe661d2946af.png"
     },
     {
       "name": "Tag",
