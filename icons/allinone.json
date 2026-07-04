@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 983 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 984 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -6622,6 +6622,13 @@
       "name": "Yuanwei2",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/34cd739c394a4583ba061bb83be93a56.png",
       "size": 22296,
+      "description": "来源: Baitang"
+    },
+    {
+      "md5": "fba99480787e8e69a682f8e221b03731",
+      "name": "YuanweiAcg",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/fba99480787e8e69a682f8e221b03731.png",
+      "size": 24838,
       "description": "来源: Baitang"
     },
     {
