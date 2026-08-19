@@ -1,6 +1,6 @@
 {
   "name": "Emby Icons",
-  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 987 个独立图标。",
+  "description": "包含来自 Softlyx, baiitang, ginibond 的作品。当前共收录 988 个独立图标。",
   "icons": [
     {
       "md5": "f4908ef9dfc9753c336b57bcfb041e97",
@@ -2157,6 +2157,13 @@
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/702427ae05c2ace96d3e05ddf1e384d1.png",
       "size": 77852,
       "description": "来源: Baitang | 别名: GfwEmby-Softlyx"
+    },
+    {
+      "md5": "7c8f43296868cc91fb6c10d05ffbad51",
+      "name": "GingaRessha",
+      "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/7c8f43296868cc91fb6c10d05ffbad51.png",
+      "size": 26351,
+      "description": "来源: Baitang"
     },
     {
       "md5": "67a1ea3a0a8d34cb54349bb05ed34b09",
@@ -6797,7 +6804,7 @@
       "name": "ZhiPianRen",
       "url": "https://cdn.jsdelivr.net/gh/melosbot/emby-icons@main/icons/assets/5f06fc756b3552988d5fa36f9c195fe2.png",
       "size": 80632,
-      "description": "来源: Baitang | 别名: ZhiPianRen-Softlyx, ZhiPianRen-ginibond"
+      "description": "来源: Baitang | 别名: ZhiPianRen-ginibond, ZhiPianRen-Softlyx"
     },
     {
       "md5": "06be3722863386c0bc3eebc55dbd303c",
